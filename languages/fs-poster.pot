@@ -1,0 +1,4375 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FS Poster v4\n"
+"POT-Creation-Date: 2021-04-15 14:41+0400\n"
+"PO-Revision-Date: 2020-08-11 12:10+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: fsp__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: App/Libraries/fb/Facebook.php:31
+msgid "The App ID or the App Secret is invalid!"
+msgstr ""
+
+#: App/Libraries/fb/Facebook.php:78 App/Libraries/fb/FacebookCookieApi.php:447
+#: App/Libraries/google/GoogleMyBusinessAPI.php:116
+#: App/Libraries/google/GoogleMyBusinessAPI.php:120
+#: App/Libraries/google/GoogleMyBusinessAPI.php:304
+#: App/Libraries/telegram/Telegram.php:195
+#: App/Libraries/telegram/Telegram.php:245 App/Providers/ShareService.php:952
+#, php-format
+msgid "Error! %s"
+msgstr ""
+
+#: App/Libraries/fb/Facebook.php:148
+msgid "You need to add the Facebook App to your group settings. <a href='https://www.fs-poster.com/documentation/commonly-encountered-issues#issue5' target='_blank'>How to?</a>"
+msgstr ""
+
+#: App/Libraries/fb/Facebook.php:538
+msgid "Like: "
+msgstr ""
+
+#: App/Libraries/fb/Facebook.php:539
+msgid "Love: "
+msgstr ""
+
+#: App/Libraries/fb/Facebook.php:540
+msgid "Wow: "
+msgstr ""
+
+#: App/Libraries/fb/Facebook.php:541
+msgid "Haha: "
+msgstr ""
+
+#: App/Libraries/fb/Facebook.php:542
+msgid "Sad: "
+msgstr ""
+
+#: App/Libraries/fb/Facebook.php:543
+msgid "Angry: "
+msgstr ""
+
+#: App/Libraries/fb/FacebookCookieApi.php:190
+msgid "Your account seems to be blocked by Facebook. You need to unblock it before adding the account."
+msgstr ""
+
+#: App/Libraries/fb/FacebookCookieApi.php:345
+msgid " The account is disconnected from the FS Poster plugin. Please update your account cookie to connect it to the plugin again. <a href='https://www.fs-poster.com/documentation/commonly-encountered-issues#issue8' target='_blank'>How to?</a>."
+msgstr ""
+
+#: App/Libraries/fb/FacebookCookieApi.php:406
+msgid "Error! Facebook cookie method doesn't allow sharing videos!"
+msgstr ""
+
+#: App/Libraries/fb/FacebookCookieApi.php:465
+msgid "Error! Failed to upload the image!"
+msgstr ""
+
+#: App/Libraries/fb/FacebookCookieApi.php:532
+msgid "You may want to slow down or stop to avoid a restriction on your account. We limit how often you can post, comment or do other things in a given amount of time to help protect the community from spam. <a href='https://www.facebook.com/help/177066345680802' target='_blank'>Learn more.</a>"
+msgstr ""
+
+#: App/Libraries/fb/FacebookCookieApi.php:544
+msgid "An error occured while sharing the post."
+msgstr ""
+
+#: App/Libraries/fb/FacebookCookieApi.php:693
+msgid "Error! Response is empty!"
+msgstr ""
+
+#: App/Libraries/fb/FacebookCookieApi.php:703
+#: App/Libraries/linkedin/Linkedin.php:181
+#: App/Libraries/twitter/Twitter.php:145
+msgid "Error!"
+msgstr ""
+
+#: App/Libraries/fb/FacebookCookieApi.php:705
+#, php-format
+msgid "%s ( error code: %s )"
+msgstr ""
+
+#: App/Libraries/google/GoogleMyBusiness.php:115
+msgid "The account is disconnected from the FS Poster plugin. Please update your account cookies to connect your account to the plugin again. <a href='https://www.fs-poster.com/documentation/commonly-encountered-issues#issue8' target='_blank'>How to?</a>."
+msgstr ""
+
+#: App/Libraries/google/GoogleMyBusiness.php:236
+msgid "Error! It couldn't share the post!"
+msgstr ""
+
+#: App/Libraries/google/GoogleMyBusinessAPI.php:33
+msgid "Error! There isn't a Google My Business App!"
+msgstr ""
+
+#: App/Libraries/google/GoogleMyBusinessAPI.php:92
+msgid "Error! The post rejected by Google My Business!"
+msgstr ""
+
+#: App/Libraries/google/GoogleMyBusinessAPI.php:111
+msgid "You need to verify your locations to share posts on it"
+msgstr ""
+
+#: App/Libraries/instagram/FFmpeg.php:181
+msgid "For sharing videos on Instagram, you have to install the FFmpeg library on your server and configure executables' path. <a href='https://www.fs-poster.com/documentation/how-to-install-ffmpeg' target='_blank'>How to?</a>"
+msgstr ""
+
+#: App/Libraries/instagram/FFmpeg.php:246
+msgid "For sharing videos on Instagram, you have to install the FFmpeg library on your server and configure executables' path <a href='https://www.fs-poster.com/documentation/how-to-install-ffmpeg' target='_blank'>How to?</a>"
+msgstr ""
+
+#: App/Libraries/instagram/InstagramApi.php:40
+msgid "You should install and enable GD, libjpeg, libpng, and freetype libraries. <a href='https://www.fs-poster.com/documentation/commonly-encountered-issues#issue3' target='_blank'>Learn more.</a>"
+msgstr ""
+
+#: App/Libraries/instagram/InstagramApi.php:143
+msgid "The cookie method doesn't support sharing videos on stories!"
+msgstr ""
+
+#: App/Libraries/instagram/InstagramApi.php:261
+msgid "The account is disconnected from the FS Poster plugin. Please update your account cookie to connect it to the plugin again. <a href='https://www.fs-poster.com/documentation/commonly-encountered-issues#issue8' target='_blank'>How to?</a>"
+msgstr ""
+
+#: App/Libraries/instagram/InstagramApi.php:293
+#, php-format
+msgid "Enter the verification code we have sent to your number ending in %s"
+msgstr ""
+
+#: App/Libraries/instagram/InstagramApi.php:305
+#, php-format
+msgid "Please enter the verification code we have sent to %s"
+msgstr ""
+
+#: App/Libraries/instagram/InstagramApi.php:509
+msgid "exec() function have to be enabled to share videos on Instagram. <a href='https://www.fs-poster.com/documentation/how-to-install-ffmpeg' target='_blank'>How to?</a>"
+msgstr ""
+
+#: App/Libraries/instagram/InstagramApi.php:631
+#: App/Libraries/instagram/InstagramApi.php:633
+msgid "The account is disconnected from the plugin. Please add your account to the plugin again by getting the cookie on the browser <a href='https://www.fs-poster.com/documentation/fs-poster-schedule-auto-publish-wordpress-posts-to-instagram' target='_blank'>Incognito mode</a>. And close the browser without logging out from the account."
+msgstr ""
+
+#: App/Libraries/instagram/InstagramApi.php:642
+#: App/Libraries/wordpress/Wordpress.php:127
+#: App/Libraries/wordpress/Wordpress.php:231
+msgid "An error occurred while processing the request!"
+msgstr ""
+
+#: App/Libraries/linkedin/Linkedin.php:220
+msgid "Error data!"
+msgstr ""
+
+#: App/Libraries/linkedin/Linkedin.php:301
+#: App/Libraries/linkedin/Linkedin.php:321
+#: App/Libraries/linkedin/Linkedin.php:451
+msgid "The account access token is expired after 60 days of adding the account to the plugin. Please add your account to the plugin again."
+msgstr ""
+
+#: App/Libraries/linkedin/Linkedin.php:325
+#: App/Libraries/linkedin/Linkedin.php:455
+msgid "You reached a limit. Please try again later."
+msgstr ""
+
+#: App/Libraries/medium/Medium.php:116
+#: App/Libraries/pinterest/Pinterest.php:113
+#: App/Libraries/reddit/Reddit.php:173 App/Libraries/tumblr/Tumblr.php:210
+msgid "Error! The App isn't found!"
+msgstr ""
+
+#: App/Libraries/pinterest/PinterestCookieApi.php:96
+msgid "An image is required to pin on board!"
+msgstr ""
+
+#: App/Libraries/pinterest/PinterestCookieApi.php:199
+msgid "Couldn't upload the image!"
+msgstr ""
+
+#: App/Libraries/pinterest/PinterestCookieApi.php:215
+msgid "Error! Your domain has been blocked by Pinterest. You can use a proxy to avoid the issue."
+msgstr ""
+
+#: App/Libraries/pinterest/PinterestCookieApi.php:227
+msgid "Error! Please check the data and try again!"
+msgstr ""
+
+#: App/Libraries/pinterest/PinterestCookieApi.php:333
+msgid "The account is disconnected from the FS Poster plugin. Please update your account cookie to connect it to the plugin again. <a href='https://www.fs-poster.com/documentation/commonly-encountered-issues#issue8' target='_blank'>How to?</a>."
+msgstr ""
+
+#: App/Libraries/plurk/Plurk.php:116
+msgid "Couldn't get token"
+msgstr ""
+
+#: App/Libraries/plurk/Plurk.php:268
+msgid "It seems that you have recently shared this content. Duplicate content is not allowed in a short time."
+msgstr ""
+
+#: App/Libraries/plurk/Plurk.php:272
+msgid "Error! Couldn't share post!"
+msgstr ""
+
+#: App/Libraries/reddit/Reddit.php:416
+msgid "Required URL (or featured image path) not found!"
+msgstr ""
+
+#: App/Libraries/reddit/Reddit.php:417
+msgid "Title is too long. Maximum allowed character limit is 300. You can enable auto-cut option from Reddit settings."
+msgstr ""
+
+#: App/Libraries/reddit/Reddit.php:418
+msgid "Content can't be empty!"
+msgstr ""
+
+#: App/Libraries/telegram/Telegram.php:205
+#: App/Libraries/telegram/Telegram.php:253
+msgid "Unknown error!"
+msgstr ""
+
+#: App/Libraries/twitter/Twitter.php:36 App/Libraries/twitter/Twitter.php:323
+#: App/Providers/ShareService.php:918
+msgid "Error! There isn't a Twitter App!"
+msgstr ""
+
+#: App/Libraries/wordpress/Wordpress.php:57
+msgid "Failed to share the post because the post type is not available on the remote website."
+msgstr ""
+
+#: App/Libraries/wordpress/Wordpress.php:110
+msgid "Posts won't be shared because of missing the required <a href='https://www.fs-poster.com/documentation/commonly-encountered-issues#issue6' target='_blank'>fileinfo</a> extension. Please ask your hosting/server administrator to install it. <a href='https://www.fs-poster.com/documentation/commonly-encountered-issues#issue6' target='_blank'>How to?</a>"
+msgstr ""
+
+#: App/Libraries/wordpress/Wordpress.php:294
+msgid "The account is disconnected from the plugin. Please add your account to the plugin again by getting the cookie on the browser <a href='https://www.fs-poster.com/documentation/fs-poster-schedule-auto-publish-wordpress-posts-to-pinterest' target='_blank'>Incognito mode</a>. And close the browser without logging out from the account."
+msgstr ""
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts-activate.js:8
+#: App/Pages/Schedules/Assets/js/fsp-schedule-add.js:10
+msgid "Search categories, tags... ( min. 2 character )"
+msgstr ""
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts-google-b.js:31
+msgid "Please, enter your cookies!"
+msgstr ""
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts-instagram.js:54
+msgid "Challenge required! Activation code was sent to "
+msgstr ""
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts-instagram.js:58
+#: App/Pages/Accounts/Assets/js/fsp-accounts-instagram.js:88
+msgid "Activation code"
+msgstr ""
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts-instagram.js:61
+#: App/Pages/Accounts/Assets/js/fsp-accounts-instagram.js:91
+msgid "Enter the activation code"
+msgstr ""
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts-instagram.js:84
+msgid "Two factor authentication required! Activation code was sent to "
+msgstr ""
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts-telegram-chat.js:17
+msgid "Select chat"
+msgstr ""
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts-tumblr.js:11
+msgid "Please, select an application!"
+msgstr ""
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts.js:96
+msgid "UNSELECT ALL"
+msgstr ""
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts.js:101
+#: App/Pages/Accounts/Views/index.php:94
+msgid "SELECT ALL"
+msgstr ""
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts.js:365
+#: App/Pages/Apps/Assets/js/fsp-apps.js:14
+#: App/Pages/Schedules/Assets/js/fsp-schedules.js:13
+msgid "Are you sure you want to delete?"
+msgstr ""
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts.js:407
+msgid "EXIT BULK ACTION"
+msgstr ""
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts.js:418
+#: App/Pages/Accounts/Views/index.php:46
+msgid "BULK ACTION"
+msgstr ""
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts.js:423
+msgid "Are you sure you want to exit without applying any action for the selected accounts?"
+msgstr ""
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts.js:427
+msgid "YES, EXIT"
+msgstr ""
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts.js:529
+msgid "Account has been added successfully!"
+msgstr ""
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts.js:529
+#: App/Pages/Accounts/Assets/js/fsp-accounts.js:548
+#: App/Pages/Base/Views/Modals/add_node_to_list.php:36
+#: App/Pages/Schedules/Views/Modals/posts_list.php:20
+msgid "CLOSE"
+msgstr ""
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts.js:548
+msgid "Account has been updated successfully!"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Action.php:1236
+#: App/Pages/Accounts/Controllers/Action.php:1287
+#: App/Pages/Accounts/Controllers/Action.php:1310
+#: App/Pages/Accounts/Controllers/Action.php:1342
+#: App/Pages/Accounts/Controllers/Action.php:1364
+#: App/Pages/Accounts/Controllers/Action.php:1464
+#: App/Pages/Accounts/Controllers/Action.php:1569
+#: App/Pages/Accounts/Controllers/Action.php:1612
+msgid "The account isn't found!"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Action.php:1242
+#: App/Pages/Accounts/Controllers/Action.php:1294
+msgid "You don't have permission to remove the account! Only the account owner can remove it."
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Action.php:1317
+#: App/Pages/Accounts/Controllers/Action.php:1349
+msgid "Only the account owner can make it public or private!"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Action.php:1323
+msgid "Failed accounts can't be public!"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Action.php:1371
+#: App/Pages/Accounts/Controllers/Action.php:1471
+#: App/Pages/Accounts/Controllers/Action.php:1576
+#: App/Pages/Accounts/Controllers/Action.php:1619
+msgid "You haven't sufficient permissions!"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Action.php:1379
+msgid "Failed accounts can't be activated!"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Action.php:1483
+msgid "Failed accounts and their communities can't be activated!"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:79
+#: App/Pages/Accounts/Controllers/Ajax.php:110
+#: App/Pages/Accounts/Controllers/Ajax.php:116
+#: App/Pages/Accounts/Controllers/Ajax.php:351
+#: App/Pages/Accounts/Controllers/Ajax.php:375
+#: App/Pages/Accounts/Controllers/Ajax.php:564
+#: App/Pages/Accounts/Controllers/Ajax.php:591
+#: App/Pages/Accounts/Controllers/Ajax.php:772
+msgid "The entered cookies are wrong!"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:147
+#: App/Pages/Accounts/Controllers/Ajax.php:859
+#: App/Pages/Accounts/Controllers/Ajax.php:1407
+msgid "Please select categories and filter type!"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:172
+msgid "Please enter the username and password!"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:193
+#: App/Pages/Accounts/Controllers/Ajax.php:293
+msgid "Please enter the Instagram account username and password!"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:215
+#: App/Pages/Accounts/Controllers/Ajax.php:315
+msgid "The cookie value isn't valid! Please get the new one."
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:387
+msgid "The access token is empty!"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:416
+msgid "Please type your Bot Token!"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:424
+msgid "The entered Bot Token is invalid!"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:464
+#: App/Pages/Accounts/Controllers/Ajax.php:538
+msgid "Please enter the Pinterest cookie!"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:546
+msgid "The cookie values aren't valid!"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:603
+msgid "Please fill all inputs correctly!"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:608
+msgid "The URL must start with http(s)!"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:808
+msgid "Required action not found!"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:813
+msgid "You didn't select any account!"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:932
+#: App/Pages/Accounts/Controllers/Main.php:48
+msgid "ADD A BOT"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:933
+msgid "bots"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:937
+#: App/Pages/Accounts/Controllers/Main.php:52
+msgid "ADD A SITE"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:938
+msgid "sites"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:942
+#: App/Pages/Accounts/Controllers/Main.php:56
+msgid "ADD AN ACCOUNT"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:943
+msgid "accounts"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:1011
+msgid "Post categories"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:1015
+msgid "Product categories"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:1019
+msgid "Custom categories"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:1097
+#: App/Pages/Accounts/Controllers/Ajax.php:1116
+msgid "Please enter the code!"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:1137
+#: App/Pages/Accounts/Controllers/Ajax.php:1186
+#: App/Pages/Accounts/Controllers/Ajax.php:1435
+msgid "You have not a permission for adding subreddit in this account!"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:1160
+msgid "no flair"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:1212
+#: App/Pages/Accounts/Controllers/Ajax.php:1223
+msgid "Account not found!"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:1228
+msgid "Failed accounts can not be re-fetched. Please add your account to the plugin again."
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:1301
+msgid "Re-fetching failed!"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:1333
+msgid "Chat not found!"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:1376
+msgid "No active chat(s) found."
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:1535
+#: App/Pages/Accounts/Controllers/Ajax.php:1546
+msgid "Group not found!"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:1559
+msgid "Page not found!"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:1575
+#: App/Pages/Settings/Controllers/Ajax.php:90
+#: App/Pages/Settings/Controllers/Ajax.php:121
+#: App/Pages/Settings/Controllers/Ajax.php:147
+#: App/Pages/Settings/Controllers/Ajax.php:169
+#: App/Pages/Settings/Controllers/Ajax.php:217
+#: App/Pages/Settings/Controllers/Ajax.php:272
+#: App/Pages/Settings/Controllers/Ajax.php:297
+#: App/Pages/Settings/Controllers/Ajax.php:317
+#: App/Pages/Settings/Controllers/Ajax.php:337
+#: App/Pages/Settings/Controllers/Ajax.php:350
+#: App/Pages/Settings/Controllers/Ajax.php:383
+#: App/Pages/Settings/Controllers/Ajax.php:396
+#: App/Pages/Settings/Controllers/Ajax.php:411
+#: App/Pages/Settings/Controllers/Ajax.php:424
+#: App/Pages/Settings/Controllers/Ajax.php:444
+#: App/Pages/Settings/Controllers/Ajax.php:457
+#: App/Pages/Settings/Controllers/Ajax.php:485
+msgid "Saved successfully!"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/activate_with_condition.php:16
+msgid "Define conditions for the account"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/activate_with_condition.php:42
+msgid "Share only the posts of the selected categories, tags, etc..."
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/activate_with_condition.php:45
+msgid "Do not share the posts of the selected categories, tags, etc..."
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/activate_with_condition.php:52
+#: App/Pages/Accounts/Views/index.php:12 App/Pages/Accounts/Views/index.php:82
+msgid "Activate for all users"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/activate_with_condition.php:58
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:89
+#: App/Pages/Accounts/Views/Modals/fb/edit_account.php:56
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:106
+#: App/Pages/Accounts/Views/Modals/google_b/edit_account.php:75
+#: App/Pages/Accounts/Views/Modals/instagram/add_account.php:84
+#: App/Pages/Accounts/Views/Modals/instagram/edit_account.php:55
+#: App/Pages/Accounts/Views/Modals/linkedin/add_account.php:59
+#: App/Pages/Accounts/Views/Modals/medium/add_account.php:59
+#: App/Pages/Accounts/Views/Modals/ok/add_account.php:59
+#: App/Pages/Accounts/Views/Modals/pinterest/add_account.php:83
+#: App/Pages/Accounts/Views/Modals/pinterest/edit_account.php:56
+#: App/Pages/Accounts/Views/Modals/plurk/add_account.php:76
+#: App/Pages/Accounts/Views/Modals/reddit/add_account.php:59
+#: App/Pages/Accounts/Views/Modals/reddit/add_subreddit.php:54
+#: App/Pages/Accounts/Views/Modals/telegram/add_bot.php:53
+#: App/Pages/Accounts/Views/Modals/telegram/add_chat.php:40
+#: App/Pages/Accounts/Views/Modals/tumblr/add_account.php:59
+#: App/Pages/Accounts/Views/Modals/twitter/add_account.php:59
+#: App/Pages/Accounts/Views/Modals/vk/add_account.php:77
+#: App/Pages/Accounts/Views/Modals/wordpress/add_site.php:67
+#: App/Pages/Base/Assets/js/fsp.js:28
+msgid "Cancel"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/activate_with_condition.php:59
+#: App/Pages/Base/Views/install.php:32
+msgid "ACTIVATE"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:17
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:17
+#: App/Pages/Accounts/Views/Modals/instagram/add_account.php:16
+#: App/Pages/Accounts/Views/Modals/linkedin/add_account.php:17
+#: App/Pages/Accounts/Views/Modals/medium/add_account.php:17
+#: App/Pages/Accounts/Views/Modals/ok/add_account.php:17
+#: App/Pages/Accounts/Views/Modals/pinterest/add_account.php:17
+#: App/Pages/Accounts/Views/Modals/plurk/add_account.php:18
+#: App/Pages/Accounts/Views/Modals/reddit/add_account.php:17
+#: App/Pages/Accounts/Views/Modals/tumblr/add_account.php:17
+#: App/Pages/Accounts/Views/Modals/twitter/add_account.php:17
+#: App/Pages/Accounts/Views/Modals/vk/add_account.php:18
+msgid "Add an account"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:26
+msgid "Select an authorization method to add a new Facebook account"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:27
+#: App/Pages/Accounts/Views/Modals/fb/edit_account.php:27
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:27
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:48
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:67
+#: App/Pages/Accounts/Views/Modals/google_b/edit_account.php:27
+#: App/Pages/Accounts/Views/Modals/google_b/edit_account.php:36
+#: App/Pages/Accounts/Views/Modals/instagram/add_account.php:26
+#: App/Pages/Accounts/Views/Modals/instagram/edit_account.php:26
+#: App/Pages/Accounts/Views/Modals/linkedin/add_account.php:29
+#: App/Pages/Accounts/Views/Modals/medium/add_account.php:29
+#: App/Pages/Accounts/Views/Modals/ok/add_account.php:29
+#: App/Pages/Accounts/Views/Modals/pinterest/add_account.php:27
+#: App/Pages/Accounts/Views/Modals/pinterest/edit_account.php:27
+#: App/Pages/Accounts/Views/Modals/plurk/add_account.php:32
+#: App/Pages/Accounts/Views/Modals/reddit/add_account.php:29
+#: App/Pages/Accounts/Views/Modals/telegram/add_bot.php:28
+#: App/Pages/Accounts/Views/Modals/tumblr/add_account.php:29
+#: App/Pages/Accounts/Views/Modals/twitter/add_account.php:29
+#: App/Pages/Accounts/Views/Modals/vk/add_account.php:33
+#: App/Pages/Accounts/Views/Modals/wordpress/add_site.php:28
+msgid "How to?"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:36
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:36
+msgid "Recommended method"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:36
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:36
+#: App/Pages/Accounts/Views/Modals/pinterest/add_account.php:42
+msgid "App method"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:41
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:41
+#: App/Pages/Accounts/Views/Modals/instagram/add_account.php:35
+#: App/Pages/Accounts/Views/Modals/pinterest/add_account.php:36
+msgid "Cookie method"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:46
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:47
+#: App/Pages/Accounts/Views/Modals/linkedin/add_account.php:28
+#: App/Pages/Accounts/Views/Modals/medium/add_account.php:28
+#: App/Pages/Accounts/Views/Modals/ok/add_account.php:28
+#: App/Pages/Accounts/Views/Modals/pinterest/add_account.php:47
+#: App/Pages/Accounts/Views/Modals/plurk/add_account.php:31
+#: App/Pages/Accounts/Views/Modals/reddit/add_account.php:28
+#: App/Pages/Accounts/Views/Modals/tumblr/add_account.php:28
+#: App/Pages/Accounts/Views/Modals/twitter/add_account.php:28
+#: App/Pages/Accounts/Views/Modals/vk/add_account.php:32
+msgid "Select an App"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:53
+msgid "There isn't a Facebook App!"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:60
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:63
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:67
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:70
+#: App/Pages/Accounts/Views/Modals/fb/edit_account.php:37
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:66
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:73
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:77
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:80
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:84
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:87
+#: App/Pages/Accounts/Views/Modals/google_b/edit_account.php:42
+#: App/Pages/Accounts/Views/Modals/google_b/edit_account.php:49
+#: App/Pages/Accounts/Views/Modals/google_b/edit_account.php:56
+#: App/Pages/Accounts/Views/Modals/instagram/add_account.php:49
+#: App/Pages/Accounts/Views/Modals/instagram/edit_account.php:36
+#: App/Pages/Accounts/Views/Modals/pinterest/add_account.php:61
+#: App/Pages/Accounts/Views/Modals/pinterest/add_account.php:64
+#: App/Pages/Accounts/Views/Modals/pinterest/edit_account.php:37
+msgid "Enter the cookie"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:77
+#: App/Pages/Accounts/Views/Modals/fb/edit_account.php:44
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:94
+#: App/Pages/Accounts/Views/Modals/google_b/edit_account.php:63
+#: App/Pages/Accounts/Views/Modals/instagram/add_account.php:72
+#: App/Pages/Accounts/Views/Modals/instagram/edit_account.php:43
+#: App/Pages/Accounts/Views/Modals/linkedin/add_account.php:47
+#: App/Pages/Accounts/Views/Modals/medium/add_account.php:47
+#: App/Pages/Accounts/Views/Modals/ok/add_account.php:47
+#: App/Pages/Accounts/Views/Modals/pinterest/add_account.php:71
+#: App/Pages/Accounts/Views/Modals/pinterest/edit_account.php:44
+#: App/Pages/Accounts/Views/Modals/plurk/add_account.php:63
+#: App/Pages/Accounts/Views/Modals/reddit/add_account.php:47
+#: App/Pages/Accounts/Views/Modals/telegram/add_bot.php:41
+#: App/Pages/Accounts/Views/Modals/tumblr/add_account.php:47
+#: App/Pages/Accounts/Views/Modals/twitter/add_account.php:47
+#: App/Pages/Accounts/Views/Modals/vk/add_account.php:64
+#: App/Pages/Accounts/Views/Modals/wordpress/add_site.php:55
+msgid "Use a proxy"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:79
+#: App/Pages/Accounts/Views/Modals/fb/edit_account.php:46
+#: App/Pages/Accounts/Views/Modals/medium/add_account.php:49
+#: App/Pages/Accounts/Views/Modals/ok/add_account.php:49
+#: App/Pages/Accounts/Views/Modals/plurk/add_account.php:65
+#: App/Pages/Accounts/Views/Modals/vk/add_account.php:66
+msgid "Optional field. Supported proxy formats: https://127.0.0.1:8888 or https://user:pass@127.0.0.1:8888."
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:84
+#: App/Pages/Accounts/Views/Modals/fb/edit_account.php:51
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:101
+#: App/Pages/Accounts/Views/Modals/google_b/edit_account.php:70
+#: App/Pages/Accounts/Views/Modals/instagram/add_account.php:79
+#: App/Pages/Accounts/Views/Modals/instagram/edit_account.php:50
+#: App/Pages/Accounts/Views/Modals/linkedin/add_account.php:54
+#: App/Pages/Accounts/Views/Modals/medium/add_account.php:54
+#: App/Pages/Accounts/Views/Modals/ok/add_account.php:54
+#: App/Pages/Accounts/Views/Modals/pinterest/add_account.php:78
+#: App/Pages/Accounts/Views/Modals/pinterest/edit_account.php:51
+#: App/Pages/Accounts/Views/Modals/plurk/add_account.php:70
+#: App/Pages/Accounts/Views/Modals/reddit/add_account.php:54
+#: App/Pages/Accounts/Views/Modals/telegram/add_bot.php:48
+#: App/Pages/Accounts/Views/Modals/tumblr/add_account.php:54
+#: App/Pages/Accounts/Views/Modals/twitter/add_account.php:54
+#: App/Pages/Accounts/Views/Modals/vk/add_account.php:71
+#: App/Pages/Accounts/Views/Modals/wordpress/add_site.php:62
+msgid "Enter a proxy address"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:90
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:107
+#: App/Pages/Accounts/Views/Modals/instagram/add_account.php:85
+#: App/Pages/Accounts/Views/Modals/pinterest/add_account.php:84
+#: App/Pages/Accounts/Views/Modals/plurk/add_account.php:77
+#: App/Pages/Accounts/Views/Modals/telegram/add_bot.php:54
+#: App/Pages/Accounts/Views/Modals/telegram/add_chat.php:41
+#: App/Pages/Accounts/Views/Modals/vk/add_account.php:78
+#: App/Pages/Accounts/Views/Modals/wordpress/add_site.php:68
+#: App/Pages/Base/Views/post_meta_box.php:221
+#: App/Pages/Base/Views/post_metabox_v2.php:177
+#: App/Pages/Schedules/Views/Modals/add.php:306
+msgid "ADD"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/change_group_poster.php:16
+msgid "Post as a Facebook Page in Groups"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/change_group_poster.php:28
+msgid "Select a Facebook page to share your posts in Facebook groups on behalf of the page. Note that the page has to be <a href=\"https://www.fs-poster.com/documentation/commonly-encountered-issues#issue4\" target=\"_blank\">linked to the group</a>; otherwise, the post will fail."
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/change_group_poster.php:39
+#: App/Pages/Apps/Views/Modals/add.php:56
+#: App/Pages/Schedules/Views/Modals/add.php:514
+#: App/Pages/Share/Views/Modals/share_saved_post.php:46
+msgid "CANCEL"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/change_group_poster.php:40
+msgid "SAVE"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/edit_account.php:17
+#: App/Pages/Accounts/Views/Modals/instagram/edit_account.php:16
+msgid "Update cookie"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/edit_account.php:26
+#: App/Pages/Accounts/Views/Modals/instagram/edit_account.php:25
+#: App/Pages/Accounts/Views/Modals/pinterest/edit_account.php:26
+msgid "Enter the new cookie value"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/edit_account.php:34
+#: App/Pages/Accounts/Views/Modals/google_b/edit_account.php:35
+#: App/Pages/Accounts/Views/Modals/google_b/edit_account.php:46
+#: App/Pages/Accounts/Views/Modals/google_b/edit_account.php:53
+#: App/Pages/Accounts/Views/Modals/instagram/edit_account.php:33
+#: App/Pages/Accounts/Views/Modals/pinterest/edit_account.php:34
+msgid "The cookie"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/edit_account.php:57
+#: App/Pages/Accounts/Views/Modals/instagram/edit_account.php:56
+msgid "UPDATE"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/index.php:15
+#: App/Pages/Accounts/Views/Modals/fb/index.php:123
+#: App/Pages/Accounts/Views/Modals/google_b/index.php:15
+#: App/Pages/Accounts/Views/Modals/google_b/index.php:113
+#: App/Pages/Accounts/Views/Modals/instagram/index.php:14
+#: App/Pages/Accounts/Views/Modals/linkedin/index.php:15
+#: App/Pages/Accounts/Views/Modals/linkedin/index.php:113
+#: App/Pages/Accounts/Views/Modals/medium/index.php:15
+#: App/Pages/Accounts/Views/Modals/medium/index.php:113
+#: App/Pages/Accounts/Views/Modals/ok/index.php:15
+#: App/Pages/Accounts/Views/Modals/ok/index.php:113
+#: App/Pages/Accounts/Views/Modals/pinterest/index.php:15
+#: App/Pages/Accounts/Views/Modals/pinterest/index.php:110
+#: App/Pages/Accounts/Views/Modals/plurk/index.php:14
+#: App/Pages/Accounts/Views/Modals/reddit/index.php:15
+#: App/Pages/Accounts/Views/Modals/reddit/index.php:114
+#: App/Pages/Accounts/Views/Modals/telegram/index.php:15
+#: App/Pages/Accounts/Views/Modals/telegram/index.php:111
+#: App/Pages/Accounts/Views/Modals/tumblr/index.php:15
+#: App/Pages/Accounts/Views/Modals/tumblr/index.php:110
+#: App/Pages/Accounts/Views/Modals/twitter/index.php:14
+#: App/Pages/Accounts/Views/Modals/vk/index.php:15
+#: App/Pages/Accounts/Views/Modals/vk/index.php:114
+#: App/Pages/Accounts/Views/Modals/wordpress/index.php:14
+msgid "deleted user"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/index.php:26
+msgid "pages"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/index.php:26
+#: App/Pages/Accounts/Views/Modals/ok/index.php:25
+msgid "groups"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/index.php:35
+#: App/Pages/Accounts/Views/Modals/fb/index.php:77
+#: App/Pages/Accounts/Views/Modals/fb/index.php:135
+#: App/Pages/Accounts/Views/Modals/google_b/index.php:36
+#: App/Pages/Accounts/Views/Modals/google_b/index.php:72
+#: App/Pages/Accounts/Views/Modals/google_b/index.php:125
+#: App/Pages/Accounts/Views/Modals/instagram/index.php:26
+#: App/Pages/Accounts/Views/Modals/linkedin/index.php:29
+#: App/Pages/Accounts/Views/Modals/linkedin/index.php:72
+#: App/Pages/Accounts/Views/Modals/linkedin/index.php:124
+#: App/Pages/Accounts/Views/Modals/medium/index.php:29
+#: App/Pages/Accounts/Views/Modals/medium/index.php:72
+#: App/Pages/Accounts/Views/Modals/medium/index.php:124
+#: App/Pages/Accounts/Views/Modals/ok/index.php:34
+#: App/Pages/Accounts/Views/Modals/ok/index.php:72
+#: App/Pages/Accounts/Views/Modals/ok/index.php:124
+#: App/Pages/Accounts/Views/Modals/pinterest/index.php:34
+#: App/Pages/Accounts/Views/Modals/pinterest/index.php:69
+#: App/Pages/Accounts/Views/Modals/pinterest/index.php:121
+#: App/Pages/Accounts/Views/Modals/plurk/index.php:31
+#: App/Pages/Accounts/Views/Modals/reddit/index.php:37
+#: App/Pages/Accounts/Views/Modals/reddit/index.php:73
+#: App/Pages/Accounts/Views/Modals/reddit/index.php:126
+#: App/Pages/Accounts/Views/Modals/telegram/index.php:37
+#: App/Pages/Accounts/Views/Modals/telegram/index.php:70
+#: App/Pages/Accounts/Views/Modals/telegram/index.php:123
+#: App/Pages/Accounts/Views/Modals/tumblr/index.php:34
+#: App/Pages/Accounts/Views/Modals/tumblr/index.php:69
+#: App/Pages/Accounts/Views/Modals/tumblr/index.php:121
+#: App/Pages/Accounts/Views/Modals/twitter/index.php:31
+#: App/Pages/Accounts/Views/Modals/vk/index.php:34
+#: App/Pages/Accounts/Views/Modals/vk/index.php:73
+#: App/Pages/Accounts/Views/Modals/vk/index.php:126
+#: App/Pages/Accounts/Views/Modals/wordpress/index.php:32
+#, php-format
+msgid "It's public for all the users by %s."
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/index.php:39
+#: App/Pages/Accounts/Views/Modals/google_b/index.php:40
+#: App/Pages/Accounts/Views/Modals/instagram/index.php:30
+#: App/Pages/Accounts/Views/Modals/linkedin/index.php:33
+#: App/Pages/Accounts/Views/Modals/medium/index.php:33
+#: App/Pages/Accounts/Views/Modals/ok/index.php:38
+#: App/Pages/Accounts/Views/Modals/pinterest/index.php:38
+#: App/Pages/Accounts/Views/Modals/plurk/index.php:35
+#: App/Pages/Accounts/Views/Modals/reddit/index.php:41
+#: App/Pages/Accounts/Views/Modals/telegram/index.php:41
+#: App/Pages/Accounts/Views/Modals/tumblr/index.php:38
+#: App/Pages/Accounts/Views/Modals/twitter/index.php:35
+#: App/Pages/Accounts/Views/Modals/vk/index.php:38
+#: App/Pages/Accounts/Views/Modals/wordpress/index.php:36
+msgid "Proxy"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/index.php:44
+#: App/Pages/Accounts/Views/Modals/google_b/index.php:45
+#: App/Pages/Accounts/Views/Modals/linkedin/index.php:43
+#: App/Pages/Accounts/Views/Modals/medium/index.php:43
+#: App/Pages/Accounts/Views/Modals/ok/index.php:43
+#: App/Pages/Accounts/Views/Modals/pinterest/index.php:43
+#: App/Pages/Accounts/Views/Modals/tumblr/index.php:43
+#: App/Pages/Accounts/Views/Modals/vk/index.php:43
+msgid "Re-fetch account"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/index.php:50
+#: App/Pages/Accounts/Views/Modals/fb/index.php:88
+#: App/Pages/Accounts/Views/Modals/fb/index.php:141
+#: App/Pages/Accounts/Views/Modals/google_b/index.php:47
+#: App/Pages/Accounts/Views/Modals/google_b/index.php:78
+#: App/Pages/Accounts/Views/Modals/google_b/index.php:131
+#: App/Pages/Accounts/Views/Modals/instagram/index.php:42
+#: App/Pages/Accounts/Views/Modals/linkedin/index.php:48
+#: App/Pages/Accounts/Views/Modals/linkedin/index.php:78
+#: App/Pages/Accounts/Views/Modals/linkedin/index.php:130
+#: App/Pages/Accounts/Views/Modals/medium/index.php:48
+#: App/Pages/Accounts/Views/Modals/medium/index.php:78
+#: App/Pages/Accounts/Views/Modals/medium/index.php:130
+#: App/Pages/Accounts/Views/Modals/ok/index.php:48
+#: App/Pages/Accounts/Views/Modals/ok/index.php:78
+#: App/Pages/Accounts/Views/Modals/ok/index.php:130
+#: App/Pages/Accounts/Views/Modals/pinterest/index.php:45
+#: App/Pages/Accounts/Views/Modals/pinterest/index.php:75
+#: App/Pages/Accounts/Views/Modals/pinterest/index.php:127
+#: App/Pages/Accounts/Views/Modals/plurk/index.php:42
+#: App/Pages/Accounts/Views/Modals/reddit/index.php:48
+#: App/Pages/Accounts/Views/Modals/reddit/index.php:79
+#: App/Pages/Accounts/Views/Modals/reddit/index.php:132
+#: App/Pages/Accounts/Views/Modals/telegram/index.php:45
+#: App/Pages/Accounts/Views/Modals/telegram/index.php:76
+#: App/Pages/Accounts/Views/Modals/telegram/index.php:129
+#: App/Pages/Accounts/Views/Modals/tumblr/index.php:45
+#: App/Pages/Accounts/Views/Modals/tumblr/index.php:75
+#: App/Pages/Accounts/Views/Modals/tumblr/index.php:127
+#: App/Pages/Accounts/Views/Modals/twitter/index.php:42
+#: App/Pages/Accounts/Views/Modals/vk/index.php:48
+#: App/Pages/Accounts/Views/Modals/vk/index.php:79
+#: App/Pages/Accounts/Views/Modals/vk/index.php:132
+#: App/Pages/Accounts/Views/Modals/wordpress/index.php:43
+#: App/Pages/Logs/Assets/js/fsp-logs.js:146
+msgid "Profile link"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/index.php:82
+#, php-format
+msgid "Posts as %s. Click to change."
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/index.php:113
+#: App/Pages/Accounts/Views/Modals/google_b/index.php:103
+#: App/Pages/Accounts/Views/Modals/linkedin/index.php:103
+#: App/Pages/Accounts/Views/Modals/medium/index.php:103
+#: App/Pages/Accounts/Views/Modals/ok/index.php:103
+#: App/Pages/Accounts/Views/Modals/pinterest/index.php:100
+#: App/Pages/Accounts/Views/Modals/reddit/index.php:104
+#: App/Pages/Accounts/Views/Modals/telegram/index.php:101
+#: App/Pages/Accounts/Views/Modals/tumblr/index.php:100
+#: App/Pages/Accounts/Views/Modals/vk/index.php:104
+msgid "Public communities"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/index.php:114
+#: App/Pages/Accounts/Views/Modals/google_b/index.php:104
+#: App/Pages/Accounts/Views/Modals/linkedin/index.php:104
+#: App/Pages/Accounts/Views/Modals/medium/index.php:104
+#: App/Pages/Accounts/Views/Modals/ok/index.php:104
+#: App/Pages/Accounts/Views/Modals/pinterest/index.php:101
+#: App/Pages/Accounts/Views/Modals/reddit/index.php:105
+#: App/Pages/Accounts/Views/Modals/telegram/index.php:102
+#: App/Pages/Accounts/Views/Modals/tumblr/index.php:101
+#: App/Pages/Accounts/Views/Modals/vk/index.php:25
+#: App/Pages/Accounts/Views/Modals/vk/index.php:105
+msgid "communities"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/index.php:163
+#: App/Pages/Accounts/Views/Modals/google_b/index.php:153
+#: App/Pages/Accounts/Views/Modals/instagram/index.php:61
+#: App/Pages/Accounts/Views/Modals/linkedin/index.php:152
+#: App/Pages/Accounts/Views/Modals/medium/index.php:152
+#: App/Pages/Accounts/Views/Modals/ok/index.php:152
+#: App/Pages/Accounts/Views/Modals/pinterest/index.php:149
+#: App/Pages/Accounts/Views/Modals/plurk/index.php:61
+#: App/Pages/Accounts/Views/Modals/reddit/index.php:154
+#: App/Pages/Accounts/Views/Modals/telegram/index.php:151
+#: App/Pages/Accounts/Views/Modals/tumblr/index.php:149
+#: App/Pages/Accounts/Views/Modals/twitter/index.php:61
+#: App/Pages/Accounts/Views/Modals/vk/index.php:154
+#: App/Pages/Accounts/Views/Modals/wordpress/index.php:62
+#, php-format
+msgid "No %s found!"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:26
+msgid "Select an authorization method to add a new Google My Business account"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:58
+msgid "There isn't a Google My Business App!"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:96
+#: App/Pages/Accounts/Views/Modals/google_b/edit_account.php:65
+#: App/Pages/Accounts/Views/Modals/instagram/add_account.php:74
+#: App/Pages/Accounts/Views/Modals/instagram/edit_account.php:45
+#: App/Pages/Accounts/Views/Modals/linkedin/add_account.php:49
+#: App/Pages/Accounts/Views/Modals/pinterest/add_account.php:73
+#: App/Pages/Accounts/Views/Modals/pinterest/edit_account.php:46
+#: App/Pages/Accounts/Views/Modals/reddit/add_account.php:49
+#: App/Pages/Accounts/Views/Modals/telegram/add_bot.php:43
+#: App/Pages/Accounts/Views/Modals/tumblr/add_account.php:49
+#: App/Pages/Accounts/Views/Modals/twitter/add_account.php:49
+#: App/Pages/Accounts/Views/Modals/wordpress/add_site.php:57
+msgid "Optional field. Supported proxy formats: https://127.0.0.1:8888 or https://user:pass@127.0.0.1:8888"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/google_b/edit_account.php:17
+#: App/Pages/Accounts/Views/Modals/pinterest/edit_account.php:17
+msgid "Update cookies"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/google_b/edit_account.php:26
+msgid "Enter new cookies"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/google_b/edit_account.php:76
+#: App/Pages/Accounts/Views/Modals/pinterest/edit_account.php:57
+msgid "Update"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/google_b/index.php:27
+msgid "locations"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/instagram/add_account.php:25
+msgid "Select an authorization method to add a new Instagram account"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/instagram/add_account.php:41
+msgid "Login & password"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/instagram/add_account.php:46
+msgid "Cookie"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/instagram/add_account.php:55
+msgid "Username"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/instagram/add_account.php:58
+#: App/Pages/Accounts/Views/Modals/wordpress/add_site.php:38
+#: App/Pages/Accounts/Views/Modals/wordpress/add_site.php:41
+msgid "Enter the username"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/instagram/add_account.php:62
+msgid "Password"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/instagram/add_account.php:65
+#: App/Pages/Accounts/Views/Modals/wordpress/add_site.php:45
+#: App/Pages/Accounts/Views/Modals/wordpress/add_site.php:48
+msgid "Enter the password"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/linkedin/add_account.php:39
+msgid "There isn't a LinkedIn App!"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/linkedin/add_account.php:60
+#: App/Pages/Accounts/Views/Modals/medium/add_account.php:60
+#: App/Pages/Accounts/Views/Modals/ok/add_account.php:60
+#: App/Pages/Accounts/Views/Modals/plurk/add_account.php:48
+#: App/Pages/Accounts/Views/Modals/reddit/add_account.php:60
+#: App/Pages/Accounts/Views/Modals/reddit/add_subreddit.php:55
+#: App/Pages/Accounts/Views/Modals/tumblr/add_account.php:60
+#: App/Pages/Accounts/Views/Modals/twitter/add_account.php:60
+#: App/Pages/Accounts/Views/Modals/vk/add_account.php:49
+msgid "GET ACCESS"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/linkedin/index.php:25
+msgid "companies"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/medium/add_account.php:39
+msgid "There isn't a Medium App!"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/medium/index.php:25
+msgid "publications"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/ok/add_account.php:39
+#: App/Pages/Accounts/Views/Modals/twitter/add_account.php:39
+msgid "There isn't a Twitter App!"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/pinterest/add_account.php:26
+msgid "Select an authorization method to add a new Pinterest account"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/pinterest/add_account.php:54
+msgid "There isn't a Pinterest App!"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/pinterest/index.php:25
+msgid "boards"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/plurk/add_account.php:42
+msgid "There isn't a Plurk App!"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/plurk/add_account.php:52
+msgid "When the authorization has completed, copy the verification code"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/plurk/add_account.php:55
+msgid "Verification code"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/plurk/add_account.php:56
+msgid "Paste the copied verifier here"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/reddit/add_account.php:39
+msgid "There isn't a Reddit App!"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/reddit/add_subreddit.php:26
+msgid "Add a subreddit"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/reddit/add_subreddit.php:37
+msgid "Select a subreddit"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/reddit/add_subreddit.php:44
+msgid "Select flair"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/reddit/add_subreddit.php:45
+msgid "Selecting a Flair for some subreddits is a must. If you select the \"No flair\" option, it depends entirely on the rules of the subreddit whether your posts will be deleted or not by moderators later."
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/reddit/index.php:25
+msgid "subreddits"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/reddit/index.php:28
+msgid "ADD A SUBREDDIT"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/telegram/add_bot.php:16
+msgid "Add a bot"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/telegram/add_bot.php:27
+#: App/Pages/Accounts/Views/Modals/telegram/add_bot.php:34
+msgid "Bot token"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/telegram/add_chat.php:16
+msgid "Add a chat"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/telegram/add_chat.php:27
+msgid "Chat ID"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/telegram/add_chat.php:28
+msgid "Enter the Chat ID"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/telegram/add_chat.php:31
+msgid "Last active chats (optional)"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/telegram/add_chat.php:31
+msgid "Reload the list"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/telegram/add_chat.php:34
+msgid "No chat found. Reload and check again."
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/telegram/index.php:25
+msgid "chats"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/telegram/index.php:28
+msgid "ADD A CHAT"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/tumblr/add_account.php:39
+msgid "There isn't a Tumblr App!"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/tumblr/index.php:25
+msgid "blogs"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/tumblr/index.php:65
+#: App/Pages/Accounts/Views/Modals/tumblr/index.php:117
+msgid "Primary blog"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/vk/add_account.php:43
+msgid "There isn't a VKontakte App!"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/vk/add_account.php:53
+msgid "When the authorization has completed, copy the URL"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/vk/add_account.php:56
+msgid "URL"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/vk/add_account.php:57
+msgid "Paste the copied URL here"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/wordpress/add_site.php:16
+msgid "Add a website"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/wordpress/add_site.php:27
+#: App/Pages/Accounts/Views/Modals/wordpress/add_site.php:34
+msgid "Enter the website URL"
+msgstr ""
+
+#: App/Pages/Accounts/Views/index.php:10 App/Pages/Accounts/Views/index.php:80
+msgid "Activate"
+msgstr ""
+
+#: App/Pages/Accounts/Views/index.php:15 App/Pages/Accounts/Views/index.php:84
+msgid "Activate (condition)"
+msgstr ""
+
+#: App/Pages/Accounts/Views/index.php:17 App/Pages/Accounts/Views/index.php:85
+msgid "Deactivate"
+msgstr ""
+
+#: App/Pages/Accounts/Views/index.php:19 App/Pages/Accounts/Views/index.php:87
+msgid "Deactivate for all users"
+msgstr ""
+
+#: App/Pages/Accounts/Views/index.php:25 App/Pages/Accounts/Views/index.php:78
+msgid "Make public"
+msgstr ""
+
+#: App/Pages/Accounts/Views/index.php:26 App/Pages/Accounts/Views/index.php:79
+msgid "Make private"
+msgstr ""
+
+#: App/Pages/Accounts/Views/index.php:27 App/Pages/Accounts/Views/index.php:89
+#: App/Pages/Apps/Views/index.php:166
+msgid "Delete"
+msgstr ""
+
+#: App/Pages/Accounts/Views/index.php:28 App/Pages/Accounts/Views/index.php:90
+msgid "Hide"
+msgstr ""
+
+#: App/Pages/Accounts/Views/index.php:29 App/Pages/Accounts/Views/index.php:91
+msgid "Unhide"
+msgstr ""
+
+#: App/Pages/Accounts/Views/index.php:30
+msgid "Update cookie(s)"
+msgstr ""
+
+#: App/Pages/Accounts/Views/index.php:36 App/Pages/Base/Views/index.php:14
+#: App/Pages/Schedules/Views/Modals/add.php:48
+#: App/Pages/Schedules/Views/Modals/add.php:55 App/Providers/PluginMenu.php:79
+msgid "Accounts"
+msgstr ""
+
+#: App/Pages/Accounts/Views/index.php:58
+msgid "COLLAPSE ALL"
+msgstr ""
+
+#: App/Pages/Accounts/Views/index.php:61
+msgid "EXPAND ALL"
+msgstr ""
+
+#: App/Pages/Accounts/Views/index.php:65
+msgid "All accounts"
+msgstr ""
+
+#: App/Pages/Accounts/Views/index.php:66
+msgid "Active accounts"
+msgstr ""
+
+#: App/Pages/Accounts/Views/index.php:67
+msgid "Deactive accounts"
+msgstr ""
+
+#: App/Pages/Accounts/Views/index.php:68
+msgid "Visible accounts"
+msgstr ""
+
+#: App/Pages/Accounts/Views/index.php:69
+msgid "Hidden accounts"
+msgstr ""
+
+#: App/Pages/Accounts/Views/index.php:70
+msgid "Failed accounts"
+msgstr ""
+
+#: App/Pages/Accounts/Views/index.php:77
+msgid "Select an action (0)"
+msgstr ""
+
+#: App/Pages/Accounts/Views/index.php:78
+msgid "Do you want to make the selected accounts public?"
+msgstr ""
+
+#: App/Pages/Accounts/Views/index.php:79
+msgid "Do you want to make the selected accounts private?"
+msgstr ""
+
+#: App/Pages/Accounts/Views/index.php:80
+msgid "Do you want to activate the selected accounts?"
+msgstr ""
+
+#: App/Pages/Accounts/Views/index.php:82
+msgid "Do you want to activate the selected accounts for all users?"
+msgstr ""
+
+#: App/Pages/Accounts/Views/index.php:85
+msgid "Do you want to deactivate the selected accounts?"
+msgstr ""
+
+#: App/Pages/Accounts/Views/index.php:87
+msgid "Do you want to deactivate the selected accounts for all users?"
+msgstr ""
+
+#: App/Pages/Accounts/Views/index.php:89
+msgid "Are you sure you want to delete the selected accounts?"
+msgstr ""
+
+#: App/Pages/Accounts/Views/index.php:90
+msgid "Do you want to hide the selected accounts?"
+msgstr ""
+
+#: App/Pages/Accounts/Views/index.php:91
+msgid "Do you want to unhide the selected accounts?"
+msgstr ""
+
+#: App/Pages/Apps/Controllers/Ajax.php:25
+msgid "There isn't an App!"
+msgstr ""
+
+#: App/Pages/Apps/Controllers/Ajax.php:29
+msgid "You don't have permission to delete the App!"
+msgstr ""
+
+#: App/Pages/Apps/Controllers/Ajax.php:33
+msgid "You can't delete the App!"
+msgstr ""
+
+#: App/Pages/Apps/Controllers/Ajax.php:77
+msgid "field is empty!"
+msgstr ""
+
+#: App/Pages/Apps/Controllers/Ajax.php:87
+msgid "The App has already been added."
+msgstr ""
+
+#: App/Pages/Apps/Controllers/Ajax.php:105
+msgid "App has been added successfully!"
+msgstr ""
+
+#: App/Pages/Apps/Views/Modals/add.php:14
+msgid "Add a new App"
+msgstr ""
+
+#: App/Pages/Apps/Views/Modals/add.php:23
+msgid "</b>, <b>"
+msgstr ""
+
+#: App/Pages/Apps/Views/Modals/add.php:23
+#, php-format
+msgid "Type <b>%s</b>"
+msgstr ""
+
+#: App/Pages/Apps/Views/Modals/add.php:28
+#: App/Pages/Apps/Views/Modals/add.php:29
+msgid "The App ID"
+msgstr ""
+
+#: App/Pages/Apps/Views/Modals/add.php:32
+#: App/Pages/Apps/Views/Modals/add.php:33
+msgid "The App Key"
+msgstr ""
+
+#: App/Pages/Apps/Views/Modals/add.php:36
+#: App/Pages/Apps/Views/Modals/add.php:37
+msgid "The App Secret"
+msgstr ""
+
+#: App/Pages/Apps/Views/Modals/add.php:40
+msgid "The App Version"
+msgstr ""
+
+#: App/Pages/Apps/Views/Modals/add.php:57 App/Pages/Apps/Views/index.php:21
+msgid "ADD AN APP"
+msgstr ""
+
+#: App/Pages/Apps/Views/index.php:14 App/Pages/Base/Views/index.php:18
+#: App/Providers/PluginMenu.php:99
+msgid "Apps"
+msgstr ""
+
+#: App/Pages/Apps/Views/index.php:132
+msgid "The callback URL for your App is:"
+msgstr ""
+
+#: App/Pages/Apps/Views/index.php:134
+#: App/Pages/Settings/Views/Components/general.php:183
+msgid "Click to copy"
+msgstr ""
+
+#: App/Pages/Apps/Views/index.php:148
+msgid "The App Key:"
+msgstr ""
+
+#: App/Pages/Apps/Views/index.php:152
+msgid "The App Secret:"
+msgstr ""
+
+#: App/Pages/Apps/Views/index.php:156
+msgid "The App ID:"
+msgstr ""
+
+#: App/Pages/Apps/Views/index.php:164
+msgid "You can't delete the App"
+msgstr ""
+
+#: App/Pages/Apps/Views/index.php:176
+msgid "There isn't an App."
+msgstr ""
+
+#: App/Pages/Base/Assets/js/fsp-metabox.js:52
+msgid "Do you want to empty share list?"
+msgstr ""
+
+#: App/Pages/Base/Assets/js/fsp-metabox.js:163
+msgid "Added to list!"
+msgstr ""
+
+#: App/Pages/Base/Assets/js/fsp.js:26 App/Pages/Base/Controllers/Action.php:331
+#: App/Pages/Base/Views/post_meta_box.php:98
+#: App/Pages/Schedules/Views/Modals/add.php:273
+msgid "OK"
+msgstr ""
+
+#: App/Pages/Base/Assets/js/fsp.js:36 App/Pages/Schedules/Views/list.php:21
+msgid "DELETE"
+msgstr ""
+
+#: App/Pages/Base/Assets/js/fsp.js:139
+msgid "Not connect."
+msgstr ""
+
+#: App/Pages/Base/Assets/js/fsp.js:143
+msgid "Requested page not found. [404]"
+msgstr ""
+
+#: App/Pages/Base/Assets/js/fsp.js:147
+msgid "Internal Server Error [500]."
+msgstr ""
+
+#: App/Pages/Base/Assets/js/fsp.js:151
+msgid "Requested JSON parse failed."
+msgstr ""
+
+#: App/Pages/Base/Assets/js/fsp.js:155
+msgid "Time out error."
+msgstr ""
+
+#: App/Pages/Base/Assets/js/fsp.js:159
+msgid "Ajax request aborted."
+msgstr ""
+
+#: App/Pages/Base/Assets/js/fsp.js:163
+msgid "Uncaught Error."
+msgstr ""
+
+#: App/Pages/Base/Assets/js/fsp.js:752
+msgid "Copied!"
+msgstr ""
+
+#: App/Pages/Base/Controllers/Action.php:161
+msgid "Facebook"
+msgstr ""
+
+#: App/Pages/Base/Controllers/Action.php:165
+#: App/Pages/Base/Controllers/Action.php:324
+#: App/Pages/Base/Views/post_meta_box.php:91
+#: App/Pages/Schedules/Views/Modals/add.php:266
+msgid "Twitter"
+msgstr ""
+
+#: App/Pages/Base/Controllers/Action.php:169
+#: App/Pages/Base/Controllers/Action.php:325
+#: App/Pages/Base/Views/post_meta_box.php:92
+#: App/Pages/Schedules/Views/Modals/add.php:267
+msgid "Instagram"
+msgstr ""
+
+#: App/Pages/Base/Controllers/Action.php:173
+#: App/Pages/Base/Controllers/Action.php:326
+#: App/Pages/Base/Views/post_meta_box.php:93
+#: App/Pages/Schedules/Views/Modals/add.php:268
+msgid "Linkedin"
+msgstr ""
+
+#: App/Pages/Base/Controllers/Action.php:177
+msgid "VKontakte"
+msgstr ""
+
+#: App/Pages/Base/Controllers/Action.php:181
+#: App/Pages/Base/Controllers/Action.php:328
+#: App/Pages/Base/Views/post_meta_box.php:95
+#: App/Pages/Schedules/Views/Modals/add.php:270
+msgid "Pinterest"
+msgstr ""
+
+#: App/Pages/Base/Controllers/Action.php:185
+#: App/Pages/Base/Controllers/Action.php:329
+#: App/Pages/Base/Views/post_meta_box.php:96
+#: App/Pages/Schedules/Views/Modals/add.php:271
+msgid "Reddit"
+msgstr ""
+
+#: App/Pages/Base/Controllers/Action.php:189
+#: App/Pages/Base/Controllers/Action.php:330
+#: App/Pages/Base/Views/post_meta_box.php:97
+#: App/Pages/Schedules/Views/Modals/add.php:272
+msgid "Tumblr"
+msgstr ""
+
+#: App/Pages/Base/Controllers/Action.php:193
+msgid "Odnoklassniki"
+msgstr ""
+
+#: App/Pages/Base/Controllers/Action.php:197
+#: App/Pages/Base/Controllers/Action.php:332
+#: App/Pages/Base/Views/post_meta_box.php:103
+#: App/Pages/Schedules/Views/Modals/add.php:274
+msgid "Plurk"
+msgstr ""
+
+#: App/Pages/Base/Controllers/Action.php:201
+#: App/Pages/Base/Controllers/Action.php:333
+#: App/Pages/Base/Views/post_meta_box.php:99
+#: App/Pages/Schedules/Views/Modals/add.php:275
+msgid "GMB"
+msgstr ""
+
+#: App/Pages/Base/Controllers/Action.php:205
+#: App/Pages/Base/Controllers/Action.php:334
+#: App/Pages/Base/Views/post_meta_box.php:100
+#: App/Pages/Schedules/Views/Modals/add.php:276
+msgid "Telegram"
+msgstr ""
+
+#: App/Pages/Base/Controllers/Action.php:209
+#: App/Pages/Base/Controllers/Action.php:335
+#: App/Pages/Base/Views/post_meta_box.php:101
+#: App/Pages/Schedules/Views/Modals/add.php:277
+msgid "Medium"
+msgstr ""
+
+#: App/Pages/Base/Controllers/Action.php:213
+#: App/Pages/Base/Controllers/Action.php:336
+#: App/Pages/Base/Views/post_meta_box.php:102
+#: App/Pages/Schedules/Views/Modals/add.php:278
+msgid "WordPress"
+msgstr ""
+
+#: App/Pages/Base/Controllers/Action.php:232
+#: App/Pages/Share/Assets/js/fsp-share-popup.js:36
+msgid "The post will be shared in the background!"
+msgstr ""
+
+#: App/Pages/Base/Controllers/Action.php:323
+#: App/Pages/Base/Views/post_meta_box.php:90
+#: App/Pages/Schedules/Views/Modals/add.php:265
+msgid "FB"
+msgstr ""
+
+#: App/Pages/Base/Controllers/Action.php:327
+#: App/Pages/Base/Views/post_meta_box.php:94
+#: App/Pages/Schedules/Views/Modals/add.php:269
+msgid "VK"
+msgstr ""
+
+#: App/Pages/Base/Views/Modals/add_node_to_list.php:14
+msgid "Select accounts"
+msgstr ""
+
+#: App/Pages/Base/Views/Modals/add_node_to_list.php:24
+msgid "Search account"
+msgstr ""
+
+#: App/Pages/Base/Views/Modals/add_node_to_list.php:27
+msgid "Search"
+msgstr ""
+
+#: App/Pages/Base/Views/disable.php:14
+msgid "Your plugin is disabled. Please activate the plugin."
+msgstr ""
+
+#: App/Pages/Base/Views/disable.php:20
+#, php-format
+msgid "Reason: %s"
+msgstr ""
+
+#: App/Pages/Base/Views/disable.php:23 App/Pages/Base/Views/install.php:20
+#: App/Pages/Base/Views/update.php:20
+msgid "Enter the purchase key"
+msgstr ""
+
+#: App/Pages/Base/Views/disable.php:26
+msgid "RE-ACTIVATE"
+msgstr ""
+
+#: App/Pages/Base/Views/index.php:13 App/Providers/PluginMenu.php:74
+msgid "Dashboard"
+msgstr ""
+
+#: App/Pages/Base/Views/index.php:15 App/Pages/Schedules/Views/list.php:15
+#: App/Providers/PluginMenu.php:84
+msgid "Schedules"
+msgstr ""
+
+#: App/Pages/Base/Views/index.php:16 App/Pages/Share/Views/index.php:15
+#: App/Providers/PluginMenu.php:89
+msgid "Direct Share"
+msgstr ""
+
+#: App/Pages/Base/Views/index.php:17 App/Pages/Logs/Views/index.php:17
+#: App/Pages/Schedules/Views/list.php:138 App/Providers/PluginMenu.php:94
+msgid "Logs"
+msgstr ""
+
+#: App/Pages/Base/Views/index.php:20 App/Pages/Settings/Views/index.php:13
+#: App/Providers/PluginMenu.php:106
+msgid "Settings"
+msgstr ""
+
+#: App/Pages/Base/Views/install.php:14
+msgid "Please activate the plugin."
+msgstr ""
+
+#: App/Pages/Base/Views/install.php:23
+msgid "Enter your e-mail address (optional)"
+msgstr ""
+
+#: App/Pages/Base/Views/install.php:27
+msgid "Where did You find us?"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:16
+#: App/Pages/Base/Views/post_metabox_v2.php:16
+#: App/Pages/Share/Views/Modals/share_saved_post.php:19
+#: App/Providers/BackEnd.php:150
+msgid "Share"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:25
+#: App/Pages/Base/Views/post_metabox_v2.php:25
+#: App/Pages/Schedules/Views/Modals/add.php:200
+msgid "Show all accounts"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:28
+#: App/Pages/Schedules/Views/Modals/add.php:203
+msgid "Show only Facebook accounts"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:31
+#: App/Pages/Schedules/Views/Modals/add.php:206
+msgid "Show only Twitter accounts"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:34
+#: App/Pages/Schedules/Views/Modals/add.php:209
+msgid "Show only Instagram accounts"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:37
+#: App/Pages/Schedules/Views/Modals/add.php:212
+msgid "Show only Linkedin accounts"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:40
+#: App/Pages/Schedules/Views/Modals/add.php:215
+msgid "Show only VKontakte accounts"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:43
+#: App/Pages/Schedules/Views/Modals/add.php:218
+msgid "Show only Pinterest accounts"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:46
+#: App/Pages/Schedules/Views/Modals/add.php:221
+msgid "Show only Reddit accounts"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:49
+#: App/Pages/Schedules/Views/Modals/add.php:224
+msgid "Show only Tumblr accounts"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:52
+#: App/Pages/Schedules/Views/Modals/add.php:227
+msgid "Show only Odnoklassniki accounts"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:55
+#: App/Pages/Schedules/Views/Modals/add.php:230
+msgid "Show only Plurk accounts"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:58
+#: App/Pages/Schedules/Views/Modals/add.php:233
+msgid "Show only Google My Business accounts"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:61
+#: App/Pages/Schedules/Views/Modals/add.php:236
+msgid "Show only Telegram accounts"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:64
+#: App/Pages/Schedules/Views/Modals/add.php:239
+msgid "Show only Medium accounts"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:67
+#: App/Pages/Schedules/Views/Modals/add.php:242
+msgid "Show only WordPress websites"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:73
+#: App/Pages/Base/Views/post_metabox_v2.php:36
+msgid "Please select an account"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:131
+#: App/Pages/Base/Views/post_metabox_v2.php:78
+msgid "Customize Facebook post message"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:137
+#: App/Pages/Base/Views/post_metabox_v2.php:84
+msgid "Customize Twitter post message"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:143
+#: App/Pages/Base/Views/post_metabox_v2.php:90
+msgid "Customize Instagram post message"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:147
+#: App/Pages/Base/Views/post_metabox_v2.php:94
+msgid "Customize Instagram story message"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:153
+#: App/Pages/Base/Views/post_metabox_v2.php:100
+msgid "Customize LinkedIn post message"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:159
+#: App/Pages/Base/Views/post_metabox_v2.php:106
+msgid "Customize VKontakte post message"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:165
+#: App/Pages/Base/Views/post_metabox_v2.php:112
+msgid "Customize Pinterest post message"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:171
+#: App/Pages/Base/Views/post_metabox_v2.php:118
+msgid "Customize Reddit post message"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:177
+#: App/Pages/Base/Views/post_metabox_v2.php:124
+msgid "Customize Tumblr post message"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:183
+#: App/Pages/Base/Views/post_metabox_v2.php:130
+msgid "Customize Odnoklassniki post message"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:189
+#: App/Pages/Base/Views/post_metabox_v2.php:142
+msgid "Customize Google My Business post message"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:195
+#: App/Pages/Base/Views/post_metabox_v2.php:148
+msgid "Customize Telegram post message"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:201
+#: App/Pages/Base/Views/post_metabox_v2.php:154
+msgid "Customize Medium post message"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:207
+#: App/Pages/Base/Views/post_metabox_v2.php:160
+msgid "Customize WordPress post message"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:213
+#: App/Pages/Base/Views/post_metabox_v2.php:136
+#: App/Pages/Base/Views/post_metabox_v2.php:166
+msgid "Customize Plurk post message"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:222
+#: App/Pages/Base/Views/post_metabox_v2.php:178
+#: App/Pages/Schedules/Views/Modals/add.php:307
+#: App/Pages/Schedules/Views/Modals/add.php:425
+#: App/Pages/Schedules/Views/Modals/add.php:494
+#: App/Pages/Settings/Views/Components/facebook.php:129
+#: App/Pages/Settings/Views/Components/google_b.php:146
+#: App/Pages/Settings/Views/Components/instagram.php:128
+#: App/Pages/Settings/Views/Components/instagram.php:239
+#: App/Pages/Settings/Views/Components/linkedin.php:117
+#: App/Pages/Settings/Views/Components/medium.php:103
+#: App/Pages/Settings/Views/Components/ok.php:105
+#: App/Pages/Settings/Views/Components/pinterest.php:99
+#: App/Pages/Settings/Views/Components/plurk.php:151
+#: App/Pages/Settings/Views/Components/reddit.php:116
+#: App/Pages/Settings/Views/Components/telegram.php:117
+#: App/Pages/Settings/Views/Components/tumblr.php:103
+#: App/Pages/Settings/Views/Components/twitter.php:117
+#: App/Pages/Settings/Views/Components/url.php:113
+#: App/Pages/Settings/Views/Components/vk.php:136
+#: App/Pages/Settings/Views/Components/wordpress.php:147
+msgid "CLEAR"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box_edit.php:18
+msgid "Shared on:"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box_edit.php:77
+msgid "Posted successfully."
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box_edit.php:83
+msgid "Going to share in a minute."
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box_edit.php:88
+#, php-format
+msgid "Going to share after %d minute(s)."
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box_edit.php:95
+#, php-format
+msgid "The post is failed. %s"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box_edit.php:104
+msgid "The post hasn't been shared on any account! <a href='https://www.fs-poster.com/documentation/commonly-encountered-issues#issue11' target='_blank'>Why?</a>"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box_edit.php:109
+#: App/Pages/Share/Views/Modals/share_saved_post.php:47
+msgid "SHARE"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box_edit.php:109
+msgid "SHARE AGAIN"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box_edit.php:110
+#: App/Pages/Schedules/Views/calendar.php:37
+#: App/Pages/Schedules/Views/list.php:30 App/Pages/Share/Views/index.php:101
+msgid "SCHEDULE"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box_edit.php:112
+#: App/Pages/Schedules/Controllers/Popup.php:364
+#: App/Pages/Schedules/Controllers/Popup.php:537
+msgid "EDIT SCHEDULE"
+msgstr ""
+
+#: App/Pages/Base/Views/post_metabox_v2.php:29
+#, php-format
+msgid "Show only %s accounts"
+msgstr ""
+
+#: App/Pages/Base/Views/update.php:14
+#, php-format
+msgid "A new version %s is available. Please update the plugin."
+msgstr ""
+
+#: App/Pages/Base/Views/update.php:23
+msgid "UPDATE AND ACTIVATE"
+msgstr ""
+
+#: App/Pages/Dashboard/Views/index.php:29
+msgid "Shares in this month"
+msgstr ""
+
+#: App/Pages/Dashboard/Views/index.php:36
+msgid "Clicks in this month"
+msgstr ""
+
+#: App/Pages/Dashboard/Views/index.php:43
+msgid "Total accounts"
+msgstr ""
+
+#: App/Pages/Dashboard/Views/index.php:50
+msgid "Clicks from schedules"
+msgstr ""
+
+#: App/Pages/Dashboard/Views/index.php:58
+msgid "Shared posts count"
+msgstr ""
+
+#: App/Pages/Dashboard/Views/index.php:60
+#: App/Pages/Dashboard/Views/index.php:75
+msgid "Daily"
+msgstr ""
+
+#: App/Pages/Dashboard/Views/index.php:61
+#: App/Pages/Dashboard/Views/index.php:76
+msgid "Monthly"
+msgstr ""
+
+#: App/Pages/Dashboard/Views/index.php:62
+#: App/Pages/Dashboard/Views/index.php:77
+msgid "Annually"
+msgstr ""
+
+#: App/Pages/Dashboard/Views/index.php:73
+msgid "Clicks count"
+msgstr ""
+
+#: App/Pages/Dashboard/Views/index.php:88
+msgid "Social networks comparison (by clicks)"
+msgstr ""
+
+#: App/Pages/Dashboard/Views/index.php:99
+msgid "Accounts comparison (by clicks)"
+msgstr ""
+
+#: App/Pages/Logs/Assets/js/fsp-logs.js:30
+msgid "Are you sure you want to clear logs?"
+msgstr ""
+
+#: App/Pages/Logs/Assets/js/fsp-logs.js:124
+#: App/Pages/Share/Views/Modals/share_feeds.php:90
+msgid "SUCCESS"
+msgstr ""
+
+#: App/Pages/Logs/Assets/js/fsp-logs.js:128
+msgid "ERROR"
+msgstr ""
+
+#: App/Pages/Logs/Assets/js/fsp-logs.js:129
+msgid "RETRY"
+msgstr ""
+
+#: App/Pages/Logs/Assets/js/fsp-logs.js:133
+msgid "NOT SENT"
+msgstr ""
+
+#: App/Pages/Logs/Assets/js/fsp-logs.js:152
+#: App/Pages/Schedules/Views/Modals/add.php:422
+#: App/Pages/Schedules/Views/Modals/add.php:491
+#: App/Pages/Settings/Views/Components/facebook.php:126
+#: App/Pages/Settings/Views/Components/google_b.php:143
+#: App/Pages/Settings/Views/Components/instagram.php:125
+#: App/Pages/Settings/Views/Components/instagram.php:236
+#: App/Pages/Settings/Views/Components/linkedin.php:114
+#: App/Pages/Settings/Views/Components/medium.php:100
+#: App/Pages/Settings/Views/Components/ok.php:102
+#: App/Pages/Settings/Views/Components/pinterest.php:96
+#: App/Pages/Settings/Views/Components/plurk.php:148
+#: App/Pages/Settings/Views/Components/reddit.php:113
+#: App/Pages/Settings/Views/Components/telegram.php:114
+#: App/Pages/Settings/Views/Components/tumblr.php:100
+#: App/Pages/Settings/Views/Components/twitter.php:114
+#: App/Pages/Settings/Views/Components/vk.php:133
+#: App/Pages/Settings/Views/Components/wordpress.php:144
+#: App/Pages/Settings/Views/Components/wordpress.php:225
+#: App/Pages/Share/Assets/js/fsp-sharing-popup.js:47
+#: App/Pages/Share/Views/Modals/share_feeds.php:73
+msgid "Post link"
+msgstr ""
+
+#: App/Pages/Logs/Assets/js/fsp-logs.js:161
+msgid "Publication link"
+msgstr ""
+
+#: App/Pages/Logs/Assets/js/fsp-logs.js:174
+msgid "Hits"
+msgstr ""
+
+#: App/Pages/Logs/Assets/js/fsp-logs.js:177
+msgid "Comments"
+msgstr ""
+
+#: App/Pages/Logs/Assets/js/fsp-logs.js:180
+msgid "Likes"
+msgstr ""
+
+#: App/Pages/Logs/Assets/js/fsp-logs.js:183
+msgid "Shares"
+msgstr ""
+
+#: App/Pages/Logs/Controllers/Ajax.php:297
+msgid "Account deleted"
+msgstr ""
+
+#: App/Pages/Logs/Views/index.php:22
+msgid "Filter results"
+msgstr ""
+
+#: App/Pages/Logs/Views/index.php:24
+msgid "all"
+msgstr ""
+
+#: App/Pages/Logs/Views/index.php:25
+msgid "success"
+msgstr ""
+
+#: App/Pages/Logs/Views/index.php:26
+msgid "error"
+msgstr ""
+
+#: App/Pages/Logs/Views/index.php:30
+msgid "Count of rows"
+msgstr ""
+
+#: App/Pages/Logs/Views/index.php:39
+msgid "CLEAR LOGS"
+msgstr ""
+
+#: App/Pages/Schedules/Assets/js/fsp-calendar.js:159
+msgid "Mon"
+msgstr ""
+
+#: App/Pages/Schedules/Assets/js/fsp-calendar.js:160
+msgid "Tue"
+msgstr ""
+
+#: App/Pages/Schedules/Assets/js/fsp-calendar.js:161
+msgid "Wed"
+msgstr ""
+
+#: App/Pages/Schedules/Assets/js/fsp-calendar.js:162
+msgid "Thu"
+msgstr ""
+
+#: App/Pages/Schedules/Assets/js/fsp-calendar.js:163
+msgid "Fri"
+msgstr ""
+
+#: App/Pages/Schedules/Assets/js/fsp-calendar.js:164
+msgid "Sat"
+msgstr ""
+
+#: App/Pages/Schedules/Assets/js/fsp-calendar.js:165
+msgid "Sun"
+msgstr ""
+
+#: App/Pages/Schedules/Assets/js/fsp-schedule-add.js:62
+#: App/Pages/Schedules/Controllers/Ajax.php:51
+msgid "Interval is not correct!"
+msgstr ""
+
+#: App/Pages/Schedules/Assets/js/fsp-schedule-add.js:71
+msgid "No post matches your filters!"
+msgstr ""
+
+#: App/Pages/Schedules/Assets/js/fsp-schedule-add.js:77
+#: App/Pages/Schedules/Controllers/Ajax.php:84
+msgid "If you want to share repeatedly, you should schedule only a post!"
+msgstr ""
+
+#: App/Pages/Schedules/Assets/js/fsp-schedules.js:61
+msgid "Are you sure you want to delete all selected schedules?"
+msgstr ""
+
+#: App/Pages/Schedules/Assets/js/fsp-schedules.js:89
+msgid "You need to select schedules for delete!"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Action.php:18
+msgid "Randomly ( without dublicates )"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Action.php:19
+#: App/Pages/Schedules/Views/Modals/add.php:128
+msgid "Randomly"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Action.php:20
+#: App/Pages/Schedules/Views/Modals/add.php:129
+msgid "Old posts first"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Action.php:21
+#: App/Pages/Schedules/Views/Modals/add.php:130
+msgid "New posts first"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Action.php:25
+msgid "All posts"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Action.php:26
+msgid "This week added posts"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Action.php:27
+msgid "Previous week added posts"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Action.php:28
+msgid "This month added posts"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Action.php:29
+msgid "Previous month added posts"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Action.php:30
+msgid "This year added posts"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Action.php:31
+msgid "Last 30 days"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Action.php:32
+msgid "Last 60 days"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Action.php:33
+#: App/Pages/Schedules/Views/Modals/add.php:148
+msgid "Custom date range"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Ajax.php:79
+msgid "Too many posts are selected! You can select maximum 200 posts!"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Ajax.php:165
+#: App/Pages/Schedules/Controllers/Ajax.php:391
+msgid "No account or community is selected."
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Ajax.php:170
+msgid "The date range is not correct."
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Ajax.php:184
+msgid "The name can't be empty!"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Ajax.php:189
+msgid "Please select the start date and time!"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Ajax.php:194
+msgid "Please type the interval!"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Ajax.php:425
+msgid "Validation error"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Ajax.php:430
+msgid "Schedule date is empty!"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Ajax.php:434
+msgid "Plan date or time is not valid!"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Ajax.php:438
+#, php-format
+msgid "Plan date or time is not valid!<br>Please select Schedule date/time according to your server time. <br>Your server time is: %s"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Ajax.php:455
+msgid "Please select at least one post."
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Ajax.php:459
+msgid "Too many post selected! You can select maximum 200 posts!"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Ajax.php:588
+#: App/Pages/Schedules/Controllers/Ajax.php:618
+#: App/Pages/Schedules/Controllers/Ajax.php:648
+#: App/Pages/Schedules/Controllers/Popup.php:218
+#: App/Pages/Schedules/Controllers/Popup.php:440
+#: App/Pages/Schedules/Controllers/Popup.php:453
+#: App/Pages/Schedules/Controllers/Popup.php:559
+msgid "There isn't a schedule."
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Ajax.php:594
+#: App/Pages/Schedules/Controllers/Ajax.php:625
+msgid "You don't have permission to delete the schedule!"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Ajax.php:608
+msgid "No schedule selected!"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Ajax.php:654
+msgid "You don't have permission to Pause/Play the schedule!"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Ajax.php:660
+msgid "This schedule has finished!"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Ajax.php:693
+msgid "Loooooooooooooooolll :)"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Popup.php:120
+#: App/Pages/Schedules/Controllers/Popup.php:309
+#: App/Pages/Schedules/Controllers/Popup.php:504
+msgid "Only the posts of the selected categories, tags, etc. will be shared:"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Popup.php:120
+#: App/Pages/Schedules/Controllers/Popup.php:309
+#: App/Pages/Schedules/Controllers/Popup.php:504
+msgid "The posts of the selected categories, tags, etc. will not be shared:"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Popup.php:187
+msgid "ADD A NEW SCHEDULE"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Popup.php:188
+msgid "ADD A SCHEDULE"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Popup.php:364
+#: App/Pages/Schedules/Controllers/Popup.php:365
+msgid "RE-SCHEDULE"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Popup.php:365
+msgid "SAVE THE SCHEDULE"
+msgstr ""
+
+#: App/Pages/Schedules/Controllers/Popup.php:538
+#: App/Pages/Settings/Views/index.php:18
+msgid "SAVE CHANGES"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:42
+#: App/Pages/Schedules/Views/Modals/add.php:55
+msgid "1"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:42
+msgid "Basic data"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:45
+#: App/Pages/Schedules/Views/Modals/add.php:58
+msgid "2"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:45
+msgid "Filters"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:48
+msgid "3"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:51
+msgid "4"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:51
+#: App/Pages/Schedules/Views/Modals/add.php:58
+msgid "Custom messages"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:67
+msgid "Name"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:67
+msgid "Add a name for your schedule to recognize it in your schedule list."
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:69
+msgid "Enter a name"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:72
+msgid "Start date & time"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:72
+msgid "When the schedule will start?"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:76
+msgid "Select date"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:77
+msgid "Select time"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:80
+#, php-format
+msgid "Local time: %s"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:85
+msgid "How you want to share"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:85
+msgid "Define to share a single post repeatedly or once"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:88
+msgid "Share once"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:89
+msgid "Share repeatedly"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:93
+msgid "Post every"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:93
+msgid "The interval between posts"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:99
+msgid "Hour"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:100
+msgid "Minute"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:101
+msgid "Day"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:111
+msgid "Set a sleep timer"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:113
+msgid "You can set a sleep timer in your schedule. The plugin won't share any post during the sleep time."
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:124
+msgid "Order posts by"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:124
+msgid "Method for selecting posts."
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:127
+msgid "Randomly ( without duplicates )"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:136
+msgid "By the published time of the posts"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:136
+msgid "Select posts that are published in a specific time."
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:140
+msgid "All times"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:141
+msgid "Today"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:142
+msgid "The last week"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:143
+msgid "The last 15 days"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:144
+msgid "The last month"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:145
+msgid "The last 3 months"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:146
+msgid "The last 6 months"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:147
+msgid "The last year"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:153
+msgid "From"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:154
+msgid "To"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:160
+msgid "By post type"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:160
+msgid "You can select new post types in [ FS Poster > Settings > Share post types ]."
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:174
+msgid "Don't post products that are out of stock"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:178
+msgid "By the post category and tag"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:188
+msgid "Specific Post ID(s) (separate by comma)"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:248
+msgid "Please select an account."
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:260
+msgid "Share only the posts of the selected categories: "
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:260
+msgid "Do not share the posts of the selected categories: "
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:315
+#: App/Pages/Share/Views/index.php:41
+msgid "Custom message for Facebook"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:318
+#: App/Pages/Share/Views/index.php:44
+msgid "Custom message for Twitter"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:321
+#: App/Pages/Share/Views/index.php:47
+msgid "Custom message for Instagram"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:324
+#: App/Pages/Share/Views/index.php:50
+msgid "Custom message for Linkedin"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:327
+#: App/Pages/Share/Views/index.php:53
+msgid "Custom message for VKontakte"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:330
+#: App/Pages/Share/Views/index.php:56
+msgid "Custom message for Pinterest"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:333
+#: App/Pages/Share/Views/index.php:59
+msgid "Custom message for Reddit"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:336
+#: App/Pages/Share/Views/index.php:62
+msgid "Custom message for Tumblr"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:339
+msgid "Custom message for Odnoklassniki"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:342
+#: App/Pages/Share/Views/index.php:68
+msgid "Custom message for Plurk"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:345
+#: App/Pages/Share/Views/index.php:71
+msgid "Custom message for Google My Business"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:348
+#: App/Pages/Share/Views/index.php:74
+msgid "Custom message for Telegram"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:351
+#: App/Pages/Share/Views/index.php:77
+msgid "Custom message for Medium"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:354
+#: App/Pages/Share/Views/index.php:80
+msgid "Custom message for WordPress"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:366
+#: App/Pages/Schedules/Views/Modals/add.php:435
+#: App/Pages/Settings/Views/Components/facebook.php:66
+#: App/Pages/Settings/Views/Components/google_b.php:87
+#: App/Pages/Settings/Views/Components/instagram.php:65
+#: App/Pages/Settings/Views/Components/instagram.php:180
+#: App/Pages/Settings/Views/Components/linkedin.php:54
+#: App/Pages/Settings/Views/Components/medium.php:40
+#: App/Pages/Settings/Views/Components/ok.php:42
+#: App/Pages/Settings/Views/Components/pinterest.php:40
+#: App/Pages/Settings/Views/Components/plurk.php:88
+#: App/Pages/Settings/Views/Components/reddit.php:53
+#: App/Pages/Settings/Views/Components/telegram.php:54
+#: App/Pages/Settings/Views/Components/tumblr.php:40
+#: App/Pages/Settings/Views/Components/twitter.php:54
+#: App/Pages/Settings/Views/Components/url.php:86
+#: App/Pages/Settings/Views/Components/url.php:134
+#: App/Pages/Settings/Views/Components/vk.php:73
+#: App/Pages/Settings/Views/Components/wordpress.php:84
+#: App/Pages/Settings/Views/Components/wordpress.php:169
+msgid "Post ID"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:370
+#: App/Pages/Schedules/Views/Modals/add.php:439
+#: App/Pages/Settings/Views/Components/facebook.php:90
+#: App/Pages/Settings/Views/Components/google_b.php:91
+#: App/Pages/Settings/Views/Components/instagram.php:89
+#: App/Pages/Settings/Views/Components/instagram.php:184
+#: App/Pages/Settings/Views/Components/linkedin.php:78
+#: App/Pages/Settings/Views/Components/medium.php:64
+#: App/Pages/Settings/Views/Components/ok.php:66
+#: App/Pages/Settings/Views/Components/pinterest.php:64
+#: App/Pages/Settings/Views/Components/plurk.php:112
+#: App/Pages/Settings/Views/Components/reddit.php:77
+#: App/Pages/Settings/Views/Components/telegram.php:78
+#: App/Pages/Settings/Views/Components/tumblr.php:64
+#: App/Pages/Settings/Views/Components/twitter.php:78
+#: App/Pages/Settings/Views/Components/vk.php:97
+#: App/Pages/Settings/Views/Components/wordpress.php:108
+#: App/Pages/Settings/Views/Components/wordpress.php:173
+msgid "WooCommerce - product price"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:374
+#: App/Pages/Schedules/Views/Modals/add.php:443
+#: App/Pages/Settings/Views/Components/facebook.php:70
+#: App/Pages/Settings/Views/Components/google_b.php:95
+#: App/Pages/Settings/Views/Components/instagram.php:69
+#: App/Pages/Settings/Views/Components/instagram.php:188
+#: App/Pages/Settings/Views/Components/linkedin.php:58
+#: App/Pages/Settings/Views/Components/medium.php:44
+#: App/Pages/Settings/Views/Components/ok.php:46
+#: App/Pages/Settings/Views/Components/pinterest.php:44
+#: App/Pages/Settings/Views/Components/plurk.php:92
+#: App/Pages/Settings/Views/Components/reddit.php:57
+#: App/Pages/Settings/Views/Components/telegram.php:58
+#: App/Pages/Settings/Views/Components/tumblr.php:44
+#: App/Pages/Settings/Views/Components/twitter.php:58
+#: App/Pages/Settings/Views/Components/vk.php:77
+#: App/Pages/Settings/Views/Components/wordpress.php:88
+#: App/Pages/Settings/Views/Components/wordpress.php:177
+msgid "Post author name"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:378
+#: App/Pages/Schedules/Views/Modals/add.php:447
+#: App/Pages/Settings/Views/Components/facebook.php:74
+#: App/Pages/Settings/Views/Components/google_b.php:99
+#: App/Pages/Settings/Views/Components/instagram.php:73
+#: App/Pages/Settings/Views/Components/instagram.php:192
+#: App/Pages/Settings/Views/Components/linkedin.php:62
+#: App/Pages/Settings/Views/Components/medium.php:48
+#: App/Pages/Settings/Views/Components/ok.php:50
+#: App/Pages/Settings/Views/Components/pinterest.php:48
+#: App/Pages/Settings/Views/Components/plurk.php:96
+#: App/Pages/Settings/Views/Components/reddit.php:61
+#: App/Pages/Settings/Views/Components/telegram.php:62
+#: App/Pages/Settings/Views/Components/tumblr.php:48
+#: App/Pages/Settings/Views/Components/twitter.php:62
+#: App/Pages/Settings/Views/Components/vk.php:81
+#: App/Pages/Settings/Views/Components/wordpress.php:92
+#: App/Pages/Settings/Views/Components/wordpress.php:181
+msgid "The default is the first 40 characters. You can set the number whatever you want. The plugin will share that number of characters."
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:382
+#: App/Pages/Schedules/Views/Modals/add.php:451
+#: App/Pages/Settings/Views/Components/facebook.php:78
+#: App/Pages/Settings/Views/Components/google_b.php:103
+#: App/Pages/Settings/Views/Components/instagram.php:77
+#: App/Pages/Settings/Views/Components/instagram.php:196
+#: App/Pages/Settings/Views/Components/linkedin.php:66
+#: App/Pages/Settings/Views/Components/medium.php:52
+#: App/Pages/Settings/Views/Components/ok.php:54
+#: App/Pages/Settings/Views/Components/pinterest.php:52
+#: App/Pages/Settings/Views/Components/plurk.php:100
+#: App/Pages/Settings/Views/Components/reddit.php:65
+#: App/Pages/Settings/Views/Components/telegram.php:66
+#: App/Pages/Settings/Views/Components/tumblr.php:52
+#: App/Pages/Settings/Views/Components/twitter.php:66
+#: App/Pages/Settings/Views/Components/url.php:102
+#: App/Pages/Settings/Views/Components/url.php:154
+#: App/Pages/Settings/Views/Components/vk.php:85
+#: App/Pages/Settings/Views/Components/wordpress.php:62
+#: App/Pages/Settings/Views/Components/wordpress.php:96
+#: App/Pages/Settings/Views/Components/wordpress.php:185
+msgid "Post title"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:386
+#: App/Pages/Schedules/Views/Modals/add.php:455
+#: App/Pages/Settings/Views/Components/facebook.php:82
+#: App/Pages/Settings/Views/Components/google_b.php:107
+#: App/Pages/Settings/Views/Components/instagram.php:81
+#: App/Pages/Settings/Views/Components/instagram.php:200
+#: App/Pages/Settings/Views/Components/linkedin.php:70
+#: App/Pages/Settings/Views/Components/medium.php:56
+#: App/Pages/Settings/Views/Components/ok.php:58
+#: App/Pages/Settings/Views/Components/pinterest.php:56
+#: App/Pages/Settings/Views/Components/plurk.php:104
+#: App/Pages/Settings/Views/Components/reddit.php:69
+#: App/Pages/Settings/Views/Components/telegram.php:70
+#: App/Pages/Settings/Views/Components/tumblr.php:56
+#: App/Pages/Settings/Views/Components/twitter.php:70
+#: App/Pages/Settings/Views/Components/vk.php:89
+#: App/Pages/Settings/Views/Components/wordpress.php:100
+#: App/Pages/Settings/Views/Components/wordpress.php:189
+msgid "Featured image URL"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:390
+#: App/Pages/Schedules/Views/Modals/add.php:459
+#: App/Pages/Settings/Views/Components/facebook.php:86
+#: App/Pages/Settings/Views/Components/google_b.php:111
+#: App/Pages/Settings/Views/Components/instagram.php:85
+#: App/Pages/Settings/Views/Components/instagram.php:204
+#: App/Pages/Settings/Views/Components/linkedin.php:74
+#: App/Pages/Settings/Views/Components/medium.php:60
+#: App/Pages/Settings/Views/Components/ok.php:62
+#: App/Pages/Settings/Views/Components/pinterest.php:60
+#: App/Pages/Settings/Views/Components/plurk.php:108
+#: App/Pages/Settings/Views/Components/reddit.php:73
+#: App/Pages/Settings/Views/Components/telegram.php:74
+#: App/Pages/Settings/Views/Components/tumblr.php:60
+#: App/Pages/Settings/Views/Components/twitter.php:74
+#: App/Pages/Settings/Views/Components/vk.php:93
+#: App/Pages/Settings/Views/Components/wordpress.php:104
+#: App/Pages/Settings/Views/Components/wordpress.php:193
+msgid "Post Tags"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:394
+#: App/Pages/Schedules/Views/Modals/add.php:463
+#: App/Pages/Settings/Views/Components/facebook.php:94
+#: App/Pages/Settings/Views/Components/google_b.php:115
+#: App/Pages/Settings/Views/Components/instagram.php:93
+#: App/Pages/Settings/Views/Components/instagram.php:208
+#: App/Pages/Settings/Views/Components/linkedin.php:82
+#: App/Pages/Settings/Views/Components/medium.php:68
+#: App/Pages/Settings/Views/Components/ok.php:70
+#: App/Pages/Settings/Views/Components/pinterest.php:68
+#: App/Pages/Settings/Views/Components/plurk.php:116
+#: App/Pages/Settings/Views/Components/reddit.php:81
+#: App/Pages/Settings/Views/Components/telegram.php:82
+#: App/Pages/Settings/Views/Components/tumblr.php:68
+#: App/Pages/Settings/Views/Components/twitter.php:82
+#: App/Pages/Settings/Views/Components/vk.php:101
+#: App/Pages/Settings/Views/Components/wordpress.php:112
+#: App/Pages/Settings/Views/Components/wordpress.php:197
+msgid "WooCommerce - product sale price"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:398
+#: App/Pages/Schedules/Views/Modals/add.php:467
+#: App/Pages/Settings/Views/Components/facebook.php:102
+#: App/Pages/Settings/Views/Components/google_b.php:119
+#: App/Pages/Settings/Views/Components/instagram.php:101
+#: App/Pages/Settings/Views/Components/instagram.php:212
+#: App/Pages/Settings/Views/Components/linkedin.php:90
+#: App/Pages/Settings/Views/Components/medium.php:76
+#: App/Pages/Settings/Views/Components/ok.php:78
+#: App/Pages/Settings/Views/Components/pinterest.php:76
+#: App/Pages/Settings/Views/Components/plurk.php:124
+#: App/Pages/Settings/Views/Components/reddit.php:89
+#: App/Pages/Settings/Views/Components/telegram.php:90
+#: App/Pages/Settings/Views/Components/tumblr.php:76
+#: App/Pages/Settings/Views/Components/twitter.php:90
+#: App/Pages/Settings/Views/Components/vk.php:109
+#: App/Pages/Settings/Views/Components/wordpress.php:120
+#: App/Pages/Settings/Views/Components/wordpress.php:201
+msgid "Post full content"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:402
+#: App/Pages/Schedules/Views/Modals/add.php:471
+#: App/Pages/Settings/Views/Components/facebook.php:106
+#: App/Pages/Settings/Views/Components/google_b.php:123
+#: App/Pages/Settings/Views/Components/instagram.php:105
+#: App/Pages/Settings/Views/Components/instagram.php:216
+#: App/Pages/Settings/Views/Components/linkedin.php:94
+#: App/Pages/Settings/Views/Components/medium.php:80
+#: App/Pages/Settings/Views/Components/ok.php:82
+#: App/Pages/Settings/Views/Components/plurk.php:128
+#: App/Pages/Settings/Views/Components/reddit.php:93
+#: App/Pages/Settings/Views/Components/telegram.php:94
+#: App/Pages/Settings/Views/Components/tumblr.php:80
+#: App/Pages/Settings/Views/Components/twitter.php:94
+#: App/Pages/Settings/Views/Components/vk.php:113
+#: App/Pages/Settings/Views/Components/wordpress.php:124
+#: App/Pages/Settings/Views/Components/wordpress.php:205
+msgid "Post short link"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:406
+#: App/Pages/Schedules/Views/Modals/add.php:475
+#: App/Pages/Settings/Views/Components/facebook.php:110
+#: App/Pages/Settings/Views/Components/google_b.php:127
+#: App/Pages/Settings/Views/Components/instagram.php:109
+#: App/Pages/Settings/Views/Components/instagram.php:220
+#: App/Pages/Settings/Views/Components/linkedin.php:98
+#: App/Pages/Settings/Views/Components/medium.php:84
+#: App/Pages/Settings/Views/Components/ok.php:86
+#: App/Pages/Settings/Views/Components/pinterest.php:80
+#: App/Pages/Settings/Views/Components/plurk.php:132
+#: App/Pages/Settings/Views/Components/reddit.php:97
+#: App/Pages/Settings/Views/Components/telegram.php:98
+#: App/Pages/Settings/Views/Components/tumblr.php:84
+#: App/Pages/Settings/Views/Components/twitter.php:98
+#: App/Pages/Settings/Views/Components/vk.php:117
+#: App/Pages/Settings/Views/Components/wordpress.php:71
+#: App/Pages/Settings/Views/Components/wordpress.php:128
+#: App/Pages/Settings/Views/Components/wordpress.php:209
+msgid "Post excerpt"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:410
+#: App/Pages/Schedules/Views/Modals/add.php:479
+#: App/Pages/Settings/Views/Components/facebook.php:114
+#: App/Pages/Settings/Views/Components/google_b.php:131
+#: App/Pages/Settings/Views/Components/instagram.php:113
+#: App/Pages/Settings/Views/Components/instagram.php:224
+#: App/Pages/Settings/Views/Components/linkedin.php:102
+#: App/Pages/Settings/Views/Components/medium.php:88
+#: App/Pages/Settings/Views/Components/ok.php:90
+#: App/Pages/Settings/Views/Components/pinterest.php:84
+#: App/Pages/Settings/Views/Components/plurk.php:136
+#: App/Pages/Settings/Views/Components/reddit.php:101
+#: App/Pages/Settings/Views/Components/telegram.php:102
+#: App/Pages/Settings/Views/Components/tumblr.php:88
+#: App/Pages/Settings/Views/Components/twitter.php:102
+#: App/Pages/Settings/Views/Components/vk.php:121
+#: App/Pages/Settings/Views/Components/wordpress.php:132
+#: App/Pages/Settings/Views/Components/wordpress.php:213
+msgid "Post Categories"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:414
+#: App/Pages/Schedules/Views/Modals/add.php:483
+#: App/Pages/Settings/Views/Components/facebook.php:118
+#: App/Pages/Settings/Views/Components/google_b.php:135
+#: App/Pages/Settings/Views/Components/instagram.php:117
+#: App/Pages/Settings/Views/Components/instagram.php:228
+#: App/Pages/Settings/Views/Components/linkedin.php:106
+#: App/Pages/Settings/Views/Components/medium.php:92
+#: App/Pages/Settings/Views/Components/ok.php:94
+#: App/Pages/Settings/Views/Components/pinterest.php:88
+#: App/Pages/Settings/Views/Components/plurk.php:140
+#: App/Pages/Settings/Views/Components/reddit.php:105
+#: App/Pages/Settings/Views/Components/telegram.php:106
+#: App/Pages/Settings/Views/Components/tumblr.php:92
+#: App/Pages/Settings/Views/Components/twitter.php:106
+#: App/Pages/Settings/Views/Components/url.php:110
+#: App/Pages/Settings/Views/Components/url.php:182
+#: App/Pages/Settings/Views/Components/vk.php:125
+#: App/Pages/Settings/Views/Components/wordpress.php:136
+#: App/Pages/Settings/Views/Components/wordpress.php:217
+msgid "Unique ID"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:418
+#: App/Pages/Schedules/Views/Modals/add.php:487
+#: App/Pages/Settings/Views/Components/facebook.php:122
+#: App/Pages/Settings/Views/Components/google_b.php:139
+#: App/Pages/Settings/Views/Components/instagram.php:121
+#: App/Pages/Settings/Views/Components/instagram.php:232
+#: App/Pages/Settings/Views/Components/linkedin.php:110
+#: App/Pages/Settings/Views/Components/medium.php:96
+#: App/Pages/Settings/Views/Components/ok.php:98
+#: App/Pages/Settings/Views/Components/pinterest.php:92
+#: App/Pages/Settings/Views/Components/plurk.php:144
+#: App/Pages/Settings/Views/Components/reddit.php:109
+#: App/Pages/Settings/Views/Components/telegram.php:110
+#: App/Pages/Settings/Views/Components/tumblr.php:96
+#: App/Pages/Settings/Views/Components/twitter.php:110
+#: App/Pages/Settings/Views/Components/url.php:186
+#: App/Pages/Settings/Views/Components/vk.php:129
+#: App/Pages/Settings/Views/Components/wordpress.php:140
+#: App/Pages/Settings/Views/Components/wordpress.php:221
+msgid "Custom fields. Replace KEY with the custom field name."
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:424
+#: App/Pages/Schedules/Views/Modals/add.php:493
+#: App/Pages/Settings/Views/Components/facebook.php:128
+#: App/Pages/Settings/Views/Components/google_b.php:145
+#: App/Pages/Settings/Views/Components/instagram.php:127
+#: App/Pages/Settings/Views/Components/instagram.php:238
+#: App/Pages/Settings/Views/Components/linkedin.php:116
+#: App/Pages/Settings/Views/Components/medium.php:102
+#: App/Pages/Settings/Views/Components/ok.php:104
+#: App/Pages/Settings/Views/Components/pinterest.php:98
+#: App/Pages/Settings/Views/Components/plurk.php:150
+#: App/Pages/Settings/Views/Components/reddit.php:115
+#: App/Pages/Settings/Views/Components/telegram.php:116
+#: App/Pages/Settings/Views/Components/tumblr.php:102
+#: App/Pages/Settings/Views/Components/twitter.php:116
+#: App/Pages/Settings/Views/Components/url.php:112
+#: App/Pages/Settings/Views/Components/vk.php:135
+#: App/Pages/Settings/Views/Components/wordpress.php:146
+msgid "Click to clear the textbox"
+msgstr ""
+
+#: App/Pages/Schedules/Views/Modals/add.php:509
+msgid "Posts matching your filters:"
+msgstr ""
+
+#: App/Pages/Schedules/Views/calendar.php:13
+msgid "Calendar"
+msgstr ""
+
+#: App/Pages/Schedules/Views/calendar.php:18
+msgid "BACK TO SCHEDULES"
+msgstr ""
+
+#: App/Pages/Schedules/Views/calendar.php:45
+msgid "SCHEDULED POSTS"
+msgstr ""
+
+#: App/Pages/Schedules/Views/list.php:26
+msgid "CALENDAR"
+msgstr ""
+
+#: App/Pages/Schedules/Views/list.php:32
+msgid "If you want the Schedule module to work on time, please configure Cron Job on your website. Click the button to learn more."
+msgstr ""
+
+#: App/Pages/Schedules/Views/list.php:34
+msgid "HAVE ISSUES?"
+msgstr ""
+
+#: App/Pages/Schedules/Views/list.php:89
+msgid "Post ID:"
+msgstr ""
+
+#: App/Pages/Schedules/Views/list.php:90
+msgid "Scheduled on DIRECT SHARE"
+msgstr ""
+
+#: App/Pages/Schedules/Views/list.php:94
+msgid "Post type:"
+msgstr ""
+
+#: App/Pages/Schedules/Views/list.php:96
+msgid "Interval:"
+msgstr ""
+
+#: App/Pages/Schedules/Views/list.php:109
+msgid "Start date"
+msgstr ""
+
+#: App/Pages/Schedules/Views/list.php:117
+msgid "Next post"
+msgstr ""
+
+#: App/Pages/Schedules/Views/list.php:130
+msgid "Pause shares"
+msgstr ""
+
+#: App/Pages/Schedules/Views/list.php:134
+msgid "Resume shares"
+msgstr ""
+
+#: App/Pages/Schedules/Views/list.php:147
+msgid "Re-schedule"
+msgstr ""
+
+#: App/Pages/Schedules/Views/list.php:163
+msgid "There haven't been created any schedules yet."
+msgstr ""
+
+#: App/Pages/Settings/Assets/js/fsp-settings-export_import.js:5
+msgid "EXPORT SETTINGS"
+msgstr ""
+
+#: App/Pages/Settings/Assets/js/fsp-settings-export_import.js:15
+#: App/Pages/Settings/Assets/js/fsp-settings-export_import.js:40
+#: App/Pages/Settings/Assets/js/fsp-settings-export_import.js:47
+msgid "IMPORT SETTINGS"
+msgstr ""
+
+#: App/Pages/Settings/Assets/js/fsp-settings-export_import.js:22
+msgid "UPLOADING..."
+msgstr ""
+
+#: App/Pages/Settings/Assets/js/fsp-settings-export_import.js:30
+msgid "File can't be empty"
+msgstr ""
+
+#: App/Pages/Settings/Assets/js/fsp-settings-export_import.js:35
+msgid "The current data will be removed from the plugin and the data in the import file will be restored. Are you sure you want to continue?"
+msgstr ""
+
+#: App/Pages/Settings/Assets/js/fsp-settings-export_import.js:46
+msgid "YES, IMPORT"
+msgstr ""
+
+#: App/Pages/Settings/Assets/js/fsp-settings-general.js:43
+msgid "Are you sure you want to save changes?"
+msgstr ""
+
+#: App/Pages/Settings/Assets/js/fsp-settings-general.js:58
+msgid "YES, SAVE CHANGES"
+msgstr ""
+
+#: App/Pages/Settings/Controllers/Ajax.php:31
+msgid "The feature is disabled on the demo to prevent disabling the license from here. It will be available on your website."
+msgstr ""
+
+#: App/Pages/Settings/Controllers/Ajax.php:37
+msgid "manually disabled by user."
+msgstr ""
+
+#: App/Pages/Settings/Controllers/Ajax.php:236
+msgid "Plase type the hashtag"
+msgstr ""
+
+#: App/Pages/Settings/Controllers/Ajax.php:494
+msgid "The feature is disabled on the demo to prevent exporting accounts from here. It will be available on your website."
+msgstr ""
+
+#: App/Pages/Settings/Controllers/Ajax.php:570
+msgid "Export is successful. The download process is starting..."
+msgstr ""
+
+#: App/Pages/Settings/Controllers/Ajax.php:580
+msgid "No valid import file is selected!"
+msgstr ""
+
+#: App/Pages/Settings/Controllers/Ajax.php:646
+msgid "Error occurred while importing!"
+msgstr ""
+
+#: App/Pages/Settings/Controllers/Ajax.php:649
+msgid "Successfully restored!"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/export_import.php:14
+msgid "Export multisite"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/export_import.php:15
+msgid "Enable to export the plugin settings for all websites on this network. Disable to export only the current website settings."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/export_import.php:26
+msgid "Export accounts & communities"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/export_import.php:27
+msgid "Enable to export all your accounts and communities like pages, groups, companies, etc."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/export_import.php:38
+msgid "Export failed accounts"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/export_import.php:39
+msgid "Enable to export the failed accounts. Disabling the option and adding the failed accounts to the plugin again is recommended."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/export_import.php:50
+msgid "Export status of accounts"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/export_import.php:51
+msgid "Enable to export status of accounts, pages, groups, companies, etc. The status includes if it is activated or activated with conditions."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/export_import.php:62
+msgid "Export apps"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/export_import.php:63
+msgid "Enable to export all your personal Apps."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/export_import.php:74
+msgid "Export logs"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/export_import.php:75
+msgid "If you are re-installing the plugin on the same website for any reason, we recommend exporting logs as well because your future schedules might share your posts that are already shared by schedules."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/export_import.php:86
+msgid "Export schedules"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/export_import.php:87
+msgid "If you are re-installing the plugin on the same website for any reason, you can export all your current schedules. If you are importing schedules of a different website to a new website, the schedules won't work."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/export_import.php:98
+msgid "Export settings"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/export_import.php:99
+msgid "Enable to export all your current settings and custom messages."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/facebook.php:15
+#: App/Pages/Settings/Views/Components/google_b.php:15
+#: App/Pages/Settings/Views/Components/linkedin.php:15
+#: App/Pages/Settings/Views/Components/ok.php:15
+#: App/Pages/Settings/Views/Components/plurk.php:15
+#: App/Pages/Settings/Views/Components/reddit.php:15
+#: App/Pages/Settings/Views/Components/twitter.php:15
+msgid "Posting type"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/facebook.php:16
+msgid "Link card view – shares the post link and the custom message. Facebook fetches the post as a link card view. <a href='https://www.fs-poster.com/documentation/commonly-encountered-issues#issue9' target='_blank'>Debug your website</a>;<br>Only custom message – shares the custom message without any image or link;<br>Only the featured image - Shares the featured image and the custom message;<br>All post images - Shares all post images as an album and the custom message."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/facebook.php:20
+#: App/Pages/Settings/Views/Components/google_b.php:20
+#: App/Pages/Settings/Views/Components/linkedin.php:20
+#: App/Pages/Settings/Views/Components/ok.php:20
+#: App/Pages/Settings/Views/Components/reddit.php:20
+#: App/Pages/Settings/Views/Components/twitter.php:20
+msgid "Link card view"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/facebook.php:21
+#: App/Pages/Settings/Views/Components/google_b.php:21
+#: App/Pages/Settings/Views/Components/linkedin.php:21
+#: App/Pages/Settings/Views/Components/ok.php:21
+#: App/Pages/Settings/Views/Components/plurk.php:20
+#: App/Pages/Settings/Views/Components/twitter.php:21
+msgid "Only custom message"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/facebook.php:22
+#: App/Pages/Settings/Views/Components/google_b.php:22
+#: App/Pages/Settings/Views/Components/linkedin.php:22
+#: App/Pages/Settings/Views/Components/ok.php:22
+#: App/Pages/Settings/Views/Components/twitter.php:22
+msgid "Only the featured image"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/facebook.php:23
+#: App/Pages/Settings/Views/Components/google_b.php:23
+#: App/Pages/Settings/Views/Components/linkedin.php:23
+#: App/Pages/Settings/Views/Components/ok.php:23
+#: App/Pages/Settings/Views/Components/twitter.php:23
+msgid "All post images"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/facebook.php:29
+msgid "Load my pages"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/facebook.php:30
+msgid "Enable to add all your pages to the plugin, pages that you are an admin."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/facebook.php:41
+msgid "Load groups"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/facebook.php:42
+msgid "Enable to add all your groups to the plugin."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/facebook.php:53
+#: App/Pages/Settings/Views/Components/google_b.php:74
+#: App/Pages/Settings/Views/Components/linkedin.php:41
+#: App/Pages/Settings/Views/Components/ok.php:29
+#: App/Pages/Settings/Views/Components/pinterest.php:27
+#: App/Pages/Settings/Views/Components/plurk.php:75
+#: App/Pages/Settings/Views/Components/reddit.php:40
+#: App/Pages/Settings/Views/Components/telegram.php:41
+#: App/Pages/Settings/Views/Components/tumblr.php:27
+#: App/Pages/Settings/Views/Components/twitter.php:41
+#: App/Pages/Settings/Views/Components/vk.php:60
+msgid "Custom message"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/facebook.php:56
+#: App/Pages/Settings/Views/Components/google_b.php:77
+#: App/Pages/Settings/Views/Components/linkedin.php:44
+#: App/Pages/Settings/Views/Components/medium.php:30
+#: App/Pages/Settings/Views/Components/ok.php:32
+#: App/Pages/Settings/Views/Components/plurk.php:78
+#: App/Pages/Settings/Views/Components/reddit.php:43
+#: App/Pages/Settings/Views/Components/tumblr.php:30
+#: App/Pages/Settings/Views/Components/twitter.php:44
+#: App/Pages/Settings/Views/Components/vk.php:63
+#: App/Pages/Settings/Views/Components/wordpress.php:159
+msgid "You can customize the text of the shared post as you like by using the current keywords."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/facebook.php:60
+#: App/Pages/Settings/Views/Components/google_b.php:81
+#: App/Pages/Settings/Views/Components/instagram.php:59
+#: App/Pages/Settings/Views/Components/instagram.php:174
+#: App/Pages/Settings/Views/Components/linkedin.php:48
+#: App/Pages/Settings/Views/Components/medium.php:34
+#: App/Pages/Settings/Views/Components/ok.php:36
+#: App/Pages/Settings/Views/Components/pinterest.php:34
+#: App/Pages/Settings/Views/Components/plurk.php:82
+#: App/Pages/Settings/Views/Components/reddit.php:47
+#: App/Pages/Settings/Views/Components/telegram.php:48
+#: App/Pages/Settings/Views/Components/tumblr.php:34
+#: App/Pages/Settings/Views/Components/twitter.php:48
+#: App/Pages/Settings/Views/Components/vk.php:67
+#: App/Pages/Settings/Views/Components/wordpress.php:78
+#: App/Pages/Settings/Views/Components/wordpress.php:163
+msgid "Text"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/facebook.php:98
+#: App/Pages/Settings/Views/Components/instagram.php:97
+#: App/Pages/Settings/Views/Components/linkedin.php:86
+#: App/Pages/Settings/Views/Components/medium.php:72
+#: App/Pages/Settings/Views/Components/ok.php:74
+#: App/Pages/Settings/Views/Components/pinterest.php:72
+#: App/Pages/Settings/Views/Components/plurk.php:120
+#: App/Pages/Settings/Views/Components/reddit.php:85
+#: App/Pages/Settings/Views/Components/telegram.php:86
+#: App/Pages/Settings/Views/Components/tumblr.php:72
+#: App/Pages/Settings/Views/Components/twitter.php:86
+#: App/Pages/Settings/Views/Components/vk.php:105
+#: App/Pages/Settings/Views/Components/wordpress.php:116
+msgid "WooCommerce - the current price of product"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/facebook.php:135
+#: App/Pages/Settings/Views/Components/google_b.php:152
+#: App/Pages/Settings/Views/Components/instagram.php:134
+#: App/Pages/Settings/Views/Components/linkedin.php:123
+#: App/Pages/Settings/Views/Components/medium.php:109
+#: App/Pages/Settings/Views/Components/ok.php:111
+#: App/Pages/Settings/Views/Components/pinterest.php:105
+#: App/Pages/Settings/Views/Components/plurk.php:157
+#: App/Pages/Settings/Views/Components/reddit.php:122
+#: App/Pages/Settings/Views/Components/telegram.php:123
+#: App/Pages/Settings/Views/Components/tumblr.php:109
+#: App/Pages/Settings/Views/Components/twitter.php:123
+#: App/Pages/Settings/Views/Components/vk.php:142
+msgid "Preview"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/general.php:14
+msgid "Allowed post types"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/general.php:15
+msgid "Add post types that you want to share."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/general.php:31
+msgid "Hide FS Poster for"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/general.php:32
+msgid "Select the user roles to hide the FS Poster plugin for some users."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/general.php:54
+msgid "Show FS Poster column on the posts table"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/general.php:55
+#, php-format
+msgid "If you don't want to show FS Poster <i class=\"far fa-question-circle fsp-tooltip\"  data-title=\"Click to learn more\" data-open-img=\"%s\"></i> column on posts table, you can disable this option."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/general.php:66
+msgid "Hide notifications"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/general.php:67
+msgid "Enable the option to hide notifications for failed posts and disconnected accounts."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/general.php:78
+msgid "Check accounts"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/general.php:79
+msgid "Enable the option to check the status of all active accounts daily."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/general.php:90
+msgid "Disable failed accounts"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/general.php:91
+msgid "Enable the option to deactivate failed accounts. If you have enabled the option to check the status of your accounts and if the connection to the account is unable, the plugin will not share posts on those failed accounts."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/general.php:102
+msgid "Auto-clean"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/general.php:103
+msgid "Clean deleted user's accounts weekly."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/general.php:114
+msgid "License status"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/general.php:115
+msgid "If you want to transfer the plugin to another website, you have to disable the license on this website. Disabling the license keeps all data, except the license. We recommend <a href=\"?page=fs-poster-settings&setting=export_import\" target=\"_blank\">backing up</a> the plugin before disabling the license."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/general.php:126
+msgid "Collect FS Poster statistics"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/general.php:127
+msgid "The plugin appends a \"feed_id\" parameter to a post link to get statistics. Disabling the option prevents you from getting statistics in the Dashboard tab. And because the plugin does not collect statistics, you might also have duplicate posts on Social Networks even if you select the \"Randomly (without duplicates)\" option when you use the schedule module."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/general.php:138
+msgid "Ignore the default Cron Job"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/general.php:139
+msgid "If you have configured a real Cron Job on your hosting/server, you need to ignore the default Cron Job for more accurate results."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/general.php:150
+msgid "<a href=\"https://www.fs-poster.com/documentation/how-to-set-up-a-cron-job-on-wordpress-fs-poster-wp-plugin\" target=\"_blank\">The cron job</a> has to be configured on your website; otherwise, the auto-post and schedule features might not work punctually, and you might encounter delays."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/general.php:158
+msgid "Not runned! Your schedule posts and background share may be not work! Please follow this <a href=\"https://www.fs-poster.com/documentation/how-to-set-up-a-cron-job-on-wordpress-fs-poster-wp-plugin\" target=\"_blank\">documentation</a> and configure your WordPress Cron Jobs."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/general.php:167
+msgid " - it looks like your Cron job runs with delay. Therefore your Scheduled posts and background shares may post with delay."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/general.php:170
+#, php-format
+msgid "( %s minute%s ago%s )"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/general.php:181
+msgid "The Cron Job command for your website is:"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/google_b.php:15
+msgid "(only the app method)"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/google_b.php:16
+msgid "Link card view – shares the post link and the custom message;<br>Only custom message – shares the custom message without any image or link;<br>Only the featured image - Shares the featured image and the custom message;<br>All post images - Shares all post images as an album and the custom message."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/google_b.php:29
+msgid "Add a button"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/google_b.php:30
+msgid "Select a post link button."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/google_b.php:34
+msgid "BOOK"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/google_b.php:35
+msgid "ORDER ONLINE"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/google_b.php:36
+msgid "BUY"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/google_b.php:37
+msgid "LEARN MORE"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/google_b.php:38
+msgid "SIGN UP"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/google_b.php:39
+msgid "WATCH VIDEO"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/google_b.php:40
+msgid "RESERVE"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/google_b.php:41
+msgid "GET OFFER"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/google_b.php:42
+msgid "CALL NOW"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/google_b.php:49
+msgid "Share WooCommerce products as a product"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/google_b.php:49
+msgid "(only the cookie method)"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/google_b.php:50
+msgid "Disable to share WooCommerce products as a post."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/google_b.php:62
+#: App/Pages/Settings/Views/Components/plurk.php:63
+#: App/Pages/Settings/Views/Components/twitter.php:29
+msgid "Limit the custom message characters count"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/google_b.php:63
+msgid "Google My Business limits a custom message length to a maximum of 1500 characters. By enabling the option, the first 1500 characters of your custom message will be shared; otherwise, the post won't be shared because of the limit."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/instagram.php:15
+msgid "Share Instagram posts on"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/instagram.php:16
+msgid "Select where to share posts on Instagram."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/instagram.php:28
+msgid "Share the post link on Instagram story"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/instagram.php:29
+msgid "When you share a post on Instagram story, the post link will be shared automatically. For this, your account has to be a business account with more than 10k followers, and you have to add the account using the login & Pass method."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/instagram.php:40
+#: App/Pages/Settings/Views/Components/linkedin.php:29
+#: App/Pages/Settings/Views/Components/telegram.php:29
+msgid "Cut the exceeded part of the custom message"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/instagram.php:41
+msgid "Instagram limits the post content length to a maximum of 2200 characters. By enabling the option, the first 2200 characters of your custom message will be shared; otherwise, the post won't be shared because of the limit."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/instagram.php:52
+msgid "Custom post message"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/instagram.php:55
+msgid "You can customize the text of the shared post as you like by using the current keywords. Please read the <a href=\"https://www.fs-poster.com/documentation/instagram-empty-caption\" target=\"_blank\">Instagram content rules</a> before setting your custom message. Instagram removes captions from the images when you exceed Instagram limits."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/instagram.php:159
+msgid "Customize story"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/instagram.php:162
+msgid "You can customize the text of the story as you like by using the current keywords. You can also customize the appearance of the story using available options."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/instagram.php:168
+#: App/Pages/Settings/Views/Components/instagram.php:247
+msgid "Customize message"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/instagram.php:171
+#: App/Pages/Settings/Views/Components/instagram.php:250
+msgid "Customize appearance"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/instagram.php:255
+msgid "Story background color:"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/instagram.php:262
+msgid "Title background:"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/instagram.php:269
+msgid "Title background opacity:"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/instagram.php:276
+msgid "Title color:"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/instagram.php:283
+msgid "Title top offset:"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/instagram.php:290
+msgid "Title left offset:"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/instagram.php:297
+msgid "Title width:"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/instagram.php:304
+msgid "Title font size:"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/instagram.php:314
+msgid "RTL direction"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/linkedin.php:16
+msgid "Link card view – shares the post link and the custom message. Linkedin fetches the post as a link card view. <a href='https://www.fs-poster.com/documentation/commonly-encountered-issues#issue9' target='_blank'>Debug your website</a>;<br>Only custom message – shares the custom message without any image or link;<br>Only the featured image - Shares the featured image and the custom message;<br>All post images - Shares all post images as an album and the custom message."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/linkedin.php:30
+msgid "LinkedIn limits the post content length to a maximum of 1300 characters. By enabling the option, the first 1300 characters of your custom message will be shared; otherwise, the post won't be shared because of the limit."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/medium.php:15
+msgid "Share WordPress tags as Medium tags"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/medium.php:16
+msgid "Enable the option to add the WordPress tags to the Medium tag section."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/medium.php:27
+msgid "Custom message (HTML tags are supported)"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/ok.php:16
+msgid "Link card view – shares the post link and the custom message. Odnoklassniki fetches the post as a link card view;<br>Only custom message – shares the custom message without any image or link;<br>Only the featured image - Shares the featured image and the custom message;<br>All post images - Shares all post images as an album and the custom message."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/pinterest.php:15
+#: App/Pages/Settings/Views/Components/reddit.php:28
+msgid "Cut the exceeded part of the post title"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/pinterest.php:16
+msgid "Pinterest limits the Pin title length to a maximum of 100 characters.  By enabling the option, the first 100 characters of your post title will be shared; otherwise, the pin won't be shared because of the limit."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/pinterest.php:30
+msgid "You can customize the text of the shared post as you like by using the current keywords. The custom message will be shared as Pin description and the limit is 500 characters. Pinterest cuts the custom message if it exceeds the limit. Note that shortened links are not supported by Pinterest."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:16
+msgid "Only custom message – shares only the custom message;<br>Custom message and link – shares the custom message and the link;<br>Custom message and featured image - Shares the custom message and the featured image link. Plurk fetches the featured image from the link;<br>Custom message and all images - Shares the custom message and all post image links. Plurk fetches the post images from the links."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:21
+msgid "Custom message and link"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:22
+msgid "Custom message and featured image"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:23
+msgid "Custom message and all images"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:29
+msgid "Plurk qualifiers"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:30
+msgid "The Qualifier comes before the post content."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:34
+msgid "none"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:35
+msgid "shares"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:36
+msgid "plays"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:37
+msgid "buys"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:38
+msgid "sells"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:39
+msgid "loves"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:40
+msgid "likes"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:41
+msgid "hates"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:42
+msgid "wants"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:43
+msgid "wishes"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:44
+msgid "needs"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:45
+msgid "has"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:46
+msgid "will"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:47
+msgid "hopes"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:48
+msgid "asks"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:49
+msgid "wonders"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:50
+msgid "feels"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:51
+msgid "thinks"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:52
+msgid "draws"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:53
+msgid "is"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:54
+msgid "says"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:55
+msgid "eats"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:56
+msgid "writes"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:57
+msgid "whispers"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:64
+msgid "Plurk limits a post length to a maximum of 360 characters. By enabling the option, the first 360 characters of your custom message will be shared; otherwise, the post won't be shared because of the limit. Note that the image links are also counted."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/reddit.php:16
+msgid "Link card view – share the post link with preview and up to 300 characters custom message as title;<br>Title + text - share the post title and the custom message as the text of the Reddit post;<br>Custom message + featured image - share up to 300 characters custom message and the image."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/reddit.php:21
+msgid "Title + text"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/reddit.php:22
+msgid "Custom message + image"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/reddit.php:29
+msgid "Reddit limits the post title length to a maximum of 300 characters.  By enabling the option, the first 300 characters of your post title will be shared; otherwise, the post won't be shared because of the limit."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:12
+msgid "Share posts automatically"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:13
+msgid "When you publish a new post, the plugin shares the post on all active social accounts automatically."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:24
+#: App/Pages/Share/Views/Modals/share_saved_post.php:30
+msgid "Share in the background"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:25
+msgid "Share posts in the background to continue your work on the website."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:36
+msgid "When to share the post after it is published"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:37
+msgid "Define some time with minutes to share the post after it is published. The default is 0 to share the post immediately."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:45
+msgid "Keep the shared post log"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:46
+msgid "If you don't want to keep the shared post logs, you need to disable the option. Disabling the option prevents you view your insights."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:57
+msgid "Post interval"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:58
+msgid "Define an interval between shares for each social account. Please note that this interval is between accounts for a post. The interval is not for between posts."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:62
+msgid "Immediately"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:63
+msgid "5 seconds"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:64
+msgid "10 seconds"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:65
+msgid "20 seconds"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:66
+msgid "30 seconds"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:67
+msgid "45 seconds"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:68
+msgid "1 minute"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:69
+msgid "2 minutes"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:70
+msgid "3 minutes"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:71
+msgid "4 minutes"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:72
+msgid "5 minutes"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:73
+msgid "10 minutes"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:74
+msgid "15 minutes"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:75
+msgid "20 minutes"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:76
+msgid "25 minutes"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:77
+msgid "30 minutes"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:78
+msgid "40 minutes"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:79
+msgid "50 minutes"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:80
+msgid "1 hour"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:81
+msgid "2 hours"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:82
+msgid "3 hours"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:83
+msgid "5 hours"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:89
+msgid "Use the post interval option for only the same social networks"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:90
+msgid "It prevents sharing a post on the same social network accounts at once to avoid spamming. "
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:101
+msgid "Replace the multiple blank lines with a single blank line"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:102
+msgid "Enable the option to replace multiple blank lines inside posts with a single blank line while sharing on social networks."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:113
+msgid "Replace \"-\", \"&\" characters and spaces in the tags with underscores"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:114
+msgid "Enable the option to replace \"-\", \"&\" characters and spaces with underscores in keyword of {tags} and {categories} ( e.g., \"Sport & Tech News\" will be transformed to \"#sport_tech_news\" ). Otherwise they will be removed. ( e.g., \"Sport & Tech News\" will be transformed to \"#sporttechnews\" )"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:125
+msgid "WordPress shortcodes"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:126
+msgid "Configure how you want to share WordPress shortcodes."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:130
+msgid "Keep shortcodes as it is"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:131
+msgid "Replace shortcodes to their values"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:132
+msgid "Remove shortcodes from the post"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/telegram.php:15
+msgid "Select what to share on Telegram"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/telegram.php:16
+msgid "Define what you need to share on Telegram as a message."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/telegram.php:30
+msgid "Telegram limits the message length to a maximum of 4096 characters (1024 characters when a media is attached to the message). By enabling the option, the first 4096 (1024) characters of your custom message will be shared; otherwise, the post won't be shared because of the limit."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/telegram.php:44
+msgid "You can customize the text of the shared post as you like by using the current keywords.<br>&lt;b&gt;<b>bold</b>&lt;/b&gt;, &lt;u&gt;<u>underlined</u>&lt;/u&gt;, &lt;i&gt;<i>italic</i>&lt;/i&gt;, &lt;a href=&quot;link&quot;&gt;link text&lt;/a&gt; tags are supported."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/tumblr.php:15
+msgid "Share WordPress tags as Tumblr tags"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/tumblr.php:16
+msgid "Enable the option to add the WordPress tags to the Tumblr tag section."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/twitter.php:16
+msgid "Link card view – shares the post link and the custom message. Twitter fetches the post as a link card view. <a href='https://www.fs-poster.com/documentation/commonly-encountered-issues#issue9' target='_blank'>Debug your website</a>;<br>Only custom message – shares the custom message without any image or link;<br>Only the featured image - Shares the featured image and the custom message;<br>All post images - Shares all post images as an album and the custom message."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/twitter.php:30
+msgid "Twitter limits a Tweet length to a maximum of 280 characters.  By enabling the option, the first 280 characters of your custom message will be shared; otherwise, the tweet won't be shared because of the limit."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/url.php:12
+msgid "Unique post link"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/url.php:13
+msgid "Sharing the same post on numerous communities might be accepted as a duplicated post by social networks; consequently, the post might be blocked. By enabling the option, the ending of each link gets random URL characters to become unique."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/url.php:24
+msgid "URL shortener"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/url.php:25
+msgid "Enable to shorten your post URLs automatically."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/url.php:37
+msgid "URL shortener service"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/url.php:38
+msgid "Select a URL shortener service to shorten your post URLs."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/url.php:49
+msgid "Bitly access token"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/url.php:50
+msgid "<a href=\"https://bitly.com/a/sign_up\" target=\"_blank\">Register</a> on the Bitly service and <a href=\"https://bitly.is/accesstoken\" target=\"_blank\">get a new access token.</a>"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/url.php:59
+msgid "Share a custom URL instead of the WordPress post URL"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/url.php:60
+msgid "Enable to define and type your custom post URL using specific keywords."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/url.php:71
+msgid "Additional URL parameters"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/url.php:74
+msgid "You can customize the URL as you like by using the current keywords."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/url.php:82
+msgid "Use Google Analytics template"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/url.php:90
+#: App/Pages/Settings/Views/Components/url.php:142
+msgid "Social network name"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/url.php:94
+#: App/Pages/Settings/Views/Components/url.php:146
+msgid "Social network code"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/url.php:98
+#: App/Pages/Settings/Views/Components/url.php:150
+msgid "Account name"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/url.php:106
+#: App/Pages/Settings/Views/Components/url.php:162
+msgid "Site name"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/url.php:122
+msgid "Custom URL"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/url.php:125
+msgid "You can customize the URL as you like by using the current keywords. If you want to share the post URL as it is, don't enable the option."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/url.php:138
+msgid "Feed ID"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/url.php:158
+msgid "Post name"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/url.php:166
+msgid "Site URL"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/url.php:170
+msgid "Site URL encoded"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/url.php:174
+msgid "Post URL"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/url.php:178
+msgid "Post URL encoded"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/vk.php:15
+msgid "Load own communities"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/vk.php:16
+msgid "Enable to add all your communities (page, group, event) to the plugin, communities that you are an admin."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/vk.php:27
+msgid "Load communities"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/vk.php:28
+msgid "Enable to add all the communities to the plugin, communities that you are a member."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/vk.php:39
+msgid "Maximum communities to add to the plugin"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/vk.php:40
+msgid "Define how many communities you want to add to the plugin. You can add a maximum of 1000 communities."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/vk.php:48
+msgid "Upload the featured image to VKontakte"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/vk.php:49
+msgid "Enable to upload the featured image to VK, not attached image from the link; otherwise, your posts on VK will be shared as link card view."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/wordpress.php:12
+msgid "Post status"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/wordpress.php:13
+msgid "Define the post status on the remote website."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/wordpress.php:17
+msgid "Publish"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/wordpress.php:18
+msgid "Private"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/wordpress.php:19
+msgid "Draft"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/wordpress.php:20
+msgid "Pending"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/wordpress.php:26
+msgid "The post type availability"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/wordpress.php:27
+msgid "The post type will be shared as it is on the remote website. In the case, the post type is not available on the remote website, if the option is enabled, the post type will be \"Post\". If the option is disabled, the post will fail."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/wordpress.php:38
+msgid "Post with categories"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/wordpress.php:39
+msgid "Enable to include the categories to the target blog post."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/wordpress.php:50
+msgid "Post with tags"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/wordpress.php:51
+msgid "Enable to include the tags to the target blog post."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/wordpress.php:63
+msgid "You can customize the title of the post as you like by using the keywords."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/wordpress.php:74
+msgid "You can customize the excerpt of the shared post as you like by using the current keywords."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/wordpress.php:156
+msgid "Post content"
+msgstr ""
+
+#: App/Pages/Settings/Views/index.php:28
+msgid "General settings"
+msgstr ""
+
+#: App/Pages/Settings/Views/index.php:35
+msgid "Publish settings"
+msgstr ""
+
+#: App/Pages/Settings/Views/index.php:42
+msgid "URL settings"
+msgstr ""
+
+#: App/Pages/Settings/Views/index.php:49
+msgid "Export & Import settings"
+msgstr ""
+
+#: App/Pages/Settings/Views/index.php:56
+msgid "Facebook settings"
+msgstr ""
+
+#: App/Pages/Settings/Views/index.php:63
+msgid "Instagram settings"
+msgstr ""
+
+#: App/Pages/Settings/Views/index.php:70
+msgid "Twitter settings"
+msgstr ""
+
+#: App/Pages/Settings/Views/index.php:77
+msgid "LinkedIn settings"
+msgstr ""
+
+#: App/Pages/Settings/Views/index.php:84
+msgid "VKontakte settings"
+msgstr ""
+
+#: App/Pages/Settings/Views/index.php:91
+msgid "Pinterest settings"
+msgstr ""
+
+#: App/Pages/Settings/Views/index.php:98
+msgid "Tumblr settings"
+msgstr ""
+
+#: App/Pages/Settings/Views/index.php:105
+msgid "Reddit settings"
+msgstr ""
+
+#: App/Pages/Settings/Views/index.php:112
+msgid "Odnoklassniki settings"
+msgstr ""
+
+#: App/Pages/Settings/Views/index.php:119
+msgid "Plurk settings"
+msgstr ""
+
+#: App/Pages/Settings/Views/index.php:126
+msgid "Google My Business settings"
+msgstr ""
+
+#: App/Pages/Settings/Views/index.php:133
+msgid "Telegram settings"
+msgstr ""
+
+#: App/Pages/Settings/Views/index.php:140
+msgid "Medium settings"
+msgstr ""
+
+#: App/Pages/Settings/Views/index.php:147
+msgid "WordPress website settings"
+msgstr ""
+
+#: App/Pages/Share/Assets/js/fsp-share-popup.js:15
+#: App/Pages/Share/Assets/js/fsp-share.js:103
+msgid "No selected account!"
+msgstr ""
+
+#: App/Pages/Share/Assets/js/fsp-share.js:8
+msgid "Select or upload image"
+msgstr ""
+
+#: App/Pages/Share/Assets/js/fsp-share.js:9
+msgid "Use this media"
+msgstr ""
+
+#: App/Pages/Share/Assets/js/fsp-share.js:138
+msgid "Are you sure you want to clear saved posts?"
+msgstr ""
+
+#: App/Pages/Share/Assets/js/fsp-sharing-popup.js:40
+msgid "sharing..."
+msgstr ""
+
+#: App/Pages/Share/Assets/js/fsp-sharing-popup.js:46
+msgid "shared"
+msgstr ""
+
+#: App/Pages/Share/Assets/js/fsp-sharing-popup.js:62
+#: App/Pages/Share/Assets/js/fsp-sharing-popup.js:80
+msgid "Posting finished."
+msgstr ""
+
+#: App/Pages/Share/Controllers/Ajax.php:43
+msgid "There isn't any active account or community to share the post!"
+msgstr ""
+
+#: App/Pages/Share/Controllers/Ajax.php:146
+msgid "Post not found!"
+msgstr ""
+
+#: App/Pages/Share/Controllers/Ajax.php:193
+msgid "Posts will be shared on background!"
+msgstr ""
+
+#: App/Pages/Share/Views/Modals/share_feeds.php:22
+msgid "Posting feeds:"
+msgstr ""
+
+#: App/Pages/Share/Views/index.php:32
+msgid "Link"
+msgstr ""
+
+#: App/Pages/Share/Views/index.php:33
+msgid "Example: https://example.com"
+msgstr ""
+
+#: App/Pages/Share/Views/index.php:38
+msgid "Default custom message<br>for all social networks"
+msgstr ""
+
+#: App/Pages/Share/Views/index.php:65
+msgid "Custom message for OdnoKlassniki"
+msgstr ""
+
+#: App/Pages/Share/Views/index.php:89
+msgid " chars."
+msgstr ""
+
+#: App/Pages/Share/Views/index.php:91
+msgid "Enter the custom post message"
+msgstr ""
+
+#: App/Pages/Share/Views/index.php:100
+msgid "SHARE NOW"
+msgstr ""
+
+#: App/Pages/Share/Views/index.php:102
+msgid "SAVE THE POST"
+msgstr ""
+
+#: App/Pages/Share/Views/index.php:113
+msgid "Saved posts"
+msgstr ""
+
+#: App/Pages/Share/Views/index.php:119
+msgid "CLEAR ALL"
+msgstr ""
+
+#: App/Pages/Share/Views/index.php:147
+msgid "Delete the post"
+msgstr ""
+
+#: App/Providers/AccountService.php:124
+msgid "In order to solve the failed account issue, please remove and re-add the account."
+msgstr ""
+
+#: App/Providers/Ajax.php:58 App/Providers/Ajax.php:129
+msgid "Please type purchase key!"
+msgstr ""
+
+#: App/Providers/Ajax.php:63
+msgid "Please select how did You find us!"
+msgstr ""
+
+#: App/Providers/Ajax.php:68
+msgid "Your plugin is already installed!"
+msgstr ""
+
+#: App/Providers/Ajax.php:81 App/Providers/Ajax.php:170
+#: App/Providers/Ajax.php:205
+#, php-format
+msgid "Your server can not access our license server via CURL! Our license server is \"%s\". Please contact your hosting provider/server administrator and ask them to solve the problem. If you are sure that problem is not your server/hosting side then contact FS Poster administrators."
+msgstr ""
+
+#: App/Providers/Ajax.php:84 App/Providers/Ajax.php:211
+#, php-format
+msgid "Installation error! Response error! Response: %s"
+msgstr ""
+
+#: App/Providers/Ajax.php:102
+msgid "Error! Please contact the plugin administration! (info@fs-code.com)"
+msgstr ""
+
+#: App/Providers/Ajax.php:120
+msgid "Plugin installed!"
+msgstr ""
+
+#: App/Providers/Ajax.php:134
+msgid "Your plugin is already updated!"
+msgstr ""
+
+#: App/Providers/Ajax.php:141
+msgid "Plugin updated!"
+msgstr ""
+
+#: App/Providers/Ajax.php:155
+msgid "Please enter the purchase code!"
+msgstr ""
+
+#: App/Providers/Ajax.php:160
+msgid "Your plugin is already activated!"
+msgstr ""
+
+#: App/Providers/Ajax.php:177
+#, php-format
+msgid "Reactivation failed! Response: %s"
+msgstr ""
+
+#: App/Providers/Ajax.php:185
+msgid "Plugin reactivated!"
+msgstr ""
+
+#: App/Providers/BackEnd.php:150
+msgid "Schedule"
+msgstr ""
+
+#: App/Providers/BackEnd.php:154
+msgid "Only published posts can be shared or scheduled."
+msgstr ""
+
+#: App/Providers/BackEnd.php:194
+msgid "FS Poster: Schedule"
+msgstr ""
+
+#: App/Providers/BackEnd.php:273
+#, php-format
+msgid "There %s <b>%s</b> failed account(s)."
+msgstr ""
+
+#: App/Providers/BackEnd.php:276
+msgid "REVIEW ACCOUNTS"
+msgstr ""
+
+#: App/Providers/BackEnd.php:276 App/Providers/BackEnd.php:290
+msgid "HIDE"
+msgstr ""
+
+#: App/Providers/BackEnd.php:287
+#, php-format
+msgid "There %s <b>%s</b> failed post(s)."
+msgstr ""
+
+#: App/Providers/BackEnd.php:290
+msgid "GO TO THE LOGS"
+msgstr ""
+
+#: App/Providers/BackEnd.php:302
+msgid "There"
+msgstr ""
+
+#: App/Providers/BackEnd.php:302
+msgid "feed(s) that require action."
+msgstr ""
+
+#: App/Providers/BackEnd.php:302
+msgid "If you didn't select to share posts in the background when sharing posts, for various reasons like refreshing the page might interrupt the sharing process. That will cause some posts to remain unshared. You can share them in the background or with pop-up."
+msgstr ""
+
+#: App/Providers/BackEnd.php:302
+msgid "SHARE WITH POP-UP"
+msgstr ""
+
+#: App/Providers/BackEnd.php:302
+msgid "SHARE IN THE BACKGROUND"
+msgstr ""
+
+#: App/Providers/BackEnd.php:302
+msgid "DON'T SHARE"
+msgstr ""
+
+#: App/Providers/Bootstrap.php:59
+msgid "Support"
+msgstr ""
+
+#: App/Providers/Bootstrap.php:60
+msgid "Documentation"
+msgstr ""
+
+#: App/Providers/Bootstrap.php:79 App/Providers/Bootstrap.php:88
+msgid "FS Posts"
+msgstr ""
+
+#: App/Providers/Bootstrap.php:80 App/Providers/Bootstrap.php:89
+msgid "FS Post"
+msgstr ""
+
+#: App/Providers/ShareService.php:965
+msgid "Error! An image or video is required to share a post on Instagram. Please add media to the post."
+msgstr ""
+
+#: App/Providers/ShareService.php:1277
+msgid "Google My Business doesn't support sharing videos by the cookie method!"
+msgstr ""
+
+#: App/Providers/ShareService.php:1319
+msgid "Product"
+msgstr ""
+
+#: App/Providers/ShareService.php:1396
+#, php-format
+msgid "Driver error! Driver type: %s"
+msgstr ""
+
+#: App/Providers/SocialNetwork.php:13
+msgid "An error occurred while processing your request! Please close the window and try again!"
+msgstr ""
+
+#: App/Providers/SocialNetwork.php:33
+msgid "Loading..."
+msgstr ""

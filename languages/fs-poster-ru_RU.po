@@ -1,0 +1,5221 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FS Poster v4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-15 14:41+0400\n"
+"PO-Revision-Date: 2021-04-15 14:41+0400\n"
+"Last-Translator: Ali\n"
+"Language-Team: Русский\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && n"
+"%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Poedit-KeywordsList: fsp__\n"
+"X-Loco-Version: 2.4.4; wp-5.5.3\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: App/Libraries/fb/Facebook.php:31
+msgid "The App ID or the App Secret is invalid!"
+msgstr "ID приложения или секрет приложения недействительны!"
+
+#: App/Libraries/fb/Facebook.php:78 App/Libraries/fb/FacebookCookieApi.php:447
+#: App/Libraries/google/GoogleMyBusinessAPI.php:116
+#: App/Libraries/google/GoogleMyBusinessAPI.php:120
+#: App/Libraries/google/GoogleMyBusinessAPI.php:304
+#: App/Libraries/telegram/Telegram.php:195
+#: App/Libraries/telegram/Telegram.php:245 App/Providers/ShareService.php:952
+#, php-format
+msgid "Error! %s"
+msgstr "Ошибка! %s"
+
+#: App/Libraries/fb/Facebook.php:148
+msgid ""
+"You need to add the Facebook App to your group settings. <a href='https://"
+"www.fs-poster.com/documentation/commonly-encountered-issues#issue5' "
+"target='_blank'>How to?</a>"
+msgstr ""
+"Вы должны установить и включить библиотеки GD, libjpeg, libpng и freetype. "
+"<a href='https://www.fs-poster.com/documentation/commonly-encountered-"
+"issues#issue3' target='_blank'>Как?</a>"
+
+#: App/Libraries/fb/Facebook.php:538
+msgid "Like: "
+msgstr "Нравиться: "
+
+#: App/Libraries/fb/Facebook.php:539
+msgid "Love: "
+msgstr "Любовь: "
+
+#: App/Libraries/fb/Facebook.php:540
+msgid "Wow: "
+msgstr "Вау: "
+
+#: App/Libraries/fb/Facebook.php:541
+msgid "Haha: "
+msgstr "Хаха: "
+
+#: App/Libraries/fb/Facebook.php:542
+msgid "Sad: "
+msgstr "Сочувствую: "
+
+#: App/Libraries/fb/Facebook.php:543
+msgid "Angry: "
+msgstr "Гневный: "
+
+#: App/Libraries/fb/FacebookCookieApi.php:190
+msgid ""
+"Your account seems to be blocked by Facebook. You need to unblock it before "
+"adding the account."
+msgstr ""
+
+#: App/Libraries/fb/FacebookCookieApi.php:345
+#, fuzzy
+#| msgid ""
+#| "You need to add the Facebook App to your group settings. <a href='https://"
+#| "www.fs-poster.com/documentation/commonly-encountered-issues#issue5' "
+#| "target='_blank'>How to?</a>"
+msgid ""
+" The account is disconnected from the FS Poster plugin. Please update your "
+"account cookie to connect it to the plugin again. <a href='https://www.fs-"
+"poster.com/documentation/commonly-encountered-issues#issue8' "
+"target='_blank'>How to?</a>."
+msgstr ""
+"Вы должны установить и включить библиотеки GD, libjpeg, libpng и freetype. "
+"<a href='https://www.fs-poster.com/documentation/commonly-encountered-"
+"issues#issue3' target='_blank'>Как?</a>"
+
+#: App/Libraries/fb/FacebookCookieApi.php:406
+msgid "Error! Facebook cookie method doesn't allow sharing videos!"
+msgstr "Ошибка! Метод cookie Facebook не позволяет делиться  видеом!"
+
+#: App/Libraries/fb/FacebookCookieApi.php:465
+msgid "Error! Failed to upload the image!"
+msgstr "Ошибка! Не удалось загрузить изображение!"
+
+#: App/Libraries/fb/FacebookCookieApi.php:532
+msgid ""
+"You may want to slow down or stop to avoid a restriction on your account. We "
+"limit how often you can post, comment or do other things in a given amount "
+"of time to help protect the community from spam. <a href='https://www."
+"facebook.com/help/177066345680802' target='_blank'>Learn more.</a>"
+msgstr ""
+
+#: App/Libraries/fb/FacebookCookieApi.php:544
+msgid "An error occured while sharing the post."
+msgstr "При публикации поста произошла ошибка."
+
+#: App/Libraries/fb/FacebookCookieApi.php:693
+msgid "Error! Response is empty!"
+msgstr "Ошибка! Ответ пустой!"
+
+#: App/Libraries/fb/FacebookCookieApi.php:703
+#: App/Libraries/linkedin/Linkedin.php:181
+#: App/Libraries/twitter/Twitter.php:145
+msgid "Error!"
+msgstr "Ошибка!"
+
+#: App/Libraries/fb/FacebookCookieApi.php:705
+#, php-format
+msgid "%s ( error code: %s )"
+msgstr "%s ( код ошибки: %s )"
+
+#: App/Libraries/google/GoogleMyBusiness.php:115
+#, fuzzy
+#| msgid ""
+#| "You need to add the Facebook App to your group settings. <a href='https://"
+#| "www.fs-poster.com/documentation/commonly-encountered-issues#issue5' "
+#| "target='_blank'>How to?</a>"
+msgid ""
+"The account is disconnected from the FS Poster plugin. Please update your "
+"account cookies to connect your account to the plugin again. <a "
+"href='https://www.fs-poster.com/documentation/commonly-encountered-"
+"issues#issue8' target='_blank'>How to?</a>."
+msgstr ""
+"Вы должны установить и включить библиотеки GD, libjpeg, libpng и freetype. "
+"<a href='https://www.fs-poster.com/documentation/commonly-encountered-"
+"issues#issue3' target='_blank'>Как?</a>"
+
+#: App/Libraries/google/GoogleMyBusiness.php:236
+msgid "Error! It couldn't share the post!"
+msgstr "Ошибка! Невозможно поделиться постом!"
+
+#: App/Libraries/google/GoogleMyBusinessAPI.php:33
+msgid "Error! There isn't a Google My Business App!"
+msgstr "Ошибка! Здесь нет приложение Google My Business!"
+
+#: App/Libraries/google/GoogleMyBusinessAPI.php:92
+msgid "Error! The post rejected by Google My Business!"
+msgstr "Ошибка! Пост был отклонен от Google MY Business!"
+
+#: App/Libraries/google/GoogleMyBusinessAPI.php:111
+msgid "You need to verify your locations to share posts on it"
+msgstr ""
+
+#: App/Libraries/instagram/FFmpeg.php:181
+#, fuzzy
+#| msgid ""
+#| "You need to add the Facebook App to your group settings. <a href='https://"
+#| "www.fs-poster.com/documentation/commonly-encountered-issues#issue5' "
+#| "target='_blank'>How to?</a>"
+msgid ""
+"For sharing videos on Instagram, you have to install the FFmpeg library on "
+"your server and configure executables' path. <a href='https://www.fs-poster."
+"com/documentation/how-to-install-ffmpeg' target='_blank'>How to?</a>"
+msgstr ""
+"Вы должны установить и включить библиотеки GD, libjpeg, libpng и freetype. "
+"<a href='https://www.fs-poster.com/documentation/commonly-encountered-"
+"issues#issue3' target='_blank'>Как?</a>"
+
+#: App/Libraries/instagram/FFmpeg.php:246
+#, fuzzy
+#| msgid ""
+#| "You need to add the Facebook App to your group settings. <a href='https://"
+#| "www.fs-poster.com/documentation/commonly-encountered-issues#issue5' "
+#| "target='_blank'>How to?</a>"
+msgid ""
+"For sharing videos on Instagram, you have to install the FFmpeg library on "
+"your server and configure executables' path <a href='https://www.fs-poster."
+"com/documentation/how-to-install-ffmpeg' target='_blank'>How to?</a>"
+msgstr ""
+"Вы должны установить и включить библиотеки GD, libjpeg, libpng и freetype. "
+"<a href='https://www.fs-poster.com/documentation/commonly-encountered-"
+"issues#issue3' target='_blank'>Как?</a>"
+
+#: App/Libraries/instagram/InstagramApi.php:40
+msgid ""
+"You should install and enable GD, libjpeg, libpng, and freetype libraries. "
+"<a href='https://www.fs-poster.com/documentation/commonly-encountered-"
+"issues#issue3' target='_blank'>Learn more.</a>"
+msgstr ""
+"Вы должны установить и включить библиотеки GD, libjpeg, libpng и freetype. "
+"<a href='https://www.fs-poster.com/documentation/commonly-encountered-"
+"issues#issue3' target='_blank'>Learn more.</a>"
+
+#: App/Libraries/instagram/InstagramApi.php:143
+msgid "The cookie method doesn't support sharing videos on stories!"
+msgstr "Этот метод cookie не поддерживает публикацию видео в истори!"
+
+#: App/Libraries/instagram/InstagramApi.php:261
+#, fuzzy
+#| msgid ""
+#| "You need to add the Facebook App to your group settings. <a href='https://"
+#| "www.fs-poster.com/documentation/commonly-encountered-issues#issue5' "
+#| "target='_blank'>How to?</a>"
+msgid ""
+"The account is disconnected from the FS Poster plugin. Please update your "
+"account cookie to connect it to the plugin again. <a href='https://www.fs-"
+"poster.com/documentation/commonly-encountered-issues#issue8' "
+"target='_blank'>How to?</a>"
+msgstr ""
+"Вы должны установить и включить библиотеки GD, libjpeg, libpng и freetype. "
+"<a href='https://www.fs-poster.com/documentation/commonly-encountered-"
+"issues#issue3' target='_blank'>Как?</a>"
+
+#: App/Libraries/instagram/InstagramApi.php:293
+#, php-format
+msgid "Enter the verification code we have sent to your number ending in %s"
+msgstr ""
+"Введите проверочный код, который мы отправили на ваш номер, заканчивающийся "
+"на %s"
+
+#: App/Libraries/instagram/InstagramApi.php:305
+#, php-format
+msgid "Please enter the verification code we have sent to %s"
+msgstr "Пожалуйста введите проверочный код, который мы отправили в %s"
+
+#: App/Libraries/instagram/InstagramApi.php:509
+#, fuzzy
+#| msgid ""
+#| "You need to add the Facebook App to your group settings. <a href='https://"
+#| "www.fs-poster.com/documentation/commonly-encountered-issues#issue5' "
+#| "target='_blank'>How to?</a>"
+msgid ""
+"exec() function have to be enabled to share videos on Instagram. <a "
+"href='https://www.fs-poster.com/documentation/how-to-install-ffmpeg' "
+"target='_blank'>How to?</a>"
+msgstr ""
+"Вы должны установить и включить библиотеки GD, libjpeg, libpng и freetype. "
+"<a href='https://www.fs-poster.com/documentation/commonly-encountered-"
+"issues#issue3' target='_blank'>Как?</a>"
+
+#: App/Libraries/instagram/InstagramApi.php:631
+#: App/Libraries/instagram/InstagramApi.php:633
+msgid ""
+"The account is disconnected from the plugin. Please add your account to the "
+"plugin again by getting the cookie on the browser <a href='https://www.fs-"
+"poster.com/documentation/fs-poster-schedule-auto-publish-wordpress-posts-to-"
+"instagram' target='_blank'>Incognito mode</a>. And close the browser without "
+"logging out from the account."
+msgstr ""
+"Аккаунт отключен от плагина. Пожалуйста добавьте свою аккаунт в плагин еще "
+"раз, после получение файл cookie в вашем браузере <a href='https://www.fs-"
+"poster.com/documentation/fs-poster-schedule-auto-publish-wordpress-posts-to-"
+"instagram' target='_blank'>Режим инкогнито</a>. И закройте браузер, не "
+"выходя из вашего аккаунта."
+
+#: App/Libraries/instagram/InstagramApi.php:642
+#: App/Libraries/wordpress/Wordpress.php:127
+#: App/Libraries/wordpress/Wordpress.php:231
+msgid "An error occurred while processing the request!"
+msgstr "Произошла ошибка при обработке запроса!"
+
+#: App/Libraries/linkedin/Linkedin.php:220
+msgid "Error data!"
+msgstr "Ошибка в данных!"
+
+#: App/Libraries/linkedin/Linkedin.php:301
+#: App/Libraries/linkedin/Linkedin.php:321
+#: App/Libraries/linkedin/Linkedin.php:451
+msgid ""
+"The account access token is expired after 60 days of adding the account to "
+"the plugin. Please add your account to the plugin again."
+msgstr ""
+"Срок действия токена доступа к учетной записи истекает через 60 дней после "
+"добавления учетной записи в плагин.Пожалуйста, снова добавьте свою учетную "
+"запись в плагин."
+
+#: App/Libraries/linkedin/Linkedin.php:325
+#: App/Libraries/linkedin/Linkedin.php:455
+msgid "You reached a limit. Please try again later."
+msgstr "Вы достигли предела. Пожалуйста, повторите попытку позже."
+
+#: App/Libraries/medium/Medium.php:116
+#: App/Libraries/pinterest/Pinterest.php:113
+#: App/Libraries/reddit/Reddit.php:173 App/Libraries/tumblr/Tumblr.php:210
+msgid "Error! The App isn't found!"
+msgstr "Ошибка! Приложение не найдено!"
+
+#: App/Libraries/pinterest/PinterestCookieApi.php:96
+msgid "An image is required to pin on board!"
+msgstr "Pinterest требует изображение для публикации!"
+
+#: App/Libraries/pinterest/PinterestCookieApi.php:199
+msgid "Couldn't upload the image!"
+msgstr "Не удалось загрузить изображение!"
+
+#: App/Libraries/pinterest/PinterestCookieApi.php:215
+msgid ""
+"Error! Your domain has been blocked by Pinterest. You can use a proxy to "
+"avoid the issue."
+msgstr ""
+
+#: App/Libraries/pinterest/PinterestCookieApi.php:227
+msgid "Error! Please check the data and try again!"
+msgstr "Ошибка! Пожалуйста, проверьте данные и попробуйте еще раз!"
+
+#: App/Libraries/pinterest/PinterestCookieApi.php:333
+#, fuzzy
+#| msgid ""
+#| "You need to add the Facebook App to your group settings. <a href='https://"
+#| "www.fs-poster.com/documentation/commonly-encountered-issues#issue5' "
+#| "target='_blank'>How to?</a>"
+msgid ""
+"The account is disconnected from the FS Poster plugin. Please update your "
+"account cookie to connect it to the plugin again. <a href='https://www.fs-"
+"poster.com/documentation/commonly-encountered-issues#issue8' "
+"target='_blank'>How to?</a>."
+msgstr ""
+"Вы должны установить и включить библиотеки GD, libjpeg, libpng и freetype. "
+"<a href='https://www.fs-poster.com/documentation/commonly-encountered-"
+"issues#issue3' target='_blank'>Как?</a>"
+
+#: App/Libraries/plurk/Plurk.php:116
+msgid "Couldn't get token"
+msgstr ""
+
+#: App/Libraries/plurk/Plurk.php:268
+msgid ""
+"It seems that you have recently shared this content. Duplicate content is "
+"not allowed in a short time."
+msgstr ""
+
+#: App/Libraries/plurk/Plurk.php:272
+#, fuzzy
+#| msgid "Error! It couldn't share the post!"
+msgid "Error! Couldn't share post!"
+msgstr "Ошибка! Невозможно поделиться постом!"
+
+#: App/Libraries/reddit/Reddit.php:416
+msgid "Required URL (or featured image path) not found!"
+msgstr "Требуемый URL-адрес (или путь к избранному изображению) не найден!"
+
+#: App/Libraries/reddit/Reddit.php:417
+msgid ""
+"Title is too long. Maximum allowed character limit is 300. You can enable "
+"auto-cut option from Reddit settings."
+msgstr ""
+"Заголовок слишком длинный. Вы не можете сделать его длиннее 300 символов. Вы "
+"можете включить опцию автоматического вырезания из настроек Reddit."
+
+#: App/Libraries/reddit/Reddit.php:418
+msgid "Content can't be empty!"
+msgstr "Контент не может быть пустым!"
+
+#: App/Libraries/telegram/Telegram.php:205
+#: App/Libraries/telegram/Telegram.php:253
+msgid "Unknown error!"
+msgstr "Неизвестная ошибка!"
+
+#: App/Libraries/twitter/Twitter.php:36 App/Libraries/twitter/Twitter.php:323
+#: App/Providers/ShareService.php:918
+msgid "Error! There isn't a Twitter App!"
+msgstr "Ошибка! Нет приложения Twitter!"
+
+#: App/Libraries/wordpress/Wordpress.php:57
+msgid ""
+"Failed to share the post because the post type is not available on the "
+"remote website."
+msgstr ""
+"Публикация поста неудачен ,потому что тип поста не доступен в дистанционный "
+"веб сайте."
+
+#: App/Libraries/wordpress/Wordpress.php:110
+msgid ""
+"Posts won't be shared because of missing the required <a href='https://www."
+"fs-poster.com/documentation/commonly-encountered-issues#issue6' "
+"target='_blank'>fileinfo</a> extension. Please ask your hosting/server "
+"administrator to install it. <a href='https://www.fs-poster.com/"
+"documentation/commonly-encountered-issues#issue6' target='_blank'>How to?</a>"
+msgstr ""
+"Вы должны установить и включить библиотеки GD, libjpeg, libpng и freetype. "
+"<a href='https://www.fs-poster.com/documentation/commonly-encountered-"
+"issues#issue3' target='_blank'>Как?</a>"
+
+#: App/Libraries/wordpress/Wordpress.php:294
+msgid ""
+"The account is disconnected from the plugin. Please add your account to the "
+"plugin again by getting the cookie on the browser <a href='https://www.fs-"
+"poster.com/documentation/fs-poster-schedule-auto-publish-wordpress-posts-to-"
+"pinterest' target='_blank'>Incognito mode</a>. And close the browser without "
+"logging out from the account."
+msgstr ""
+"Аккаунт отключен от плагина. Пожалуйста добавьте свою аккаунт в плагин еще "
+"раз, после получение файл cookie в вашем браузере <a href='https://www.fs-"
+"poster.com/documentation/fs-poster-schedule-auto-publish-wordpress-posts-to-"
+"pinterest' target='_blank'>Режим инкогнито</a>. И закройте браузер, не "
+"выходя из вашего аккаунта."
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts-activate.js:8
+#: App/Pages/Schedules/Assets/js/fsp-schedule-add.js:10
+msgid "Search categories, tags... ( min. 2 character )"
+msgstr "Искать категории, теги ... ( мин. 2 символа)"
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts-google-b.js:31
+msgid "Please, enter your cookies!"
+msgstr "Пожалуйста, введите свои файлы cookie!"
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts-instagram.js:54
+msgid "Challenge required! Activation code was sent to "
+msgstr "Требуются действия! Код активации был отправлен на "
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts-instagram.js:58
+#: App/Pages/Accounts/Assets/js/fsp-accounts-instagram.js:88
+msgid "Activation code"
+msgstr "Код активации"
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts-instagram.js:61
+#: App/Pages/Accounts/Assets/js/fsp-accounts-instagram.js:91
+msgid "Enter the activation code"
+msgstr "Введите код активации"
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts-instagram.js:84
+msgid "Two factor authentication required! Activation code was sent to "
+msgstr ""
+"Требуется двухфакторная аутентификация! Код активации был отправлен на "
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts-telegram-chat.js:17
+msgid "Select chat"
+msgstr "Выберите чат"
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts-tumblr.js:11
+msgid "Please, select an application!"
+msgstr "Пожалуйста, выберите приложение!"
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts.js:96
+msgid "UNSELECT ALL"
+msgstr "СНЯТЬ ВСЕ"
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts.js:101
+#: App/Pages/Accounts/Views/index.php:94
+msgid "SELECT ALL"
+msgstr "ВЫБРАТЬ ВСЕ"
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts.js:365
+#: App/Pages/Apps/Assets/js/fsp-apps.js:14
+#: App/Pages/Schedules/Assets/js/fsp-schedules.js:13
+msgid "Are you sure you want to delete?"
+msgstr "Вы уверены, что хотите удалить?"
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts.js:407
+msgid "EXIT BULK ACTION"
+msgstr "ВЫЙТИ ИЗ МАССОВОГО ДЕЙСТВИЯ"
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts.js:418
+#: App/Pages/Accounts/Views/index.php:46
+msgid "BULK ACTION"
+msgstr "МАССАВОЕ ДЕЙСТВИЕ"
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts.js:423
+msgid ""
+"Are you sure you want to exit without applying any action for the selected "
+"accounts?"
+msgstr ""
+"Вы действительно хотите выйти, не выполняя никаких действий для выбранных "
+"аккаунтов?"
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts.js:427
+msgid "YES, EXIT"
+msgstr "ДА,ВЫХОДИ"
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts.js:529
+msgid "Account has been added successfully!"
+msgstr "Аккаунт успешно добавлен!"
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts.js:529
+#: App/Pages/Accounts/Assets/js/fsp-accounts.js:548
+#: App/Pages/Base/Views/Modals/add_node_to_list.php:36
+#: App/Pages/Schedules/Views/Modals/posts_list.php:20
+msgid "CLOSE"
+msgstr "ЗАКРЫВАТЬ"
+
+#: App/Pages/Accounts/Assets/js/fsp-accounts.js:548
+#, fuzzy
+#| msgid "Account has been added successfully!"
+msgid "Account has been updated successfully!"
+msgstr "Аккаунт успешно добавлен!"
+
+#: App/Pages/Accounts/Controllers/Action.php:1236
+#: App/Pages/Accounts/Controllers/Action.php:1287
+#: App/Pages/Accounts/Controllers/Action.php:1310
+#: App/Pages/Accounts/Controllers/Action.php:1342
+#: App/Pages/Accounts/Controllers/Action.php:1364
+#: App/Pages/Accounts/Controllers/Action.php:1464
+#: App/Pages/Accounts/Controllers/Action.php:1569
+#: App/Pages/Accounts/Controllers/Action.php:1612
+msgid "The account isn't found!"
+msgstr "Аккаунт не найден!"
+
+#: App/Pages/Accounts/Controllers/Action.php:1242
+#: App/Pages/Accounts/Controllers/Action.php:1294
+msgid ""
+"You don't have permission to remove the account! Only the account owner can "
+"remove it."
+msgstr ""
+"У вас нет разрешения на удаление учетной записи! Только владелец аккаунта "
+"может удалить его."
+
+#: App/Pages/Accounts/Controllers/Action.php:1317
+#: App/Pages/Accounts/Controllers/Action.php:1349
+msgid "Only the account owner can make it public or private!"
+msgstr "Только владелец аккаунта может сделать ето публичным или приватным!"
+
+#: App/Pages/Accounts/Controllers/Action.php:1323
+msgid "Failed accounts can't be public!"
+msgstr "Провальные аккаунты не может быть публичными!"
+
+#: App/Pages/Accounts/Controllers/Action.php:1371
+#: App/Pages/Accounts/Controllers/Action.php:1471
+#: App/Pages/Accounts/Controllers/Action.php:1576
+#: App/Pages/Accounts/Controllers/Action.php:1619
+msgid "You haven't sufficient permissions!"
+msgstr "У вас нет нужные разрешения!"
+
+#: App/Pages/Accounts/Controllers/Action.php:1379
+msgid "Failed accounts can't be activated!"
+msgstr "Провальные аккаунты не может быть активированны!"
+
+#: App/Pages/Accounts/Controllers/Action.php:1483
+msgid "Failed accounts and their communities can't be activated!"
+msgstr ""
+
+#: App/Pages/Accounts/Controllers/Ajax.php:79
+#: App/Pages/Accounts/Controllers/Ajax.php:110
+#: App/Pages/Accounts/Controllers/Ajax.php:116
+#: App/Pages/Accounts/Controllers/Ajax.php:351
+#: App/Pages/Accounts/Controllers/Ajax.php:375
+#: App/Pages/Accounts/Controllers/Ajax.php:564
+#: App/Pages/Accounts/Controllers/Ajax.php:591
+#: App/Pages/Accounts/Controllers/Ajax.php:772
+msgid "The entered cookies are wrong!"
+msgstr "Введенные файлы cookie неверны!"
+
+#: App/Pages/Accounts/Controllers/Ajax.php:147
+#: App/Pages/Accounts/Controllers/Ajax.php:859
+#: App/Pages/Accounts/Controllers/Ajax.php:1407
+msgid "Please select categories and filter type!"
+msgstr "Пожалуйста, выберите категории и тип фильтра!"
+
+#: App/Pages/Accounts/Controllers/Ajax.php:172
+msgid "Please enter the username and password!"
+msgstr "Пожалуйста введите имя пользователя и пароль!"
+
+#: App/Pages/Accounts/Controllers/Ajax.php:193
+#: App/Pages/Accounts/Controllers/Ajax.php:293
+msgid "Please enter the Instagram account username and password!"
+msgstr "Пожалуйста, введите логин и пароль учетной записи Instagram!"
+
+#: App/Pages/Accounts/Controllers/Ajax.php:215
+#: App/Pages/Accounts/Controllers/Ajax.php:315
+msgid "The cookie value isn't valid! Please get the new one."
+msgstr "Значение файла cookie не действительно! Пожалуста,попробуйте еще раз."
+
+#: App/Pages/Accounts/Controllers/Ajax.php:387
+msgid "The access token is empty!"
+msgstr "Токен доступа пуст!"
+
+#: App/Pages/Accounts/Controllers/Ajax.php:416
+msgid "Please type your Bot Token!"
+msgstr "Пожалуйста, введите свой токен бота!"
+
+#: App/Pages/Accounts/Controllers/Ajax.php:424
+msgid "The entered Bot Token is invalid!"
+msgstr "Введенный токен бота недействителен!"
+
+#: App/Pages/Accounts/Controllers/Ajax.php:464
+#: App/Pages/Accounts/Controllers/Ajax.php:538
+msgid "Please enter the Pinterest cookie!"
+msgstr "Пожалуйста, введите cookie Pinterest!"
+
+#: App/Pages/Accounts/Controllers/Ajax.php:546
+#, fuzzy
+#| msgid "The cookie value isn't valid! Please get the new one."
+msgid "The cookie values aren't valid!"
+msgstr "Значение файла cookie не действительно! Пожалуста,попробуйте еще раз."
+
+#: App/Pages/Accounts/Controllers/Ajax.php:603
+msgid "Please fill all inputs correctly!"
+msgstr "Пожалуйста заполните все входные данные правильно!"
+
+#: App/Pages/Accounts/Controllers/Ajax.php:608
+msgid "The URL must start with http(s)!"
+msgstr "URL-адрес должен начинаться с http(s)!"
+
+#: App/Pages/Accounts/Controllers/Ajax.php:808
+msgid "Required action not found!"
+msgstr "Требуемое действие не найдено!"
+
+#: App/Pages/Accounts/Controllers/Ajax.php:813
+msgid "You didn't select any account!"
+msgstr "Вы не выбрали ни одной учетной записи!"
+
+#: App/Pages/Accounts/Controllers/Ajax.php:932
+#: App/Pages/Accounts/Controllers/Main.php:48
+msgid "ADD A BOT"
+msgstr "ДОБАВИТЬ БОТА"
+
+#: App/Pages/Accounts/Controllers/Ajax.php:933
+msgid "bots"
+msgstr "боты"
+
+#: App/Pages/Accounts/Controllers/Ajax.php:937
+#: App/Pages/Accounts/Controllers/Main.php:52
+msgid "ADD A SITE"
+msgstr "ДОБАВИТЬ САЙТА"
+
+#: App/Pages/Accounts/Controllers/Ajax.php:938
+msgid "sites"
+msgstr "сайты"
+
+#: App/Pages/Accounts/Controllers/Ajax.php:942
+#: App/Pages/Accounts/Controllers/Main.php:56
+msgid "ADD AN ACCOUNT"
+msgstr "ДОБАВИТЬ АККАУНТ"
+
+#: App/Pages/Accounts/Controllers/Ajax.php:943
+msgid "accounts"
+msgstr "аккаунты"
+
+#: App/Pages/Accounts/Controllers/Ajax.php:1011
+msgid "Post categories"
+msgstr "Категории поста"
+
+#: App/Pages/Accounts/Controllers/Ajax.php:1015
+msgid "Product categories"
+msgstr "Категории продукта"
+
+#: App/Pages/Accounts/Controllers/Ajax.php:1019
+msgid "Custom categories"
+msgstr "Пользовательская категория"
+
+#: App/Pages/Accounts/Controllers/Ajax.php:1097
+#: App/Pages/Accounts/Controllers/Ajax.php:1116
+msgid "Please enter the code!"
+msgstr "Пожалуйста, введите код!"
+
+#: App/Pages/Accounts/Controllers/Ajax.php:1137
+#: App/Pages/Accounts/Controllers/Ajax.php:1186
+#: App/Pages/Accounts/Controllers/Ajax.php:1435
+msgid "You have not a permission for adding subreddit in this account!"
+msgstr "У вас нет разрешения на добавление субреддита в эту учетную запись!"
+
+#: App/Pages/Accounts/Controllers/Ajax.php:1160
+#, fuzzy
+#| msgid "Select flair"
+msgid "no flair"
+msgstr "Выберить флаир"
+
+#: App/Pages/Accounts/Controllers/Ajax.php:1212
+#: App/Pages/Accounts/Controllers/Ajax.php:1223
+msgid "Account not found!"
+msgstr "Аккаунт не найден!"
+
+#: App/Pages/Accounts/Controllers/Ajax.php:1228
+msgid ""
+"Failed accounts can not be re-fetched. Please add your account to the plugin "
+"again."
+msgstr ""
+"Неудачные аккаунты не может быть обновлены. Пожалуйста добавьте ваш аккаунт "
+"в плагин еще раз."
+
+#: App/Pages/Accounts/Controllers/Ajax.php:1301
+msgid "Re-fetching failed!"
+msgstr "Обновление не удалось!"
+
+#: App/Pages/Accounts/Controllers/Ajax.php:1333
+msgid "Chat not found!"
+msgstr "Чат не найден!"
+
+#: App/Pages/Accounts/Controllers/Ajax.php:1376
+msgid "No active chat(s) found."
+msgstr "Активных чатов не найдено."
+
+#: App/Pages/Accounts/Controllers/Ajax.php:1535
+#: App/Pages/Accounts/Controllers/Ajax.php:1546
+msgid "Group not found!"
+msgstr "Группа не найдена!"
+
+#: App/Pages/Accounts/Controllers/Ajax.php:1559
+msgid "Page not found!"
+msgstr "Страница не найдена!"
+
+#: App/Pages/Accounts/Controllers/Ajax.php:1575
+#: App/Pages/Settings/Controllers/Ajax.php:90
+#: App/Pages/Settings/Controllers/Ajax.php:121
+#: App/Pages/Settings/Controllers/Ajax.php:147
+#: App/Pages/Settings/Controllers/Ajax.php:169
+#: App/Pages/Settings/Controllers/Ajax.php:217
+#: App/Pages/Settings/Controllers/Ajax.php:272
+#: App/Pages/Settings/Controllers/Ajax.php:297
+#: App/Pages/Settings/Controllers/Ajax.php:317
+#: App/Pages/Settings/Controllers/Ajax.php:337
+#: App/Pages/Settings/Controllers/Ajax.php:350
+#: App/Pages/Settings/Controllers/Ajax.php:383
+#: App/Pages/Settings/Controllers/Ajax.php:396
+#: App/Pages/Settings/Controllers/Ajax.php:411
+#: App/Pages/Settings/Controllers/Ajax.php:424
+#: App/Pages/Settings/Controllers/Ajax.php:444
+#: App/Pages/Settings/Controllers/Ajax.php:457
+#: App/Pages/Settings/Controllers/Ajax.php:485
+msgid "Saved successfully!"
+msgstr "Сохранено успешно!"
+
+#: App/Pages/Accounts/Views/Modals/activate_with_condition.php:16
+msgid "Define conditions for the account"
+msgstr "Определите условия для учетной записи"
+
+#: App/Pages/Accounts/Views/Modals/activate_with_condition.php:42
+msgid "Share only the posts of the selected categories, tags, etc..."
+msgstr "Делитесь только постами выбранных категорий, тегов и т.д..."
+
+#: App/Pages/Accounts/Views/Modals/activate_with_condition.php:45
+msgid "Do not share the posts of the selected categories, tags, etc..."
+msgstr "Не делитесь постами из выбранных категорий, тегов и т.д..."
+
+#: App/Pages/Accounts/Views/Modals/activate_with_condition.php:52
+#: App/Pages/Accounts/Views/index.php:12 App/Pages/Accounts/Views/index.php:82
+msgid "Activate for all users"
+msgstr "Активировать для всех пользователей"
+
+#: App/Pages/Accounts/Views/Modals/activate_with_condition.php:58
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:89
+#: App/Pages/Accounts/Views/Modals/fb/edit_account.php:56
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:106
+#: App/Pages/Accounts/Views/Modals/google_b/edit_account.php:75
+#: App/Pages/Accounts/Views/Modals/instagram/add_account.php:84
+#: App/Pages/Accounts/Views/Modals/instagram/edit_account.php:55
+#: App/Pages/Accounts/Views/Modals/linkedin/add_account.php:59
+#: App/Pages/Accounts/Views/Modals/medium/add_account.php:59
+#: App/Pages/Accounts/Views/Modals/ok/add_account.php:59
+#: App/Pages/Accounts/Views/Modals/pinterest/add_account.php:83
+#: App/Pages/Accounts/Views/Modals/pinterest/edit_account.php:56
+#: App/Pages/Accounts/Views/Modals/plurk/add_account.php:76
+#: App/Pages/Accounts/Views/Modals/reddit/add_account.php:59
+#: App/Pages/Accounts/Views/Modals/reddit/add_subreddit.php:54
+#: App/Pages/Accounts/Views/Modals/telegram/add_bot.php:53
+#: App/Pages/Accounts/Views/Modals/telegram/add_chat.php:40
+#: App/Pages/Accounts/Views/Modals/tumblr/add_account.php:59
+#: App/Pages/Accounts/Views/Modals/twitter/add_account.php:59
+#: App/Pages/Accounts/Views/Modals/vk/add_account.php:77
+#: App/Pages/Accounts/Views/Modals/wordpress/add_site.php:67
+#: App/Pages/Base/Assets/js/fsp.js:28
+msgid "Cancel"
+msgstr "Отмена"
+
+#: App/Pages/Accounts/Views/Modals/activate_with_condition.php:59
+#: App/Pages/Base/Views/install.php:32
+msgid "ACTIVATE"
+msgstr "АКТИВИРОВАТЬ"
+
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:17
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:17
+#: App/Pages/Accounts/Views/Modals/instagram/add_account.php:16
+#: App/Pages/Accounts/Views/Modals/linkedin/add_account.php:17
+#: App/Pages/Accounts/Views/Modals/medium/add_account.php:17
+#: App/Pages/Accounts/Views/Modals/ok/add_account.php:17
+#: App/Pages/Accounts/Views/Modals/pinterest/add_account.php:17
+#: App/Pages/Accounts/Views/Modals/plurk/add_account.php:18
+#: App/Pages/Accounts/Views/Modals/reddit/add_account.php:17
+#: App/Pages/Accounts/Views/Modals/tumblr/add_account.php:17
+#: App/Pages/Accounts/Views/Modals/twitter/add_account.php:17
+#: App/Pages/Accounts/Views/Modals/vk/add_account.php:18
+msgid "Add an account"
+msgstr "Добавить аккаунт"
+
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:26
+msgid "Select an authorization method to add a new Facebook account"
+msgstr ""
+"Выберите способ авторизации для добавления новой учетной записи Facebook"
+
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:27
+#: App/Pages/Accounts/Views/Modals/fb/edit_account.php:27
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:27
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:48
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:67
+#: App/Pages/Accounts/Views/Modals/google_b/edit_account.php:27
+#: App/Pages/Accounts/Views/Modals/google_b/edit_account.php:36
+#: App/Pages/Accounts/Views/Modals/instagram/add_account.php:26
+#: App/Pages/Accounts/Views/Modals/instagram/edit_account.php:26
+#: App/Pages/Accounts/Views/Modals/linkedin/add_account.php:29
+#: App/Pages/Accounts/Views/Modals/medium/add_account.php:29
+#: App/Pages/Accounts/Views/Modals/ok/add_account.php:29
+#: App/Pages/Accounts/Views/Modals/pinterest/add_account.php:27
+#: App/Pages/Accounts/Views/Modals/pinterest/edit_account.php:27
+#: App/Pages/Accounts/Views/Modals/plurk/add_account.php:32
+#: App/Pages/Accounts/Views/Modals/reddit/add_account.php:29
+#: App/Pages/Accounts/Views/Modals/telegram/add_bot.php:28
+#: App/Pages/Accounts/Views/Modals/tumblr/add_account.php:29
+#: App/Pages/Accounts/Views/Modals/twitter/add_account.php:29
+#: App/Pages/Accounts/Views/Modals/vk/add_account.php:33
+#: App/Pages/Accounts/Views/Modals/wordpress/add_site.php:28
+msgid "How to?"
+msgstr "Как?"
+
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:36
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:36
+msgid "Recommended method"
+msgstr "Рекомендуемый метод"
+
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:36
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:36
+#: App/Pages/Accounts/Views/Modals/pinterest/add_account.php:42
+msgid "App method"
+msgstr "Метод приложения"
+
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:41
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:41
+#: App/Pages/Accounts/Views/Modals/instagram/add_account.php:35
+#: App/Pages/Accounts/Views/Modals/pinterest/add_account.php:36
+msgid "Cookie method"
+msgstr "Метод cookie"
+
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:46
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:47
+#: App/Pages/Accounts/Views/Modals/linkedin/add_account.php:28
+#: App/Pages/Accounts/Views/Modals/medium/add_account.php:28
+#: App/Pages/Accounts/Views/Modals/ok/add_account.php:28
+#: App/Pages/Accounts/Views/Modals/pinterest/add_account.php:47
+#: App/Pages/Accounts/Views/Modals/plurk/add_account.php:31
+#: App/Pages/Accounts/Views/Modals/reddit/add_account.php:28
+#: App/Pages/Accounts/Views/Modals/tumblr/add_account.php:28
+#: App/Pages/Accounts/Views/Modals/twitter/add_account.php:28
+#: App/Pages/Accounts/Views/Modals/vk/add_account.php:32
+msgid "Select an App"
+msgstr "Выберите приложение"
+
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:53
+msgid "There isn't a Facebook App!"
+msgstr "Приложение Facebook не найден!"
+
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:60
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:63
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:67
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:70
+#: App/Pages/Accounts/Views/Modals/fb/edit_account.php:37
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:66
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:73
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:77
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:80
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:84
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:87
+#: App/Pages/Accounts/Views/Modals/google_b/edit_account.php:42
+#: App/Pages/Accounts/Views/Modals/google_b/edit_account.php:49
+#: App/Pages/Accounts/Views/Modals/google_b/edit_account.php:56
+#: App/Pages/Accounts/Views/Modals/instagram/add_account.php:49
+#: App/Pages/Accounts/Views/Modals/instagram/edit_account.php:36
+#: App/Pages/Accounts/Views/Modals/pinterest/add_account.php:61
+#: App/Pages/Accounts/Views/Modals/pinterest/add_account.php:64
+#: App/Pages/Accounts/Views/Modals/pinterest/edit_account.php:37
+msgid "Enter the cookie"
+msgstr "Введите cookie"
+
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:77
+#: App/Pages/Accounts/Views/Modals/fb/edit_account.php:44
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:94
+#: App/Pages/Accounts/Views/Modals/google_b/edit_account.php:63
+#: App/Pages/Accounts/Views/Modals/instagram/add_account.php:72
+#: App/Pages/Accounts/Views/Modals/instagram/edit_account.php:43
+#: App/Pages/Accounts/Views/Modals/linkedin/add_account.php:47
+#: App/Pages/Accounts/Views/Modals/medium/add_account.php:47
+#: App/Pages/Accounts/Views/Modals/ok/add_account.php:47
+#: App/Pages/Accounts/Views/Modals/pinterest/add_account.php:71
+#: App/Pages/Accounts/Views/Modals/pinterest/edit_account.php:44
+#: App/Pages/Accounts/Views/Modals/plurk/add_account.php:63
+#: App/Pages/Accounts/Views/Modals/reddit/add_account.php:47
+#: App/Pages/Accounts/Views/Modals/telegram/add_bot.php:41
+#: App/Pages/Accounts/Views/Modals/tumblr/add_account.php:47
+#: App/Pages/Accounts/Views/Modals/twitter/add_account.php:47
+#: App/Pages/Accounts/Views/Modals/vk/add_account.php:64
+#: App/Pages/Accounts/Views/Modals/wordpress/add_site.php:55
+msgid "Use a proxy"
+msgstr "Использовать прокси"
+
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:79
+#: App/Pages/Accounts/Views/Modals/fb/edit_account.php:46
+#: App/Pages/Accounts/Views/Modals/medium/add_account.php:49
+#: App/Pages/Accounts/Views/Modals/ok/add_account.php:49
+#: App/Pages/Accounts/Views/Modals/plurk/add_account.php:65
+#: App/Pages/Accounts/Views/Modals/vk/add_account.php:66
+msgid ""
+"Optional field. Supported proxy formats: https://127.0.0.1:8888 or https://"
+"user:pass@127.0.0.1:8888."
+msgstr ""
+"Поле необязательного ввода. Поддерживаемые форматы прокси-серверов: "
+"https://127.0.0.1:8888 or https://user:pass@127.0.0.1:8888."
+
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:84
+#: App/Pages/Accounts/Views/Modals/fb/edit_account.php:51
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:101
+#: App/Pages/Accounts/Views/Modals/google_b/edit_account.php:70
+#: App/Pages/Accounts/Views/Modals/instagram/add_account.php:79
+#: App/Pages/Accounts/Views/Modals/instagram/edit_account.php:50
+#: App/Pages/Accounts/Views/Modals/linkedin/add_account.php:54
+#: App/Pages/Accounts/Views/Modals/medium/add_account.php:54
+#: App/Pages/Accounts/Views/Modals/ok/add_account.php:54
+#: App/Pages/Accounts/Views/Modals/pinterest/add_account.php:78
+#: App/Pages/Accounts/Views/Modals/pinterest/edit_account.php:51
+#: App/Pages/Accounts/Views/Modals/plurk/add_account.php:70
+#: App/Pages/Accounts/Views/Modals/reddit/add_account.php:54
+#: App/Pages/Accounts/Views/Modals/telegram/add_bot.php:48
+#: App/Pages/Accounts/Views/Modals/tumblr/add_account.php:54
+#: App/Pages/Accounts/Views/Modals/twitter/add_account.php:54
+#: App/Pages/Accounts/Views/Modals/vk/add_account.php:71
+#: App/Pages/Accounts/Views/Modals/wordpress/add_site.php:62
+msgid "Enter a proxy address"
+msgstr "Введите адрес прокси-сервера"
+
+#: App/Pages/Accounts/Views/Modals/fb/add_account.php:90
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:107
+#: App/Pages/Accounts/Views/Modals/instagram/add_account.php:85
+#: App/Pages/Accounts/Views/Modals/pinterest/add_account.php:84
+#: App/Pages/Accounts/Views/Modals/plurk/add_account.php:77
+#: App/Pages/Accounts/Views/Modals/telegram/add_bot.php:54
+#: App/Pages/Accounts/Views/Modals/telegram/add_chat.php:41
+#: App/Pages/Accounts/Views/Modals/vk/add_account.php:78
+#: App/Pages/Accounts/Views/Modals/wordpress/add_site.php:68
+#: App/Pages/Base/Views/post_meta_box.php:221
+#: App/Pages/Base/Views/post_metabox_v2.php:177
+#: App/Pages/Schedules/Views/Modals/add.php:306
+msgid "ADD"
+msgstr "ДОБАВЛЯТЬ"
+
+#: App/Pages/Accounts/Views/Modals/fb/change_group_poster.php:16
+msgid "Post as a Facebook Page in Groups"
+msgstr "Опубликовать как страница Facebook в группах"
+
+#: App/Pages/Accounts/Views/Modals/fb/change_group_poster.php:28
+msgid ""
+"Select a Facebook page to share your posts in Facebook groups on behalf of "
+"the page. Note that the page has to be <a href=\"https://www.fs-poster.com/"
+"documentation/commonly-encountered-issues#issue4\" target=\"_blank\">linked "
+"to the group</a>; otherwise, the post will fail."
+msgstr ""
+"Выберите стр Facebook для опубликования ваших постов в группы Facebook-а от "
+"имени страницы.Страница должен быть <a href=\"https://www.fs-poster.com/"
+"documentation/commonly-encountered-issues#issue4\" target=\"_blank\">связано "
+"с группой</a>; в противном случае пост будет неудачным."
+
+#: App/Pages/Accounts/Views/Modals/fb/change_group_poster.php:39
+#: App/Pages/Apps/Views/Modals/add.php:56
+#: App/Pages/Schedules/Views/Modals/add.php:514
+#: App/Pages/Share/Views/Modals/share_saved_post.php:46
+msgid "CANCEL"
+msgstr "ОТМЕНА"
+
+#: App/Pages/Accounts/Views/Modals/fb/change_group_poster.php:40
+msgid "SAVE"
+msgstr "СОХРАНИТЬ"
+
+#: App/Pages/Accounts/Views/Modals/fb/edit_account.php:17
+#: App/Pages/Accounts/Views/Modals/instagram/edit_account.php:16
+#, fuzzy
+#| msgid "Enter the cookie"
+msgid "Update cookie"
+msgstr "Введите cookie"
+
+#: App/Pages/Accounts/Views/Modals/fb/edit_account.php:26
+#: App/Pages/Accounts/Views/Modals/instagram/edit_account.php:25
+#: App/Pages/Accounts/Views/Modals/pinterest/edit_account.php:26
+#, fuzzy
+#| msgid "Enter the cookie"
+msgid "Enter the new cookie value"
+msgstr "Введите cookie"
+
+#: App/Pages/Accounts/Views/Modals/fb/edit_account.php:34
+#: App/Pages/Accounts/Views/Modals/google_b/edit_account.php:35
+#: App/Pages/Accounts/Views/Modals/google_b/edit_account.php:46
+#: App/Pages/Accounts/Views/Modals/google_b/edit_account.php:53
+#: App/Pages/Accounts/Views/Modals/instagram/edit_account.php:33
+#: App/Pages/Accounts/Views/Modals/pinterest/edit_account.php:34
+#, fuzzy
+#| msgid "Enter the cookie"
+msgid "The cookie"
+msgstr "Введите cookie"
+
+#: App/Pages/Accounts/Views/Modals/fb/edit_account.php:57
+#: App/Pages/Accounts/Views/Modals/instagram/edit_account.php:56
+msgid "UPDATE"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/fb/index.php:15
+#: App/Pages/Accounts/Views/Modals/fb/index.php:123
+#: App/Pages/Accounts/Views/Modals/google_b/index.php:15
+#: App/Pages/Accounts/Views/Modals/google_b/index.php:113
+#: App/Pages/Accounts/Views/Modals/instagram/index.php:14
+#: App/Pages/Accounts/Views/Modals/linkedin/index.php:15
+#: App/Pages/Accounts/Views/Modals/linkedin/index.php:113
+#: App/Pages/Accounts/Views/Modals/medium/index.php:15
+#: App/Pages/Accounts/Views/Modals/medium/index.php:113
+#: App/Pages/Accounts/Views/Modals/ok/index.php:15
+#: App/Pages/Accounts/Views/Modals/ok/index.php:113
+#: App/Pages/Accounts/Views/Modals/pinterest/index.php:15
+#: App/Pages/Accounts/Views/Modals/pinterest/index.php:110
+#: App/Pages/Accounts/Views/Modals/plurk/index.php:14
+#: App/Pages/Accounts/Views/Modals/reddit/index.php:15
+#: App/Pages/Accounts/Views/Modals/reddit/index.php:114
+#: App/Pages/Accounts/Views/Modals/telegram/index.php:15
+#: App/Pages/Accounts/Views/Modals/telegram/index.php:111
+#: App/Pages/Accounts/Views/Modals/tumblr/index.php:15
+#: App/Pages/Accounts/Views/Modals/tumblr/index.php:110
+#: App/Pages/Accounts/Views/Modals/twitter/index.php:14
+#: App/Pages/Accounts/Views/Modals/vk/index.php:15
+#: App/Pages/Accounts/Views/Modals/vk/index.php:114
+#: App/Pages/Accounts/Views/Modals/wordpress/index.php:14
+msgid "deleted user"
+msgstr "удаленный пользователь"
+
+#: App/Pages/Accounts/Views/Modals/fb/index.php:26
+msgid "pages"
+msgstr "страницы"
+
+#: App/Pages/Accounts/Views/Modals/fb/index.php:26
+#: App/Pages/Accounts/Views/Modals/ok/index.php:25
+msgid "groups"
+msgstr "группы"
+
+#: App/Pages/Accounts/Views/Modals/fb/index.php:35
+#: App/Pages/Accounts/Views/Modals/fb/index.php:77
+#: App/Pages/Accounts/Views/Modals/fb/index.php:135
+#: App/Pages/Accounts/Views/Modals/google_b/index.php:36
+#: App/Pages/Accounts/Views/Modals/google_b/index.php:72
+#: App/Pages/Accounts/Views/Modals/google_b/index.php:125
+#: App/Pages/Accounts/Views/Modals/instagram/index.php:26
+#: App/Pages/Accounts/Views/Modals/linkedin/index.php:29
+#: App/Pages/Accounts/Views/Modals/linkedin/index.php:72
+#: App/Pages/Accounts/Views/Modals/linkedin/index.php:124
+#: App/Pages/Accounts/Views/Modals/medium/index.php:29
+#: App/Pages/Accounts/Views/Modals/medium/index.php:72
+#: App/Pages/Accounts/Views/Modals/medium/index.php:124
+#: App/Pages/Accounts/Views/Modals/ok/index.php:34
+#: App/Pages/Accounts/Views/Modals/ok/index.php:72
+#: App/Pages/Accounts/Views/Modals/ok/index.php:124
+#: App/Pages/Accounts/Views/Modals/pinterest/index.php:34
+#: App/Pages/Accounts/Views/Modals/pinterest/index.php:69
+#: App/Pages/Accounts/Views/Modals/pinterest/index.php:121
+#: App/Pages/Accounts/Views/Modals/plurk/index.php:31
+#: App/Pages/Accounts/Views/Modals/reddit/index.php:37
+#: App/Pages/Accounts/Views/Modals/reddit/index.php:73
+#: App/Pages/Accounts/Views/Modals/reddit/index.php:126
+#: App/Pages/Accounts/Views/Modals/telegram/index.php:37
+#: App/Pages/Accounts/Views/Modals/telegram/index.php:70
+#: App/Pages/Accounts/Views/Modals/telegram/index.php:123
+#: App/Pages/Accounts/Views/Modals/tumblr/index.php:34
+#: App/Pages/Accounts/Views/Modals/tumblr/index.php:69
+#: App/Pages/Accounts/Views/Modals/tumblr/index.php:121
+#: App/Pages/Accounts/Views/Modals/twitter/index.php:31
+#: App/Pages/Accounts/Views/Modals/vk/index.php:34
+#: App/Pages/Accounts/Views/Modals/vk/index.php:73
+#: App/Pages/Accounts/Views/Modals/vk/index.php:126
+#: App/Pages/Accounts/Views/Modals/wordpress/index.php:32
+#, php-format
+msgid "It's public for all the users by %s."
+msgstr "Это публично для всех пользователей по %s."
+
+#: App/Pages/Accounts/Views/Modals/fb/index.php:39
+#: App/Pages/Accounts/Views/Modals/google_b/index.php:40
+#: App/Pages/Accounts/Views/Modals/instagram/index.php:30
+#: App/Pages/Accounts/Views/Modals/linkedin/index.php:33
+#: App/Pages/Accounts/Views/Modals/medium/index.php:33
+#: App/Pages/Accounts/Views/Modals/ok/index.php:38
+#: App/Pages/Accounts/Views/Modals/pinterest/index.php:38
+#: App/Pages/Accounts/Views/Modals/plurk/index.php:35
+#: App/Pages/Accounts/Views/Modals/reddit/index.php:41
+#: App/Pages/Accounts/Views/Modals/telegram/index.php:41
+#: App/Pages/Accounts/Views/Modals/tumblr/index.php:38
+#: App/Pages/Accounts/Views/Modals/twitter/index.php:35
+#: App/Pages/Accounts/Views/Modals/vk/index.php:38
+#: App/Pages/Accounts/Views/Modals/wordpress/index.php:36
+msgid "Proxy"
+msgstr "Прокси"
+
+#: App/Pages/Accounts/Views/Modals/fb/index.php:44
+#: App/Pages/Accounts/Views/Modals/google_b/index.php:45
+#: App/Pages/Accounts/Views/Modals/linkedin/index.php:43
+#: App/Pages/Accounts/Views/Modals/medium/index.php:43
+#: App/Pages/Accounts/Views/Modals/ok/index.php:43
+#: App/Pages/Accounts/Views/Modals/pinterest/index.php:43
+#: App/Pages/Accounts/Views/Modals/tumblr/index.php:43
+#: App/Pages/Accounts/Views/Modals/vk/index.php:43
+msgid "Re-fetch account"
+msgstr "Обновлять аккаунт"
+
+#: App/Pages/Accounts/Views/Modals/fb/index.php:50
+#: App/Pages/Accounts/Views/Modals/fb/index.php:88
+#: App/Pages/Accounts/Views/Modals/fb/index.php:141
+#: App/Pages/Accounts/Views/Modals/google_b/index.php:47
+#: App/Pages/Accounts/Views/Modals/google_b/index.php:78
+#: App/Pages/Accounts/Views/Modals/google_b/index.php:131
+#: App/Pages/Accounts/Views/Modals/instagram/index.php:42
+#: App/Pages/Accounts/Views/Modals/linkedin/index.php:48
+#: App/Pages/Accounts/Views/Modals/linkedin/index.php:78
+#: App/Pages/Accounts/Views/Modals/linkedin/index.php:130
+#: App/Pages/Accounts/Views/Modals/medium/index.php:48
+#: App/Pages/Accounts/Views/Modals/medium/index.php:78
+#: App/Pages/Accounts/Views/Modals/medium/index.php:130
+#: App/Pages/Accounts/Views/Modals/ok/index.php:48
+#: App/Pages/Accounts/Views/Modals/ok/index.php:78
+#: App/Pages/Accounts/Views/Modals/ok/index.php:130
+#: App/Pages/Accounts/Views/Modals/pinterest/index.php:45
+#: App/Pages/Accounts/Views/Modals/pinterest/index.php:75
+#: App/Pages/Accounts/Views/Modals/pinterest/index.php:127
+#: App/Pages/Accounts/Views/Modals/plurk/index.php:42
+#: App/Pages/Accounts/Views/Modals/reddit/index.php:48
+#: App/Pages/Accounts/Views/Modals/reddit/index.php:79
+#: App/Pages/Accounts/Views/Modals/reddit/index.php:132
+#: App/Pages/Accounts/Views/Modals/telegram/index.php:45
+#: App/Pages/Accounts/Views/Modals/telegram/index.php:76
+#: App/Pages/Accounts/Views/Modals/telegram/index.php:129
+#: App/Pages/Accounts/Views/Modals/tumblr/index.php:45
+#: App/Pages/Accounts/Views/Modals/tumblr/index.php:75
+#: App/Pages/Accounts/Views/Modals/tumblr/index.php:127
+#: App/Pages/Accounts/Views/Modals/twitter/index.php:42
+#: App/Pages/Accounts/Views/Modals/vk/index.php:48
+#: App/Pages/Accounts/Views/Modals/vk/index.php:79
+#: App/Pages/Accounts/Views/Modals/vk/index.php:132
+#: App/Pages/Accounts/Views/Modals/wordpress/index.php:43
+#: App/Pages/Logs/Assets/js/fsp-logs.js:146
+msgid "Profile link"
+msgstr "Ссылка на профиль"
+
+#: App/Pages/Accounts/Views/Modals/fb/index.php:82
+#, php-format
+msgid "Posts as %s. Click to change."
+msgstr "Публикует как %s. Щелкните чтобы изменить."
+
+#: App/Pages/Accounts/Views/Modals/fb/index.php:113
+#: App/Pages/Accounts/Views/Modals/google_b/index.php:103
+#: App/Pages/Accounts/Views/Modals/linkedin/index.php:103
+#: App/Pages/Accounts/Views/Modals/medium/index.php:103
+#: App/Pages/Accounts/Views/Modals/ok/index.php:103
+#: App/Pages/Accounts/Views/Modals/pinterest/index.php:100
+#: App/Pages/Accounts/Views/Modals/reddit/index.php:104
+#: App/Pages/Accounts/Views/Modals/telegram/index.php:101
+#: App/Pages/Accounts/Views/Modals/tumblr/index.php:100
+#: App/Pages/Accounts/Views/Modals/vk/index.php:104
+msgid "Public communities"
+msgstr "Публичное сообщества"
+
+#: App/Pages/Accounts/Views/Modals/fb/index.php:114
+#: App/Pages/Accounts/Views/Modals/google_b/index.php:104
+#: App/Pages/Accounts/Views/Modals/linkedin/index.php:104
+#: App/Pages/Accounts/Views/Modals/medium/index.php:104
+#: App/Pages/Accounts/Views/Modals/ok/index.php:104
+#: App/Pages/Accounts/Views/Modals/pinterest/index.php:101
+#: App/Pages/Accounts/Views/Modals/reddit/index.php:105
+#: App/Pages/Accounts/Views/Modals/telegram/index.php:102
+#: App/Pages/Accounts/Views/Modals/tumblr/index.php:101
+#: App/Pages/Accounts/Views/Modals/vk/index.php:25
+#: App/Pages/Accounts/Views/Modals/vk/index.php:105
+msgid "communities"
+msgstr "сообщества"
+
+#: App/Pages/Accounts/Views/Modals/fb/index.php:163
+#: App/Pages/Accounts/Views/Modals/google_b/index.php:153
+#: App/Pages/Accounts/Views/Modals/instagram/index.php:61
+#: App/Pages/Accounts/Views/Modals/linkedin/index.php:152
+#: App/Pages/Accounts/Views/Modals/medium/index.php:152
+#: App/Pages/Accounts/Views/Modals/ok/index.php:152
+#: App/Pages/Accounts/Views/Modals/pinterest/index.php:149
+#: App/Pages/Accounts/Views/Modals/plurk/index.php:61
+#: App/Pages/Accounts/Views/Modals/reddit/index.php:154
+#: App/Pages/Accounts/Views/Modals/telegram/index.php:151
+#: App/Pages/Accounts/Views/Modals/tumblr/index.php:149
+#: App/Pages/Accounts/Views/Modals/twitter/index.php:61
+#: App/Pages/Accounts/Views/Modals/vk/index.php:154
+#: App/Pages/Accounts/Views/Modals/wordpress/index.php:62
+#, php-format
+msgid "No %s found!"
+msgstr "Не найдена %s !"
+
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:26
+msgid "Select an authorization method to add a new Google My Business account"
+msgstr ""
+"Выберите способ авторизации для добавления новой учетной записи Google My "
+"Business"
+
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:58
+msgid "There isn't a Google My Business App!"
+msgstr "Приложение Google My Business App не найден!"
+
+#: App/Pages/Accounts/Views/Modals/google_b/add_account.php:96
+#: App/Pages/Accounts/Views/Modals/google_b/edit_account.php:65
+#: App/Pages/Accounts/Views/Modals/instagram/add_account.php:74
+#: App/Pages/Accounts/Views/Modals/instagram/edit_account.php:45
+#: App/Pages/Accounts/Views/Modals/linkedin/add_account.php:49
+#: App/Pages/Accounts/Views/Modals/pinterest/add_account.php:73
+#: App/Pages/Accounts/Views/Modals/pinterest/edit_account.php:46
+#: App/Pages/Accounts/Views/Modals/reddit/add_account.php:49
+#: App/Pages/Accounts/Views/Modals/telegram/add_bot.php:43
+#: App/Pages/Accounts/Views/Modals/tumblr/add_account.php:49
+#: App/Pages/Accounts/Views/Modals/twitter/add_account.php:49
+#: App/Pages/Accounts/Views/Modals/wordpress/add_site.php:57
+msgid ""
+"Optional field. Supported proxy formats: https://127.0.0.1:8888 or https://"
+"user:pass@127.0.0.1:8888"
+msgstr ""
+"Поле необязательного ввода. Поддерживаемые форматы прокси-серверов: "
+"https://127.0.0.1:8888 or https://user:pass@127.0.0.1:8888"
+
+#: App/Pages/Accounts/Views/Modals/google_b/edit_account.php:17
+#: App/Pages/Accounts/Views/Modals/pinterest/edit_account.php:17
+#, fuzzy
+#| msgid "Enter the cookie"
+msgid "Update cookies"
+msgstr "Введите cookie"
+
+#: App/Pages/Accounts/Views/Modals/google_b/edit_account.php:26
+#, fuzzy
+#| msgid "Enter the cookie"
+msgid "Enter new cookies"
+msgstr "Введите cookie"
+
+#: App/Pages/Accounts/Views/Modals/google_b/edit_account.php:76
+#: App/Pages/Accounts/Views/Modals/pinterest/edit_account.php:57
+msgid "Update"
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/google_b/index.php:27
+msgid "locations"
+msgstr "локации"
+
+#: App/Pages/Accounts/Views/Modals/instagram/add_account.php:25
+msgid "Select an authorization method to add a new Instagram account"
+msgstr ""
+"Выберите способ авторизации для добавления новой учетной записи Instagram"
+
+#: App/Pages/Accounts/Views/Modals/instagram/add_account.php:41
+msgid "Login & password"
+msgstr "Логин и пароль"
+
+#: App/Pages/Accounts/Views/Modals/instagram/add_account.php:46
+msgid "Cookie"
+msgstr "Cookie-файлы"
+
+#: App/Pages/Accounts/Views/Modals/instagram/add_account.php:55
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: App/Pages/Accounts/Views/Modals/instagram/add_account.php:58
+#: App/Pages/Accounts/Views/Modals/wordpress/add_site.php:38
+#: App/Pages/Accounts/Views/Modals/wordpress/add_site.php:41
+msgid "Enter the username"
+msgstr "Введите имя пользователя"
+
+#: App/Pages/Accounts/Views/Modals/instagram/add_account.php:62
+msgid "Password"
+msgstr "Пароль"
+
+#: App/Pages/Accounts/Views/Modals/instagram/add_account.php:65
+#: App/Pages/Accounts/Views/Modals/wordpress/add_site.php:45
+#: App/Pages/Accounts/Views/Modals/wordpress/add_site.php:48
+msgid "Enter the password"
+msgstr "Введите пароль"
+
+#: App/Pages/Accounts/Views/Modals/linkedin/add_account.php:39
+msgid "There isn't a LinkedIn App!"
+msgstr "Приложение LinkedIn не найден!"
+
+#: App/Pages/Accounts/Views/Modals/linkedin/add_account.php:60
+#: App/Pages/Accounts/Views/Modals/medium/add_account.php:60
+#: App/Pages/Accounts/Views/Modals/ok/add_account.php:60
+#: App/Pages/Accounts/Views/Modals/plurk/add_account.php:48
+#: App/Pages/Accounts/Views/Modals/reddit/add_account.php:60
+#: App/Pages/Accounts/Views/Modals/reddit/add_subreddit.php:55
+#: App/Pages/Accounts/Views/Modals/tumblr/add_account.php:60
+#: App/Pages/Accounts/Views/Modals/twitter/add_account.php:60
+#: App/Pages/Accounts/Views/Modals/vk/add_account.php:49
+msgid "GET ACCESS"
+msgstr "ПОЛУЧИТЬ ДОСТУП"
+
+#: App/Pages/Accounts/Views/Modals/linkedin/index.php:25
+msgid "companies"
+msgstr "компании"
+
+#: App/Pages/Accounts/Views/Modals/medium/add_account.php:39
+msgid "There isn't a Medium App!"
+msgstr "Приложение Medium не найден!"
+
+#: App/Pages/Accounts/Views/Modals/medium/index.php:25
+msgid "publications"
+msgstr "публикации"
+
+#: App/Pages/Accounts/Views/Modals/ok/add_account.php:39
+#: App/Pages/Accounts/Views/Modals/twitter/add_account.php:39
+msgid "There isn't a Twitter App!"
+msgstr "Приложение Twitter не найден!"
+
+#: App/Pages/Accounts/Views/Modals/pinterest/add_account.php:26
+msgid "Select an authorization method to add a new Pinterest account"
+msgstr ""
+"Выберите способ авторизации для добавления новой учетной записи Pinterest"
+
+#: App/Pages/Accounts/Views/Modals/pinterest/add_account.php:54
+msgid "There isn't a Pinterest App!"
+msgstr "Приложение Pinterest не найден!"
+
+#: App/Pages/Accounts/Views/Modals/pinterest/index.php:25
+msgid "boards"
+msgstr "доски"
+
+#: App/Pages/Accounts/Views/Modals/plurk/add_account.php:42
+#, fuzzy
+#| msgid "There isn't a Tumblr App!"
+msgid "There isn't a Plurk App!"
+msgstr "Приложение Tumblr не найден!"
+
+#: App/Pages/Accounts/Views/Modals/plurk/add_account.php:52
+#, fuzzy
+#| msgid "When the authorization has completed, copy the URL"
+msgid "When the authorization has completed, copy the verification code"
+msgstr "После завершения авторизации скопируйте URL-адрес"
+
+#: App/Pages/Accounts/Views/Modals/plurk/add_account.php:55
+#, fuzzy
+#| msgid "Activation code"
+msgid "Verification code"
+msgstr "Код активации"
+
+#: App/Pages/Accounts/Views/Modals/plurk/add_account.php:56
+#, fuzzy
+#| msgid "Paste the copied URL here"
+msgid "Paste the copied verifier here"
+msgstr "Вставьте скопированный URL сюда"
+
+#: App/Pages/Accounts/Views/Modals/reddit/add_account.php:39
+msgid "There isn't a Reddit App!"
+msgstr "Приложение Reddit не найден!"
+
+#: App/Pages/Accounts/Views/Modals/reddit/add_subreddit.php:26
+msgid "Add a subreddit"
+msgstr "Добавить сабреддита"
+
+#: App/Pages/Accounts/Views/Modals/reddit/add_subreddit.php:37
+msgid "Select a subreddit"
+msgstr "Выберите сабреддита"
+
+#: App/Pages/Accounts/Views/Modals/reddit/add_subreddit.php:44
+msgid "Select flair"
+msgstr "Выберить флаир"
+
+#: App/Pages/Accounts/Views/Modals/reddit/add_subreddit.php:45
+msgid ""
+"Selecting a Flair for some subreddits is a must. If you select the \"No flair"
+"\" option, it depends entirely on the rules of the subreddit whether your "
+"posts will be deleted or not by moderators later."
+msgstr ""
+
+#: App/Pages/Accounts/Views/Modals/reddit/index.php:25
+msgid "subreddits"
+msgstr "сабреддиты"
+
+#: App/Pages/Accounts/Views/Modals/reddit/index.php:28
+msgid "ADD A SUBREDDIT"
+msgstr "ДОБАВИТЬ САБРЕДДИТА"
+
+#: App/Pages/Accounts/Views/Modals/telegram/add_bot.php:16
+msgid "Add a bot"
+msgstr "Добавить бота"
+
+#: App/Pages/Accounts/Views/Modals/telegram/add_bot.php:27
+#: App/Pages/Accounts/Views/Modals/telegram/add_bot.php:34
+msgid "Bot token"
+msgstr "Токен бота"
+
+#: App/Pages/Accounts/Views/Modals/telegram/add_chat.php:16
+msgid "Add a chat"
+msgstr "Добавить чат"
+
+#: App/Pages/Accounts/Views/Modals/telegram/add_chat.php:27
+msgid "Chat ID"
+msgstr "ID чата"
+
+#: App/Pages/Accounts/Views/Modals/telegram/add_chat.php:28
+msgid "Enter the Chat ID"
+msgstr "Введите чат ID"
+
+#: App/Pages/Accounts/Views/Modals/telegram/add_chat.php:31
+msgid "Last active chats (optional)"
+msgstr "Последние активные чаты (необязательно)"
+
+#: App/Pages/Accounts/Views/Modals/telegram/add_chat.php:31
+msgid "Reload the list"
+msgstr "Обновить список"
+
+#: App/Pages/Accounts/Views/Modals/telegram/add_chat.php:34
+msgid "No chat found. Reload and check again."
+msgstr "Чата не найдено. Перезагрузите и проверьте еще раз."
+
+#: App/Pages/Accounts/Views/Modals/telegram/index.php:25
+msgid "chats"
+msgstr "чаты"
+
+#: App/Pages/Accounts/Views/Modals/telegram/index.php:28
+msgid "ADD A CHAT"
+msgstr "ДОБАВИТЬ ЧАТ"
+
+#: App/Pages/Accounts/Views/Modals/tumblr/add_account.php:39
+msgid "There isn't a Tumblr App!"
+msgstr "Приложение Tumblr не найден!"
+
+#: App/Pages/Accounts/Views/Modals/tumblr/index.php:25
+msgid "blogs"
+msgstr "блоги"
+
+#: App/Pages/Accounts/Views/Modals/tumblr/index.php:65
+#: App/Pages/Accounts/Views/Modals/tumblr/index.php:117
+msgid "Primary blog"
+msgstr "Основной блог"
+
+#: App/Pages/Accounts/Views/Modals/vk/add_account.php:43
+msgid "There isn't a VKontakte App!"
+msgstr "Приложение VKontakte не найден!"
+
+#: App/Pages/Accounts/Views/Modals/vk/add_account.php:53
+msgid "When the authorization has completed, copy the URL"
+msgstr "После завершения авторизации скопируйте URL-адрес"
+
+#: App/Pages/Accounts/Views/Modals/vk/add_account.php:56
+msgid "URL"
+msgstr "URL"
+
+#: App/Pages/Accounts/Views/Modals/vk/add_account.php:57
+msgid "Paste the copied URL here"
+msgstr "Вставьте скопированный URL сюда"
+
+#: App/Pages/Accounts/Views/Modals/wordpress/add_site.php:16
+msgid "Add a website"
+msgstr "Добавить сайт"
+
+#: App/Pages/Accounts/Views/Modals/wordpress/add_site.php:27
+#: App/Pages/Accounts/Views/Modals/wordpress/add_site.php:34
+msgid "Enter the website URL"
+msgstr "Введите URL-адрес веб-сайта"
+
+#: App/Pages/Accounts/Views/index.php:10 App/Pages/Accounts/Views/index.php:80
+msgid "Activate"
+msgstr "Активировать"
+
+#: App/Pages/Accounts/Views/index.php:15 App/Pages/Accounts/Views/index.php:84
+msgid "Activate (condition)"
+msgstr "Активировать (условно)"
+
+#: App/Pages/Accounts/Views/index.php:17 App/Pages/Accounts/Views/index.php:85
+msgid "Deactivate"
+msgstr "Деактивировать"
+
+#: App/Pages/Accounts/Views/index.php:19 App/Pages/Accounts/Views/index.php:87
+msgid "Deactivate for all users"
+msgstr "Деактивировать для всех пользователей"
+
+#: App/Pages/Accounts/Views/index.php:25 App/Pages/Accounts/Views/index.php:78
+msgid "Make public"
+msgstr "Сделать публичным"
+
+#: App/Pages/Accounts/Views/index.php:26 App/Pages/Accounts/Views/index.php:79
+msgid "Make private"
+msgstr "Сделать приватном"
+
+#: App/Pages/Accounts/Views/index.php:27 App/Pages/Accounts/Views/index.php:89
+#: App/Pages/Apps/Views/index.php:166
+msgid "Delete"
+msgstr "Удалить"
+
+#: App/Pages/Accounts/Views/index.php:28 App/Pages/Accounts/Views/index.php:90
+msgid "Hide"
+msgstr "Скрывать"
+
+#: App/Pages/Accounts/Views/index.php:29 App/Pages/Accounts/Views/index.php:91
+msgid "Unhide"
+msgstr "Показать"
+
+#: App/Pages/Accounts/Views/index.php:30
+#, fuzzy
+#| msgid "Enter the cookie"
+msgid "Update cookie(s)"
+msgstr "Введите cookie"
+
+#: App/Pages/Accounts/Views/index.php:36 App/Pages/Base/Views/index.php:14
+#: App/Pages/Schedules/Views/Modals/add.php:48
+#: App/Pages/Schedules/Views/Modals/add.php:55 App/Providers/PluginMenu.php:79
+msgid "Accounts"
+msgstr "Аккаунты"
+
+#: App/Pages/Accounts/Views/index.php:58
+msgid "COLLAPSE ALL"
+msgstr "СВЕРНУТЬ ВСЕ"
+
+#: App/Pages/Accounts/Views/index.php:61
+msgid "EXPAND ALL"
+msgstr "РАСШИРИТЬ ВСЕ"
+
+#: App/Pages/Accounts/Views/index.php:65
+msgid "All accounts"
+msgstr "Все аккаунты"
+
+#: App/Pages/Accounts/Views/index.php:66
+msgid "Active accounts"
+msgstr "Активные аккаунты"
+
+#: App/Pages/Accounts/Views/index.php:67
+msgid "Deactive accounts"
+msgstr "Деактивировать аккаунтов"
+
+#: App/Pages/Accounts/Views/index.php:68
+msgid "Visible accounts"
+msgstr "Видимые аккаунты"
+
+#: App/Pages/Accounts/Views/index.php:69
+msgid "Hidden accounts"
+msgstr "Скрытые аккаунты"
+
+#: App/Pages/Accounts/Views/index.php:70
+msgid "Failed accounts"
+msgstr "Провалившийся аккаунты"
+
+#: App/Pages/Accounts/Views/index.php:77
+msgid "Select an action (0)"
+msgstr "Выберите действие (0)"
+
+#: App/Pages/Accounts/Views/index.php:78
+msgid "Do you want to make the selected accounts public?"
+msgstr "Вы действительно хотите сделать выбранные учетные записи публичном?"
+
+#: App/Pages/Accounts/Views/index.php:79
+msgid "Do you want to make the selected accounts private?"
+msgstr "Вы действительно хотите сделать выбранные учетные записи приватном?"
+
+#: App/Pages/Accounts/Views/index.php:80
+msgid "Do you want to activate the selected accounts?"
+msgstr "Вы хотите активировать выбранные учетные записи?"
+
+#: App/Pages/Accounts/Views/index.php:82
+msgid "Do you want to activate the selected accounts for all users?"
+msgstr ""
+"Вы хотите активировать выбранные учетные записи для всех пользователей?"
+
+#: App/Pages/Accounts/Views/index.php:85
+msgid "Do you want to deactivate the selected accounts?"
+msgstr "Вы хотите деактивировать выбранные учетные записи?"
+
+#: App/Pages/Accounts/Views/index.php:87
+msgid "Do you want to deactivate the selected accounts for all users?"
+msgstr ""
+"Вы хотите деактивировать выбранные учетные записи для всех пользователей?"
+
+#: App/Pages/Accounts/Views/index.php:89
+msgid "Are you sure you want to delete the selected accounts?"
+msgstr "Вы уверены, что хотите удалить выбранные аккаунти?"
+
+#: App/Pages/Accounts/Views/index.php:90
+msgid "Do you want to hide the selected accounts?"
+msgstr "Вы хотите скрыть выбранные учетные записи?"
+
+#: App/Pages/Accounts/Views/index.php:91
+msgid "Do you want to unhide the selected accounts?"
+msgstr "Вы хотите показать выбранные учетные записи?"
+
+#: App/Pages/Apps/Controllers/Ajax.php:25
+msgid "There isn't an App!"
+msgstr "Приложение не найден!"
+
+#: App/Pages/Apps/Controllers/Ajax.php:29
+msgid "You don't have permission to delete the App!"
+msgstr "У вас нет разрешения на удаление приложения!"
+
+#: App/Pages/Apps/Controllers/Ajax.php:33
+msgid "You can't delete the App!"
+msgstr "Вы не можете удалить приложение!"
+
+#: App/Pages/Apps/Controllers/Ajax.php:77
+msgid "field is empty!"
+msgstr "поле пусто!"
+
+#: App/Pages/Apps/Controllers/Ajax.php:87
+msgid "The App has already been added."
+msgstr "Приложение уже было добавлено."
+
+#: App/Pages/Apps/Controllers/Ajax.php:105
+msgid "App has been added successfully!"
+msgstr "Приложение было успешно добавлено!"
+
+#: App/Pages/Apps/Views/Modals/add.php:14
+msgid "Add a new App"
+msgstr "Добавить новое приложение"
+
+#: App/Pages/Apps/Views/Modals/add.php:23
+msgid "</b>, <b>"
+msgstr "</b>, <b>"
+
+#: App/Pages/Apps/Views/Modals/add.php:23
+#, php-format
+msgid "Type <b>%s</b>"
+msgstr "Писать <b>%s</b>"
+
+#: App/Pages/Apps/Views/Modals/add.php:28
+#: App/Pages/Apps/Views/Modals/add.php:29
+msgid "The App ID"
+msgstr "Идентификатор приложения"
+
+#: App/Pages/Apps/Views/Modals/add.php:32
+#: App/Pages/Apps/Views/Modals/add.php:33
+msgid "The App Key"
+msgstr "Ключ приложения"
+
+#: App/Pages/Apps/Views/Modals/add.php:36
+#: App/Pages/Apps/Views/Modals/add.php:37
+msgid "The App Secret"
+msgstr "Секрет приложения"
+
+#: App/Pages/Apps/Views/Modals/add.php:40
+msgid "The App Version"
+msgstr "Версия приложении"
+
+#: App/Pages/Apps/Views/Modals/add.php:57 App/Pages/Apps/Views/index.php:21
+msgid "ADD AN APP"
+msgstr "ДОБАВИТЬ ПРИЛОЖЕНИЕ"
+
+#: App/Pages/Apps/Views/index.php:14 App/Pages/Base/Views/index.php:18
+#: App/Providers/PluginMenu.php:99
+msgid "Apps"
+msgstr "Приложения"
+
+#: App/Pages/Apps/Views/index.php:132
+msgid "The callback URL for your App is:"
+msgstr "URL-адрес обратного вызова для вашего приложения:"
+
+#: App/Pages/Apps/Views/index.php:134
+#: App/Pages/Settings/Views/Components/general.php:183
+msgid "Click to copy"
+msgstr "Нажмите чтобы скопировать"
+
+#: App/Pages/Apps/Views/index.php:148
+msgid "The App Key:"
+msgstr "Ключ приложения:"
+
+#: App/Pages/Apps/Views/index.php:152
+msgid "The App Secret:"
+msgstr "Секрет приложения:"
+
+#: App/Pages/Apps/Views/index.php:156
+msgid "The App ID:"
+msgstr "ID приложения:"
+
+#: App/Pages/Apps/Views/index.php:164
+msgid "You can't delete the App"
+msgstr "Вы не можете удалить приложение"
+
+#: App/Pages/Apps/Views/index.php:176
+msgid "There isn't an App."
+msgstr "Приложение не найден."
+
+#: App/Pages/Base/Assets/js/fsp-metabox.js:52
+msgid "Do you want to empty share list?"
+msgstr "Вы действительно хотите очистить список?"
+
+#: App/Pages/Base/Assets/js/fsp-metabox.js:163
+msgid "Added to list!"
+msgstr "Добавлено в список!"
+
+#: App/Pages/Base/Assets/js/fsp.js:26 App/Pages/Base/Controllers/Action.php:331
+#: App/Pages/Base/Views/post_meta_box.php:98
+#: App/Pages/Schedules/Views/Modals/add.php:273
+msgid "OK"
+msgstr "OK"
+
+#: App/Pages/Base/Assets/js/fsp.js:36 App/Pages/Schedules/Views/list.php:21
+msgid "DELETE"
+msgstr "УДАЛИТЬ"
+
+#: App/Pages/Base/Assets/js/fsp.js:139
+msgid "Not connect."
+msgstr "Нет соединения."
+
+#: App/Pages/Base/Assets/js/fsp.js:143
+msgid "Requested page not found. [404]"
+msgstr "Страница не найдена. [404]"
+
+#: App/Pages/Base/Assets/js/fsp.js:147
+msgid "Internal Server Error [500]."
+msgstr "Внутренняя Ошибка Сервера [500]."
+
+#: App/Pages/Base/Assets/js/fsp.js:151
+msgid "Requested JSON parse failed."
+msgstr "Запрошенный парсинг JSON не удался."
+
+#: App/Pages/Base/Assets/js/fsp.js:155
+msgid "Time out error."
+msgstr "Ошибка тайм-аута."
+
+#: App/Pages/Base/Assets/js/fsp.js:159
+msgid "Ajax request aborted."
+msgstr "Запрос Ajax прерван."
+
+#: App/Pages/Base/Assets/js/fsp.js:163
+msgid "Uncaught Error."
+msgstr "Необнаруженная ошибка."
+
+#: App/Pages/Base/Assets/js/fsp.js:752
+msgid "Copied!"
+msgstr "Скопировано!"
+
+#: App/Pages/Base/Controllers/Action.php:161
+msgid "Facebook"
+msgstr "Facebook"
+
+#: App/Pages/Base/Controllers/Action.php:165
+#: App/Pages/Base/Controllers/Action.php:324
+#: App/Pages/Base/Views/post_meta_box.php:91
+#: App/Pages/Schedules/Views/Modals/add.php:266
+msgid "Twitter"
+msgstr "Twitter"
+
+#: App/Pages/Base/Controllers/Action.php:169
+#: App/Pages/Base/Controllers/Action.php:325
+#: App/Pages/Base/Views/post_meta_box.php:92
+#: App/Pages/Schedules/Views/Modals/add.php:267
+msgid "Instagram"
+msgstr "Instagram"
+
+#: App/Pages/Base/Controllers/Action.php:173
+#: App/Pages/Base/Controllers/Action.php:326
+#: App/Pages/Base/Views/post_meta_box.php:93
+#: App/Pages/Schedules/Views/Modals/add.php:268
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: App/Pages/Base/Controllers/Action.php:177
+msgid "VKontakte"
+msgstr "ВКонтакте"
+
+#: App/Pages/Base/Controllers/Action.php:181
+#: App/Pages/Base/Controllers/Action.php:328
+#: App/Pages/Base/Views/post_meta_box.php:95
+#: App/Pages/Schedules/Views/Modals/add.php:270
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: App/Pages/Base/Controllers/Action.php:185
+#: App/Pages/Base/Controllers/Action.php:329
+#: App/Pages/Base/Views/post_meta_box.php:96
+#: App/Pages/Schedules/Views/Modals/add.php:271
+msgid "Reddit"
+msgstr "Reddit"
+
+#: App/Pages/Base/Controllers/Action.php:189
+#: App/Pages/Base/Controllers/Action.php:330
+#: App/Pages/Base/Views/post_meta_box.php:97
+#: App/Pages/Schedules/Views/Modals/add.php:272
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: App/Pages/Base/Controllers/Action.php:193
+msgid "Odnoklassniki"
+msgstr "Odnoklassniki"
+
+#: App/Pages/Base/Controllers/Action.php:197
+#: App/Pages/Base/Controllers/Action.php:332
+#: App/Pages/Base/Views/post_meta_box.php:103
+#: App/Pages/Schedules/Views/Modals/add.php:274
+msgid "Plurk"
+msgstr ""
+
+#: App/Pages/Base/Controllers/Action.php:201
+#: App/Pages/Base/Controllers/Action.php:333
+#: App/Pages/Base/Views/post_meta_box.php:99
+#: App/Pages/Schedules/Views/Modals/add.php:275
+msgid "GMB"
+msgstr "GMB"
+
+#: App/Pages/Base/Controllers/Action.php:205
+#: App/Pages/Base/Controllers/Action.php:334
+#: App/Pages/Base/Views/post_meta_box.php:100
+#: App/Pages/Schedules/Views/Modals/add.php:276
+msgid "Telegram"
+msgstr "Telegram"
+
+#: App/Pages/Base/Controllers/Action.php:209
+#: App/Pages/Base/Controllers/Action.php:335
+#: App/Pages/Base/Views/post_meta_box.php:101
+#: App/Pages/Schedules/Views/Modals/add.php:277
+msgid "Medium"
+msgstr "Medium"
+
+#: App/Pages/Base/Controllers/Action.php:213
+#: App/Pages/Base/Controllers/Action.php:336
+#: App/Pages/Base/Views/post_meta_box.php:102
+#: App/Pages/Schedules/Views/Modals/add.php:278
+msgid "WordPress"
+msgstr "WordPress"
+
+#: App/Pages/Base/Controllers/Action.php:232
+#: App/Pages/Share/Assets/js/fsp-share-popup.js:36
+msgid "The post will be shared in the background!"
+msgstr "Пост будет опубликован в фоновом режиме!"
+
+#: App/Pages/Base/Controllers/Action.php:323
+#: App/Pages/Base/Views/post_meta_box.php:90
+#: App/Pages/Schedules/Views/Modals/add.php:265
+msgid "FB"
+msgstr "FB"
+
+#: App/Pages/Base/Controllers/Action.php:327
+#: App/Pages/Base/Views/post_meta_box.php:94
+#: App/Pages/Schedules/Views/Modals/add.php:269
+msgid "VK"
+msgstr "VK"
+
+#: App/Pages/Base/Views/Modals/add_node_to_list.php:14
+msgid "Select accounts"
+msgstr "Выберите аккаунты"
+
+#: App/Pages/Base/Views/Modals/add_node_to_list.php:24
+msgid "Search account"
+msgstr "Поиск аккаунта"
+
+#: App/Pages/Base/Views/Modals/add_node_to_list.php:27
+msgid "Search"
+msgstr "Поиск"
+
+#: App/Pages/Base/Views/disable.php:14
+msgid "Your plugin is disabled. Please activate the plugin."
+msgstr "Ваш плагин отключен. Пожалуйста, активируйте плагин."
+
+#: App/Pages/Base/Views/disable.php:20
+#, php-format
+msgid "Reason: %s"
+msgstr "Причина: %s"
+
+#: App/Pages/Base/Views/disable.php:23 App/Pages/Base/Views/install.php:20
+#: App/Pages/Base/Views/update.php:20
+msgid "Enter the purchase key"
+msgstr "Введите ключ покупки"
+
+#: App/Pages/Base/Views/disable.php:26
+msgid "RE-ACTIVATE"
+msgstr "РЕАКТИВИРОВАТЬ"
+
+#: App/Pages/Base/Views/index.php:13 App/Providers/PluginMenu.php:74
+msgid "Dashboard"
+msgstr "Консоль"
+
+#: App/Pages/Base/Views/index.php:15 App/Pages/Schedules/Views/list.php:15
+#: App/Providers/PluginMenu.php:84
+msgid "Schedules"
+msgstr "Расписания"
+
+#: App/Pages/Base/Views/index.php:16 App/Pages/Share/Views/index.php:15
+#: App/Providers/PluginMenu.php:89
+msgid "Direct Share"
+msgstr "Прямой публикация"
+
+#: App/Pages/Base/Views/index.php:17 App/Pages/Logs/Views/index.php:17
+#: App/Pages/Schedules/Views/list.php:138 App/Providers/PluginMenu.php:94
+msgid "Logs"
+msgstr "Логи"
+
+#: App/Pages/Base/Views/index.php:20 App/Pages/Settings/Views/index.php:13
+#: App/Providers/PluginMenu.php:106
+msgid "Settings"
+msgstr "Настройки"
+
+#: App/Pages/Base/Views/install.php:14
+msgid "Please activate the plugin."
+msgstr "Пожалуйста, активируйте плагин."
+
+#: App/Pages/Base/Views/install.php:23
+msgid "Enter your e-mail address (optional)"
+msgstr "Введите свой адрес электронной почты (необязательно)"
+
+#: App/Pages/Base/Views/install.php:27
+msgid "Where did You find us?"
+msgstr "Как вы нашли нас?"
+
+#: App/Pages/Base/Views/post_meta_box.php:16
+#: App/Pages/Base/Views/post_metabox_v2.php:16
+#: App/Pages/Share/Views/Modals/share_saved_post.php:19
+#: App/Providers/BackEnd.php:150
+msgid "Share"
+msgstr "Опубликовать"
+
+#: App/Pages/Base/Views/post_meta_box.php:25
+#: App/Pages/Base/Views/post_metabox_v2.php:25
+#: App/Pages/Schedules/Views/Modals/add.php:200
+msgid "Show all accounts"
+msgstr ""
+
+#: App/Pages/Base/Views/post_meta_box.php:28
+#: App/Pages/Schedules/Views/Modals/add.php:203
+msgid "Show only Facebook accounts"
+msgstr "Показать только Facebook аккаунты"
+
+#: App/Pages/Base/Views/post_meta_box.php:31
+#: App/Pages/Schedules/Views/Modals/add.php:206
+msgid "Show only Twitter accounts"
+msgstr "Показать только Twitter аккаунты"
+
+#: App/Pages/Base/Views/post_meta_box.php:34
+#: App/Pages/Schedules/Views/Modals/add.php:209
+msgid "Show only Instagram accounts"
+msgstr "Показать только Instagram аккаунты"
+
+#: App/Pages/Base/Views/post_meta_box.php:37
+#: App/Pages/Schedules/Views/Modals/add.php:212
+msgid "Show only Linkedin accounts"
+msgstr "Показать только Linkedin аккаунты"
+
+#: App/Pages/Base/Views/post_meta_box.php:40
+#: App/Pages/Schedules/Views/Modals/add.php:215
+msgid "Show only VKontakte accounts"
+msgstr "Показать только VKontakte аккаунты"
+
+#: App/Pages/Base/Views/post_meta_box.php:43
+#: App/Pages/Schedules/Views/Modals/add.php:218
+msgid "Show only Pinterest accounts"
+msgstr "Показать только Pinterest аккаунты"
+
+#: App/Pages/Base/Views/post_meta_box.php:46
+#: App/Pages/Schedules/Views/Modals/add.php:221
+msgid "Show only Reddit accounts"
+msgstr "Показать только Reddit аккаунты"
+
+#: App/Pages/Base/Views/post_meta_box.php:49
+#: App/Pages/Schedules/Views/Modals/add.php:224
+msgid "Show only Tumblr accounts"
+msgstr "Показать только Tumblr аккаунты"
+
+#: App/Pages/Base/Views/post_meta_box.php:52
+#: App/Pages/Schedules/Views/Modals/add.php:227
+msgid "Show only Odnoklassniki accounts"
+msgstr "Показать только Odnoklassniki аккаунты"
+
+#: App/Pages/Base/Views/post_meta_box.php:55
+#: App/Pages/Schedules/Views/Modals/add.php:230
+#, fuzzy
+#| msgid "Show only Tumblr accounts"
+msgid "Show only Plurk accounts"
+msgstr "Показать только Tumblr аккаунты"
+
+#: App/Pages/Base/Views/post_meta_box.php:58
+#: App/Pages/Schedules/Views/Modals/add.php:233
+msgid "Show only Google My Business accounts"
+msgstr "Показать только Google My Business аккаунты"
+
+#: App/Pages/Base/Views/post_meta_box.php:61
+#: App/Pages/Schedules/Views/Modals/add.php:236
+msgid "Show only Telegram accounts"
+msgstr "Показать только Telegram аккаунты"
+
+#: App/Pages/Base/Views/post_meta_box.php:64
+#: App/Pages/Schedules/Views/Modals/add.php:239
+msgid "Show only Medium accounts"
+msgstr "Показать только Medium аккаунты"
+
+#: App/Pages/Base/Views/post_meta_box.php:67
+#: App/Pages/Schedules/Views/Modals/add.php:242
+msgid "Show only WordPress websites"
+msgstr "Показать только WordPress аккаунты"
+
+#: App/Pages/Base/Views/post_meta_box.php:73
+#: App/Pages/Base/Views/post_metabox_v2.php:36
+msgid "Please select an account"
+msgstr "Пожалуйста, выберите аккаунт"
+
+#: App/Pages/Base/Views/post_meta_box.php:131
+#: App/Pages/Base/Views/post_metabox_v2.php:78
+msgid "Customize Facebook post message"
+msgstr "Настроить пост сообщение Facebook"
+
+#: App/Pages/Base/Views/post_meta_box.php:137
+#: App/Pages/Base/Views/post_metabox_v2.php:84
+msgid "Customize Twitter post message"
+msgstr "Настроить сообщение публикации Twitter"
+
+#: App/Pages/Base/Views/post_meta_box.php:143
+#: App/Pages/Base/Views/post_metabox_v2.php:90
+msgid "Customize Instagram post message"
+msgstr "Настроить пост сообщение Instagram"
+
+#: App/Pages/Base/Views/post_meta_box.php:147
+#: App/Pages/Base/Views/post_metabox_v2.php:94
+msgid "Customize Instagram story message"
+msgstr "Настроить стори сообщение Instagram"
+
+#: App/Pages/Base/Views/post_meta_box.php:153
+#: App/Pages/Base/Views/post_metabox_v2.php:100
+msgid "Customize LinkedIn post message"
+msgstr "Настроить пост сообщение LinkedIn"
+
+#: App/Pages/Base/Views/post_meta_box.php:159
+#: App/Pages/Base/Views/post_metabox_v2.php:106
+msgid "Customize VKontakte post message"
+msgstr "Настроить сообщение публикации Vkontakte"
+
+#: App/Pages/Base/Views/post_meta_box.php:165
+#: App/Pages/Base/Views/post_metabox_v2.php:112
+msgid "Customize Pinterest post message"
+msgstr "Настроить сообщение публикации Pinterest"
+
+#: App/Pages/Base/Views/post_meta_box.php:171
+#: App/Pages/Base/Views/post_metabox_v2.php:118
+msgid "Customize Reddit post message"
+msgstr "Настроить сообщение публикации Reddit"
+
+#: App/Pages/Base/Views/post_meta_box.php:177
+#: App/Pages/Base/Views/post_metabox_v2.php:124
+msgid "Customize Tumblr post message"
+msgstr "Настроить сообщение публикации Tumblr"
+
+#: App/Pages/Base/Views/post_meta_box.php:183
+#: App/Pages/Base/Views/post_metabox_v2.php:130
+msgid "Customize Odnoklassniki post message"
+msgstr "Настроить сообщение публикации Odnoklassniki"
+
+#: App/Pages/Base/Views/post_meta_box.php:189
+#: App/Pages/Base/Views/post_metabox_v2.php:142
+msgid "Customize Google My Business post message"
+msgstr "Настроить пост сообщение Google My Business"
+
+#: App/Pages/Base/Views/post_meta_box.php:195
+#: App/Pages/Base/Views/post_metabox_v2.php:148
+msgid "Customize Telegram post message"
+msgstr "Настроить сообщение публикации Telegram"
+
+#: App/Pages/Base/Views/post_meta_box.php:201
+#: App/Pages/Base/Views/post_metabox_v2.php:154
+msgid "Customize Medium post message"
+msgstr "Настроить пост сообщение Medium"
+
+#: App/Pages/Base/Views/post_meta_box.php:207
+#: App/Pages/Base/Views/post_metabox_v2.php:160
+msgid "Customize WordPress post message"
+msgstr "Настроить сообщение публикации Wordpress"
+
+#: App/Pages/Base/Views/post_meta_box.php:213
+#: App/Pages/Base/Views/post_metabox_v2.php:136
+#: App/Pages/Base/Views/post_metabox_v2.php:166
+#, fuzzy
+#| msgid "Customize Tumblr post message"
+msgid "Customize Plurk post message"
+msgstr "Настроить сообщение публикации Tumblr"
+
+#: App/Pages/Base/Views/post_meta_box.php:222
+#: App/Pages/Base/Views/post_metabox_v2.php:178
+#: App/Pages/Schedules/Views/Modals/add.php:307
+#: App/Pages/Schedules/Views/Modals/add.php:425
+#: App/Pages/Schedules/Views/Modals/add.php:494
+#: App/Pages/Settings/Views/Components/facebook.php:129
+#: App/Pages/Settings/Views/Components/google_b.php:146
+#: App/Pages/Settings/Views/Components/instagram.php:128
+#: App/Pages/Settings/Views/Components/instagram.php:239
+#: App/Pages/Settings/Views/Components/linkedin.php:117
+#: App/Pages/Settings/Views/Components/medium.php:103
+#: App/Pages/Settings/Views/Components/ok.php:105
+#: App/Pages/Settings/Views/Components/pinterest.php:99
+#: App/Pages/Settings/Views/Components/plurk.php:151
+#: App/Pages/Settings/Views/Components/reddit.php:116
+#: App/Pages/Settings/Views/Components/telegram.php:117
+#: App/Pages/Settings/Views/Components/tumblr.php:103
+#: App/Pages/Settings/Views/Components/twitter.php:117
+#: App/Pages/Settings/Views/Components/url.php:113
+#: App/Pages/Settings/Views/Components/vk.php:136
+#: App/Pages/Settings/Views/Components/wordpress.php:147
+msgid "CLEAR"
+msgstr "ОЧИЩАТЬ"
+
+#: App/Pages/Base/Views/post_meta_box_edit.php:18
+msgid "Shared on:"
+msgstr "Опубликовано на:"
+
+#: App/Pages/Base/Views/post_meta_box_edit.php:77
+msgid "Posted successfully."
+msgstr "Успешно опубликована."
+
+#: App/Pages/Base/Views/post_meta_box_edit.php:83
+msgid "Going to share in a minute."
+msgstr "Будет опубликован через минуту."
+
+#: App/Pages/Base/Views/post_meta_box_edit.php:88
+#, php-format
+msgid "Going to share after %d minute(s)."
+msgstr "Будет опубликован через %d минут."
+
+#: App/Pages/Base/Views/post_meta_box_edit.php:95
+#, php-format
+msgid "The post is failed. %s"
+msgstr "Пост неудачен. %s"
+
+#: App/Pages/Base/Views/post_meta_box_edit.php:104
+#, fuzzy
+#| msgid ""
+#| "You need to add the Facebook App to your group settings. <a href='https://"
+#| "www.fs-poster.com/documentation/commonly-encountered-issues#issue5' "
+#| "target='_blank'>How to?</a>"
+msgid ""
+"The post hasn't been shared on any account! <a href='https://www.fs-poster."
+"com/documentation/commonly-encountered-issues#issue11' target='_blank'>Why?</"
+"a>"
+msgstr ""
+"Вы должны установить и включить библиотеки GD, libjpeg, libpng и freetype. "
+"<a href='https://www.fs-poster.com/documentation/commonly-encountered-"
+"issues#issue3' target='_blank'>Как?</a>"
+
+#: App/Pages/Base/Views/post_meta_box_edit.php:109
+#: App/Pages/Share/Views/Modals/share_saved_post.php:47
+msgid "SHARE"
+msgstr "ОПУБЛИКОВАТЬ"
+
+#: App/Pages/Base/Views/post_meta_box_edit.php:109
+msgid "SHARE AGAIN"
+msgstr "ОПУБЛИКОВАТЬ ЕЩЕ РАЗ"
+
+#: App/Pages/Base/Views/post_meta_box_edit.php:110
+#: App/Pages/Schedules/Views/calendar.php:37
+#: App/Pages/Schedules/Views/list.php:30 App/Pages/Share/Views/index.php:101
+msgid "SCHEDULE"
+msgstr "РАСПИСАНИЕ"
+
+#: App/Pages/Base/Views/post_meta_box_edit.php:112
+#: App/Pages/Schedules/Controllers/Popup.php:364
+#: App/Pages/Schedules/Controllers/Popup.php:537
+msgid "EDIT SCHEDULE"
+msgstr "ИЗМЕНИТЬ РАСПИСАНИЕ"
+
+#: App/Pages/Base/Views/post_metabox_v2.php:29
+#, php-format
+msgid "Show only %s accounts"
+msgstr "Показать только %s аккаунты"
+
+#: App/Pages/Base/Views/update.php:14
+#, php-format
+msgid "A new version %s is available. Please update the plugin."
+msgstr "Доступна новая версия %s. Пожалуйста, обновите плагин."
+
+#: App/Pages/Base/Views/update.php:23
+msgid "UPDATE AND ACTIVATE"
+msgstr "ОБНОВИТЬ И АКТИВИРОВАТЬ"
+
+#: App/Pages/Dashboard/Views/index.php:29
+msgid "Shares in this month"
+msgstr "Публикации в этом месяце"
+
+#: App/Pages/Dashboard/Views/index.php:36
+msgid "Clicks in this month"
+msgstr "Кликов в этом месяце"
+
+#: App/Pages/Dashboard/Views/index.php:43
+msgid "Total accounts"
+msgstr "Всего аккаунтов"
+
+#: App/Pages/Dashboard/Views/index.php:50
+msgid "Clicks from schedules"
+msgstr "Клики из расписаний"
+
+#: App/Pages/Dashboard/Views/index.php:58
+msgid "Shared posts count"
+msgstr "Общее количество"
+
+#: App/Pages/Dashboard/Views/index.php:60
+#: App/Pages/Dashboard/Views/index.php:75
+msgid "Daily"
+msgstr "Повседневная"
+
+#: App/Pages/Dashboard/Views/index.php:61
+#: App/Pages/Dashboard/Views/index.php:76
+msgid "Monthly"
+msgstr "Ежемесячно"
+
+#: App/Pages/Dashboard/Views/index.php:62
+#: App/Pages/Dashboard/Views/index.php:77
+msgid "Annually"
+msgstr "Ежегодно"
+
+#: App/Pages/Dashboard/Views/index.php:73
+msgid "Clicks count"
+msgstr "Количество кликов"
+
+#: App/Pages/Dashboard/Views/index.php:88
+msgid "Social networks comparison (by clicks)"
+msgstr "Сравнение социальных сетей (по кликам)"
+
+#: App/Pages/Dashboard/Views/index.php:99
+msgid "Accounts comparison (by clicks)"
+msgstr "Сравнение аккаунтов (по кликами)"
+
+#: App/Pages/Logs/Assets/js/fsp-logs.js:30
+msgid "Are you sure you want to clear logs?"
+msgstr "Вы уверены, что хотите очистить логи?"
+
+#: App/Pages/Logs/Assets/js/fsp-logs.js:124
+#: App/Pages/Share/Views/Modals/share_feeds.php:90
+msgid "SUCCESS"
+msgstr "УСПЕХ"
+
+#: App/Pages/Logs/Assets/js/fsp-logs.js:128
+msgid "ERROR"
+msgstr "ОШИБКА"
+
+#: App/Pages/Logs/Assets/js/fsp-logs.js:129
+msgid "RETRY"
+msgstr "ПОВТОРИТЬ"
+
+#: App/Pages/Logs/Assets/js/fsp-logs.js:133
+msgid "NOT SENT"
+msgstr "НЕ ОТПРАВЛЕНО"
+
+#: App/Pages/Logs/Assets/js/fsp-logs.js:152
+#: App/Pages/Schedules/Views/Modals/add.php:422
+#: App/Pages/Schedules/Views/Modals/add.php:491
+#: App/Pages/Settings/Views/Components/facebook.php:126
+#: App/Pages/Settings/Views/Components/google_b.php:143
+#: App/Pages/Settings/Views/Components/instagram.php:125
+#: App/Pages/Settings/Views/Components/instagram.php:236
+#: App/Pages/Settings/Views/Components/linkedin.php:114
+#: App/Pages/Settings/Views/Components/medium.php:100
+#: App/Pages/Settings/Views/Components/ok.php:102
+#: App/Pages/Settings/Views/Components/pinterest.php:96
+#: App/Pages/Settings/Views/Components/plurk.php:148
+#: App/Pages/Settings/Views/Components/reddit.php:113
+#: App/Pages/Settings/Views/Components/telegram.php:114
+#: App/Pages/Settings/Views/Components/tumblr.php:100
+#: App/Pages/Settings/Views/Components/twitter.php:114
+#: App/Pages/Settings/Views/Components/vk.php:133
+#: App/Pages/Settings/Views/Components/wordpress.php:144
+#: App/Pages/Settings/Views/Components/wordpress.php:225
+#: App/Pages/Share/Assets/js/fsp-sharing-popup.js:47
+#: App/Pages/Share/Views/Modals/share_feeds.php:73
+msgid "Post link"
+msgstr "Линк поста"
+
+#: App/Pages/Logs/Assets/js/fsp-logs.js:161
+msgid "Publication link"
+msgstr "Линк публикации"
+
+#: App/Pages/Logs/Assets/js/fsp-logs.js:174
+msgid "Hits"
+msgstr "Хиты"
+
+#: App/Pages/Logs/Assets/js/fsp-logs.js:177
+msgid "Comments"
+msgstr "Комментарии"
+
+#: App/Pages/Logs/Assets/js/fsp-logs.js:180
+msgid "Likes"
+msgstr "Лайки"
+
+#: App/Pages/Logs/Assets/js/fsp-logs.js:183
+msgid "Shares"
+msgstr "Публикаций"
+
+#: App/Pages/Logs/Controllers/Ajax.php:297
+msgid "Account deleted"
+msgstr "Аккаунт удален"
+
+#: App/Pages/Logs/Views/index.php:22
+msgid "Filter results"
+msgstr "Фильтровать результаты"
+
+#: App/Pages/Logs/Views/index.php:24
+msgid "all"
+msgstr ""
+
+#: App/Pages/Logs/Views/index.php:25
+msgid "success"
+msgstr ""
+
+#: App/Pages/Logs/Views/index.php:26
+msgid "error"
+msgstr "oшибка"
+
+#: App/Pages/Logs/Views/index.php:30
+msgid "Count of rows"
+msgstr "Количество строк"
+
+#: App/Pages/Logs/Views/index.php:39
+msgid "CLEAR LOGS"
+msgstr "ОЧИСТИТЬ ЛОГИ"
+
+#: App/Pages/Schedules/Assets/js/fsp-calendar.js:159
+msgid "Mon"
+msgstr "Пн"
+
+#: App/Pages/Schedules/Assets/js/fsp-calendar.js:160
+msgid "Tue"
+msgstr "Вт"
+
+#: App/Pages/Schedules/Assets/js/fsp-calendar.js:161
+msgid "Wed"
+msgstr "Ср"
+
+#: App/Pages/Schedules/Assets/js/fsp-calendar.js:162
+msgid "Thu"
+msgstr "Чт"
+
+#: App/Pages/Schedules/Assets/js/fsp-calendar.js:163
+msgid "Fri"
+msgstr "Пт"
+
+#: App/Pages/Schedules/Assets/js/fsp-calendar.js:164
+msgid "Sat"
+msgstr "Сб"
+
+#: App/Pages/Schedules/Assets/js/fsp-calendar.js:165
+msgid "Sun"
+msgstr "Вс"
+
+#: App/Pages/Schedules/Assets/js/fsp-schedule-add.js:62
+#: App/Pages/Schedules/Controllers/Ajax.php:51
+msgid "Interval is not correct!"
+msgstr "Неправильный интервал!"
+
+#: App/Pages/Schedules/Assets/js/fsp-schedule-add.js:71
+msgid "No post matches your filters!"
+msgstr "Ни один пост не соответствует вашим фильтрам!"
+
+#: App/Pages/Schedules/Assets/js/fsp-schedule-add.js:77
+#: App/Pages/Schedules/Controllers/Ajax.php:84
+msgid "If you want to share repeatedly, you should schedule only a post!"
+msgstr ""
+"Если вы хотите поделиться несколько раз, вы должны запланировать толко "
+"одного поста!"
+
+#: App/Pages/Schedules/Assets/js/fsp-schedules.js:61
+msgid "Are you sure you want to delete all selected schedules?"
+msgstr "Вы действительно хотите удалить все выбранные расписания?"
+
+#: App/Pages/Schedules/Assets/js/fsp-schedules.js:89
+msgid "You need to select schedules for delete!"
+msgstr "Выберите расписания для удаления!"
+
+#: App/Pages/Schedules/Controllers/Action.php:18
+msgid "Randomly ( without dublicates )"
+msgstr "Случайно (без дубликатов)"
+
+#: App/Pages/Schedules/Controllers/Action.php:19
+#: App/Pages/Schedules/Views/Modals/add.php:128
+msgid "Randomly"
+msgstr "Случайно"
+
+#: App/Pages/Schedules/Controllers/Action.php:20
+#: App/Pages/Schedules/Views/Modals/add.php:129
+msgid "Old posts first"
+msgstr "Сначала старые посты"
+
+#: App/Pages/Schedules/Controllers/Action.php:21
+#: App/Pages/Schedules/Views/Modals/add.php:130
+msgid "New posts first"
+msgstr "Сначала новые пости"
+
+#: App/Pages/Schedules/Controllers/Action.php:25
+msgid "All posts"
+msgstr "Все пости"
+
+#: App/Pages/Schedules/Controllers/Action.php:26
+msgid "This week added posts"
+msgstr "Добавленные посты в этом недели"
+
+#: App/Pages/Schedules/Controllers/Action.php:27
+msgid "Previous week added posts"
+msgstr "Добавленные публикации за предыдущий недели"
+
+#: App/Pages/Schedules/Controllers/Action.php:28
+msgid "This month added posts"
+msgstr "Добавленные посты в этом месяце"
+
+#: App/Pages/Schedules/Controllers/Action.php:29
+msgid "Previous month added posts"
+msgstr "Добавленные публикации за предыдущий месяц"
+
+#: App/Pages/Schedules/Controllers/Action.php:30
+msgid "This year added posts"
+msgstr "Добавленные посты в этом неделе годе"
+
+#: App/Pages/Schedules/Controllers/Action.php:31
+msgid "Last 30 days"
+msgstr "Последние 30 дней"
+
+#: App/Pages/Schedules/Controllers/Action.php:32
+msgid "Last 60 days"
+msgstr "Последние 60 дней"
+
+#: App/Pages/Schedules/Controllers/Action.php:33
+#: App/Pages/Schedules/Views/Modals/add.php:148
+#, fuzzy
+#| msgid "Custom message"
+msgid "Custom date range"
+msgstr "Пользовательское сообщение"
+
+#: App/Pages/Schedules/Controllers/Ajax.php:79
+msgid "Too many posts are selected! You can select maximum 200 posts!"
+msgstr "Слишком много постов выбрано! Вы можете выбрать максимум 200 постов!"
+
+#: App/Pages/Schedules/Controllers/Ajax.php:165
+#: App/Pages/Schedules/Controllers/Ajax.php:391
+msgid "No account or community is selected."
+msgstr "Ни одна учетная запись или сообщество не выбраны."
+
+#: App/Pages/Schedules/Controllers/Ajax.php:170
+msgid "The date range is not correct."
+msgstr "Неправильный интервал!"
+
+#: App/Pages/Schedules/Controllers/Ajax.php:184
+msgid "The name can't be empty!"
+msgstr "Имя не может быть пустым!"
+
+#: App/Pages/Schedules/Controllers/Ajax.php:189
+msgid "Please select the start date and time!"
+msgstr "Пожалуйста выберите дату и время начала!"
+
+#: App/Pages/Schedules/Controllers/Ajax.php:194
+msgid "Please type the interval!"
+msgstr "Пожалуйста введите интервал!"
+
+#: App/Pages/Schedules/Controllers/Ajax.php:425
+msgid "Validation error"
+msgstr "Ошибка проверки"
+
+#: App/Pages/Schedules/Controllers/Ajax.php:430
+msgid "Schedule date is empty!"
+msgstr "Дата расписания пуста!"
+
+#: App/Pages/Schedules/Controllers/Ajax.php:434
+msgid "Plan date or time is not valid!"
+msgstr "Планируемая дата или время не действительны!"
+
+#: App/Pages/Schedules/Controllers/Ajax.php:438
+#, php-format
+msgid ""
+"Plan date or time is not valid!<br>Please select Schedule date/time "
+"according to your server time. <br>Your server time is: %s"
+msgstr ""
+"Планируемая дата или время не действительны!<br>Пожалуйста, выберите дату/"
+"время расписания в соответственным временем вашего сервера. <br>Ваше время "
+"на сервере: %s"
+
+#: App/Pages/Schedules/Controllers/Ajax.php:455
+msgid "Please select at least one post."
+msgstr "Пожалуйста выберите минимум одного поста."
+
+#: App/Pages/Schedules/Controllers/Ajax.php:459
+msgid "Too many post selected! You can select maximum 200 posts!"
+msgstr "Слишком много постов выбрано! Вы можете выбрать максимум 200 постов!"
+
+#: App/Pages/Schedules/Controllers/Ajax.php:588
+#: App/Pages/Schedules/Controllers/Ajax.php:618
+#: App/Pages/Schedules/Controllers/Ajax.php:648
+#: App/Pages/Schedules/Controllers/Popup.php:218
+#: App/Pages/Schedules/Controllers/Popup.php:440
+#: App/Pages/Schedules/Controllers/Popup.php:453
+#: App/Pages/Schedules/Controllers/Popup.php:559
+msgid "There isn't a schedule."
+msgstr "Расписание не найден."
+
+#: App/Pages/Schedules/Controllers/Ajax.php:594
+#: App/Pages/Schedules/Controllers/Ajax.php:625
+msgid "You don't have permission to delete the schedule!"
+msgstr "У вас нет разрешения на удаление расписании!"
+
+#: App/Pages/Schedules/Controllers/Ajax.php:608
+msgid "No schedule selected!"
+msgstr "Расписание не выбрано!"
+
+#: App/Pages/Schedules/Controllers/Ajax.php:654
+msgid "You don't have permission to Pause/Play the schedule!"
+msgstr "У вас нет разрешения на остановку /продолжение расписания!"
+
+#: App/Pages/Schedules/Controllers/Ajax.php:660
+msgid "This schedule has finished!"
+msgstr "Этот расписание закончился!"
+
+#: App/Pages/Schedules/Controllers/Ajax.php:693
+msgid "Loooooooooooooooolll :)"
+msgstr "Лооооооооооооооооооолл :)"
+
+#: App/Pages/Schedules/Controllers/Popup.php:120
+#: App/Pages/Schedules/Controllers/Popup.php:309
+#: App/Pages/Schedules/Controllers/Popup.php:504
+msgid "Only the posts of the selected categories, tags, etc. will be shared:"
+msgstr "Только посты из выбранных категорий, тегов и т.д. будет опубликован:"
+
+#: App/Pages/Schedules/Controllers/Popup.php:120
+#: App/Pages/Schedules/Controllers/Popup.php:309
+#: App/Pages/Schedules/Controllers/Popup.php:504
+msgid "The posts of the selected categories, tags, etc. will not be shared:"
+msgstr "Посты выбранных категорий, тегов и т.д. не будет опубликовано:"
+
+#: App/Pages/Schedules/Controllers/Popup.php:187
+msgid "ADD A NEW SCHEDULE"
+msgstr "ДОБАВИТЬ НОВОЕ РАСПИСАНИЕ"
+
+#: App/Pages/Schedules/Controllers/Popup.php:188
+msgid "ADD A SCHEDULE"
+msgstr "ДОБАВИТЬ РАСПИСАНИЕ"
+
+#: App/Pages/Schedules/Controllers/Popup.php:364
+#: App/Pages/Schedules/Controllers/Popup.php:365
+msgid "RE-SCHEDULE"
+msgstr "ПЕРЕДЕЛАТЬ РАСПИСАНИЕ"
+
+#: App/Pages/Schedules/Controllers/Popup.php:365
+msgid "SAVE THE SCHEDULE"
+msgstr "СОХРАНИТЕ РАСПИСАНИЕ"
+
+#: App/Pages/Schedules/Controllers/Popup.php:538
+#: App/Pages/Settings/Views/index.php:18
+msgid "SAVE CHANGES"
+msgstr "СОХРАНИТЬ ИЗМЕНЕНИЯ"
+
+#: App/Pages/Schedules/Views/Modals/add.php:42
+#: App/Pages/Schedules/Views/Modals/add.php:55
+msgid "1"
+msgstr "1"
+
+#: App/Pages/Schedules/Views/Modals/add.php:42
+msgid "Basic data"
+msgstr "Oсновные данные"
+
+#: App/Pages/Schedules/Views/Modals/add.php:45
+#: App/Pages/Schedules/Views/Modals/add.php:58
+msgid "2"
+msgstr "2"
+
+#: App/Pages/Schedules/Views/Modals/add.php:45
+msgid "Filters"
+msgstr "Фильтры"
+
+#: App/Pages/Schedules/Views/Modals/add.php:48
+msgid "3"
+msgstr "3"
+
+#: App/Pages/Schedules/Views/Modals/add.php:51
+msgid "4"
+msgstr "4"
+
+#: App/Pages/Schedules/Views/Modals/add.php:51
+#: App/Pages/Schedules/Views/Modals/add.php:58
+msgid "Custom messages"
+msgstr "Пользовательские сообщения"
+
+#: App/Pages/Schedules/Views/Modals/add.php:67
+msgid "Name"
+msgstr "Название"
+
+#: App/Pages/Schedules/Views/Modals/add.php:67
+msgid "Add a name for your schedule to recognize it in your schedule list."
+msgstr ""
+"Чтобы распознавать вашего расписания в своем списке расписаний,добавьте "
+"название."
+
+#: App/Pages/Schedules/Views/Modals/add.php:69
+msgid "Enter a name"
+msgstr "Введите имя"
+
+#: App/Pages/Schedules/Views/Modals/add.php:72
+msgid "Start date & time"
+msgstr "Дата и время начала"
+
+#: App/Pages/Schedules/Views/Modals/add.php:72
+msgid "When the schedule will start?"
+msgstr "Когда расписание стартует?"
+
+#: App/Pages/Schedules/Views/Modals/add.php:76
+msgid "Select date"
+msgstr "Выберите дату"
+
+#: App/Pages/Schedules/Views/Modals/add.php:77
+msgid "Select time"
+msgstr "Выберите время"
+
+#: App/Pages/Schedules/Views/Modals/add.php:80
+#, php-format
+msgid "Local time: %s"
+msgstr "Местное время: %s"
+
+#: App/Pages/Schedules/Views/Modals/add.php:85
+msgid "How you want to share"
+msgstr "Как вы хотите поделиться"
+
+#: App/Pages/Schedules/Views/Modals/add.php:85
+msgid "Define to share a single post repeatedly or once"
+msgstr ""
+"Определите если вы хотите опубликовать одного поста повторно или только один "
+"раз"
+
+#: App/Pages/Schedules/Views/Modals/add.php:88
+msgid "Share once"
+msgstr "Опубликовать один раз"
+
+#: App/Pages/Schedules/Views/Modals/add.php:89
+msgid "Share repeatedly"
+msgstr "Публикуйте повторно"
+
+#: App/Pages/Schedules/Views/Modals/add.php:93
+msgid "Post every"
+msgstr "Интервал поста"
+
+#: App/Pages/Schedules/Views/Modals/add.php:93
+msgid "The interval between posts"
+msgstr "Интервал между постами"
+
+#: App/Pages/Schedules/Views/Modals/add.php:99
+msgid "Hour"
+msgstr "Час"
+
+#: App/Pages/Schedules/Views/Modals/add.php:100
+msgid "Minute"
+msgstr "Минуты"
+
+#: App/Pages/Schedules/Views/Modals/add.php:101
+msgid "Day"
+msgstr "День"
+
+#: App/Pages/Schedules/Views/Modals/add.php:111
+msgid "Set a sleep timer"
+msgstr "Установите таймер сна"
+
+#: App/Pages/Schedules/Views/Modals/add.php:113
+msgid ""
+"You can set a sleep timer in your schedule. The plugin won't share any post "
+"during the sleep time."
+msgstr ""
+"Вы можете установить таймер сна в своем расписании. Плагин не будет "
+"публиковать никаких постов во время сна."
+
+#: App/Pages/Schedules/Views/Modals/add.php:124
+msgid "Order posts by"
+msgstr "Категоризация постов по"
+
+#: App/Pages/Schedules/Views/Modals/add.php:124
+msgid "Method for selecting posts."
+msgstr "Метод для выбора постов."
+
+#: App/Pages/Schedules/Views/Modals/add.php:127
+msgid "Randomly ( without duplicates )"
+msgstr "Случайно (без дубликатов)"
+
+#: App/Pages/Schedules/Views/Modals/add.php:136
+msgid "By the published time of the posts"
+msgstr "По времени публикации постов"
+
+#: App/Pages/Schedules/Views/Modals/add.php:136
+msgid "Select posts that are published in a specific time."
+msgstr "Выберите посты которые опубликованные в определенное время."
+
+#: App/Pages/Schedules/Views/Modals/add.php:140
+msgid "All times"
+msgstr "Все время"
+
+#: App/Pages/Schedules/Views/Modals/add.php:141
+msgid "Today"
+msgstr "Сегодня"
+
+#: App/Pages/Schedules/Views/Modals/add.php:142
+msgid "The last week"
+msgstr "Последние 7 дней"
+
+#: App/Pages/Schedules/Views/Modals/add.php:143
+msgid "The last 15 days"
+msgstr "Последние 15 дней"
+
+#: App/Pages/Schedules/Views/Modals/add.php:144
+msgid "The last month"
+msgstr "Последние 30 дней"
+
+#: App/Pages/Schedules/Views/Modals/add.php:145
+msgid "The last 3 months"
+msgstr "Последние 90 дней"
+
+#: App/Pages/Schedules/Views/Modals/add.php:146
+msgid "The last 6 months"
+msgstr "Последние 180 дней"
+
+#: App/Pages/Schedules/Views/Modals/add.php:147
+msgid "The last year"
+msgstr "Последние 365 дней"
+
+#: App/Pages/Schedules/Views/Modals/add.php:153
+msgid "From"
+msgstr "Из"
+
+#: App/Pages/Schedules/Views/Modals/add.php:154
+msgid "To"
+msgstr "К"
+
+#: App/Pages/Schedules/Views/Modals/add.php:160
+msgid "By post type"
+msgstr "По типу публикации"
+
+#: App/Pages/Schedules/Views/Modals/add.php:160
+msgid ""
+"You can select new post types in [ FS Poster > Settings > Share post types ]."
+msgstr ""
+"Вы можете выбрать новые типы постов в [ FS Poster > Настройки > Поделиться "
+"типами постов ]."
+
+#: App/Pages/Schedules/Views/Modals/add.php:174
+msgid "Don't post products that are out of stock"
+msgstr "Не публикуйте товары, которых нет на складе"
+
+#: App/Pages/Schedules/Views/Modals/add.php:178
+msgid "By the post category and tag"
+msgstr "По категории публикации и тегу"
+
+#: App/Pages/Schedules/Views/Modals/add.php:188
+msgid "Specific Post ID(s) (separate by comma)"
+msgstr "Конкретный ID поста (разделяются запятой)"
+
+#: App/Pages/Schedules/Views/Modals/add.php:248
+msgid "Please select an account."
+msgstr "Пожалуйста, выберите аккаунт."
+
+#: App/Pages/Schedules/Views/Modals/add.php:260
+msgid "Share only the posts of the selected categories: "
+msgstr "Публикуйте только посты выбранных категорий: "
+
+#: App/Pages/Schedules/Views/Modals/add.php:260
+msgid "Do not share the posts of the selected categories: "
+msgstr "Не делитесь постами выбранных категорий: "
+
+#: App/Pages/Schedules/Views/Modals/add.php:315
+#: App/Pages/Share/Views/index.php:41
+msgid "Custom message for Facebook"
+msgstr "Текст для Facebook"
+
+#: App/Pages/Schedules/Views/Modals/add.php:318
+#: App/Pages/Share/Views/index.php:44
+msgid "Custom message for Twitter"
+msgstr "Текст для Twitter"
+
+#: App/Pages/Schedules/Views/Modals/add.php:321
+#: App/Pages/Share/Views/index.php:47
+msgid "Custom message for Instagram"
+msgstr "Текст для Instagram"
+
+#: App/Pages/Schedules/Views/Modals/add.php:324
+#: App/Pages/Share/Views/index.php:50
+msgid "Custom message for Linkedin"
+msgstr "Текст для Linkedin"
+
+#: App/Pages/Schedules/Views/Modals/add.php:327
+#: App/Pages/Share/Views/index.php:53
+msgid "Custom message for VKontakte"
+msgstr "Текст для VKontakte"
+
+#: App/Pages/Schedules/Views/Modals/add.php:330
+#: App/Pages/Share/Views/index.php:56
+msgid "Custom message for Pinterest"
+msgstr "Текст для Pinterest"
+
+#: App/Pages/Schedules/Views/Modals/add.php:333
+#: App/Pages/Share/Views/index.php:59
+msgid "Custom message for Reddit"
+msgstr "Текст для Reddit"
+
+#: App/Pages/Schedules/Views/Modals/add.php:336
+#: App/Pages/Share/Views/index.php:62
+msgid "Custom message for Tumblr"
+msgstr "Текст для Tumblr"
+
+#: App/Pages/Schedules/Views/Modals/add.php:339
+msgid "Custom message for Odnoklassniki"
+msgstr "Текст для Odnoklassniki"
+
+#: App/Pages/Schedules/Views/Modals/add.php:342
+#: App/Pages/Share/Views/index.php:68
+#, fuzzy
+#| msgid "Custom message for Tumblr"
+msgid "Custom message for Plurk"
+msgstr "Текст для Tumblr"
+
+#: App/Pages/Schedules/Views/Modals/add.php:345
+#: App/Pages/Share/Views/index.php:71
+msgid "Custom message for Google My Business"
+msgstr "Текст для Google My Business"
+
+#: App/Pages/Schedules/Views/Modals/add.php:348
+#: App/Pages/Share/Views/index.php:74
+msgid "Custom message for Telegram"
+msgstr "Текст для Telegram"
+
+#: App/Pages/Schedules/Views/Modals/add.php:351
+#: App/Pages/Share/Views/index.php:77
+msgid "Custom message for Medium"
+msgstr "Текст для Medium"
+
+#: App/Pages/Schedules/Views/Modals/add.php:354
+#: App/Pages/Share/Views/index.php:80
+msgid "Custom message for WordPress"
+msgstr "Текст для WordPress"
+
+#: App/Pages/Schedules/Views/Modals/add.php:366
+#: App/Pages/Schedules/Views/Modals/add.php:435
+#: App/Pages/Settings/Views/Components/facebook.php:66
+#: App/Pages/Settings/Views/Components/google_b.php:87
+#: App/Pages/Settings/Views/Components/instagram.php:65
+#: App/Pages/Settings/Views/Components/instagram.php:180
+#: App/Pages/Settings/Views/Components/linkedin.php:54
+#: App/Pages/Settings/Views/Components/medium.php:40
+#: App/Pages/Settings/Views/Components/ok.php:42
+#: App/Pages/Settings/Views/Components/pinterest.php:40
+#: App/Pages/Settings/Views/Components/plurk.php:88
+#: App/Pages/Settings/Views/Components/reddit.php:53
+#: App/Pages/Settings/Views/Components/telegram.php:54
+#: App/Pages/Settings/Views/Components/tumblr.php:40
+#: App/Pages/Settings/Views/Components/twitter.php:54
+#: App/Pages/Settings/Views/Components/url.php:86
+#: App/Pages/Settings/Views/Components/url.php:134
+#: App/Pages/Settings/Views/Components/vk.php:73
+#: App/Pages/Settings/Views/Components/wordpress.php:84
+#: App/Pages/Settings/Views/Components/wordpress.php:169
+msgid "Post ID"
+msgstr "ID Поста"
+
+#: App/Pages/Schedules/Views/Modals/add.php:370
+#: App/Pages/Schedules/Views/Modals/add.php:439
+#: App/Pages/Settings/Views/Components/facebook.php:90
+#: App/Pages/Settings/Views/Components/google_b.php:91
+#: App/Pages/Settings/Views/Components/instagram.php:89
+#: App/Pages/Settings/Views/Components/instagram.php:184
+#: App/Pages/Settings/Views/Components/linkedin.php:78
+#: App/Pages/Settings/Views/Components/medium.php:64
+#: App/Pages/Settings/Views/Components/ok.php:66
+#: App/Pages/Settings/Views/Components/pinterest.php:64
+#: App/Pages/Settings/Views/Components/plurk.php:112
+#: App/Pages/Settings/Views/Components/reddit.php:77
+#: App/Pages/Settings/Views/Components/telegram.php:78
+#: App/Pages/Settings/Views/Components/tumblr.php:64
+#: App/Pages/Settings/Views/Components/twitter.php:78
+#: App/Pages/Settings/Views/Components/vk.php:97
+#: App/Pages/Settings/Views/Components/wordpress.php:108
+#: App/Pages/Settings/Views/Components/wordpress.php:173
+msgid "WooCommerce - product price"
+msgstr "WooCommerce - цена товара"
+
+#: App/Pages/Schedules/Views/Modals/add.php:374
+#: App/Pages/Schedules/Views/Modals/add.php:443
+#: App/Pages/Settings/Views/Components/facebook.php:70
+#: App/Pages/Settings/Views/Components/google_b.php:95
+#: App/Pages/Settings/Views/Components/instagram.php:69
+#: App/Pages/Settings/Views/Components/instagram.php:188
+#: App/Pages/Settings/Views/Components/linkedin.php:58
+#: App/Pages/Settings/Views/Components/medium.php:44
+#: App/Pages/Settings/Views/Components/ok.php:46
+#: App/Pages/Settings/Views/Components/pinterest.php:44
+#: App/Pages/Settings/Views/Components/plurk.php:92
+#: App/Pages/Settings/Views/Components/reddit.php:57
+#: App/Pages/Settings/Views/Components/telegram.php:58
+#: App/Pages/Settings/Views/Components/tumblr.php:44
+#: App/Pages/Settings/Views/Components/twitter.php:58
+#: App/Pages/Settings/Views/Components/vk.php:77
+#: App/Pages/Settings/Views/Components/wordpress.php:88
+#: App/Pages/Settings/Views/Components/wordpress.php:177
+msgid "Post author name"
+msgstr "Имя автора поста"
+
+#: App/Pages/Schedules/Views/Modals/add.php:378
+#: App/Pages/Schedules/Views/Modals/add.php:447
+#: App/Pages/Settings/Views/Components/facebook.php:74
+#: App/Pages/Settings/Views/Components/google_b.php:99
+#: App/Pages/Settings/Views/Components/instagram.php:73
+#: App/Pages/Settings/Views/Components/instagram.php:192
+#: App/Pages/Settings/Views/Components/linkedin.php:62
+#: App/Pages/Settings/Views/Components/medium.php:48
+#: App/Pages/Settings/Views/Components/ok.php:50
+#: App/Pages/Settings/Views/Components/pinterest.php:48
+#: App/Pages/Settings/Views/Components/plurk.php:96
+#: App/Pages/Settings/Views/Components/reddit.php:61
+#: App/Pages/Settings/Views/Components/telegram.php:62
+#: App/Pages/Settings/Views/Components/tumblr.php:48
+#: App/Pages/Settings/Views/Components/twitter.php:62
+#: App/Pages/Settings/Views/Components/vk.php:81
+#: App/Pages/Settings/Views/Components/wordpress.php:92
+#: App/Pages/Settings/Views/Components/wordpress.php:181
+msgid ""
+"The default is the first 40 characters. You can set the number whatever you "
+"want. The plugin will share that number of characters."
+msgstr ""
+"По умолчанию используются первые 40 символов. Вы можете назначить любое "
+"число. Плагин будет опубликовать это количество символов."
+
+#: App/Pages/Schedules/Views/Modals/add.php:382
+#: App/Pages/Schedules/Views/Modals/add.php:451
+#: App/Pages/Settings/Views/Components/facebook.php:78
+#: App/Pages/Settings/Views/Components/google_b.php:103
+#: App/Pages/Settings/Views/Components/instagram.php:77
+#: App/Pages/Settings/Views/Components/instagram.php:196
+#: App/Pages/Settings/Views/Components/linkedin.php:66
+#: App/Pages/Settings/Views/Components/medium.php:52
+#: App/Pages/Settings/Views/Components/ok.php:54
+#: App/Pages/Settings/Views/Components/pinterest.php:52
+#: App/Pages/Settings/Views/Components/plurk.php:100
+#: App/Pages/Settings/Views/Components/reddit.php:65
+#: App/Pages/Settings/Views/Components/telegram.php:66
+#: App/Pages/Settings/Views/Components/tumblr.php:52
+#: App/Pages/Settings/Views/Components/twitter.php:66
+#: App/Pages/Settings/Views/Components/url.php:102
+#: App/Pages/Settings/Views/Components/url.php:154
+#: App/Pages/Settings/Views/Components/vk.php:85
+#: App/Pages/Settings/Views/Components/wordpress.php:62
+#: App/Pages/Settings/Views/Components/wordpress.php:96
+#: App/Pages/Settings/Views/Components/wordpress.php:185
+msgid "Post title"
+msgstr "Заголовок поста"
+
+#: App/Pages/Schedules/Views/Modals/add.php:386
+#: App/Pages/Schedules/Views/Modals/add.php:455
+#: App/Pages/Settings/Views/Components/facebook.php:82
+#: App/Pages/Settings/Views/Components/google_b.php:107
+#: App/Pages/Settings/Views/Components/instagram.php:81
+#: App/Pages/Settings/Views/Components/instagram.php:200
+#: App/Pages/Settings/Views/Components/linkedin.php:70
+#: App/Pages/Settings/Views/Components/medium.php:56
+#: App/Pages/Settings/Views/Components/ok.php:58
+#: App/Pages/Settings/Views/Components/pinterest.php:56
+#: App/Pages/Settings/Views/Components/plurk.php:104
+#: App/Pages/Settings/Views/Components/reddit.php:69
+#: App/Pages/Settings/Views/Components/telegram.php:70
+#: App/Pages/Settings/Views/Components/tumblr.php:56
+#: App/Pages/Settings/Views/Components/twitter.php:70
+#: App/Pages/Settings/Views/Components/vk.php:89
+#: App/Pages/Settings/Views/Components/wordpress.php:100
+#: App/Pages/Settings/Views/Components/wordpress.php:189
+msgid "Featured image URL"
+msgstr "URL избранного изображения"
+
+#: App/Pages/Schedules/Views/Modals/add.php:390
+#: App/Pages/Schedules/Views/Modals/add.php:459
+#: App/Pages/Settings/Views/Components/facebook.php:86
+#: App/Pages/Settings/Views/Components/google_b.php:111
+#: App/Pages/Settings/Views/Components/instagram.php:85
+#: App/Pages/Settings/Views/Components/instagram.php:204
+#: App/Pages/Settings/Views/Components/linkedin.php:74
+#: App/Pages/Settings/Views/Components/medium.php:60
+#: App/Pages/Settings/Views/Components/ok.php:62
+#: App/Pages/Settings/Views/Components/pinterest.php:60
+#: App/Pages/Settings/Views/Components/plurk.php:108
+#: App/Pages/Settings/Views/Components/reddit.php:73
+#: App/Pages/Settings/Views/Components/telegram.php:74
+#: App/Pages/Settings/Views/Components/tumblr.php:60
+#: App/Pages/Settings/Views/Components/twitter.php:74
+#: App/Pages/Settings/Views/Components/vk.php:93
+#: App/Pages/Settings/Views/Components/wordpress.php:104
+#: App/Pages/Settings/Views/Components/wordpress.php:193
+msgid "Post Tags"
+msgstr "Теги поста"
+
+#: App/Pages/Schedules/Views/Modals/add.php:394
+#: App/Pages/Schedules/Views/Modals/add.php:463
+#: App/Pages/Settings/Views/Components/facebook.php:94
+#: App/Pages/Settings/Views/Components/google_b.php:115
+#: App/Pages/Settings/Views/Components/instagram.php:93
+#: App/Pages/Settings/Views/Components/instagram.php:208
+#: App/Pages/Settings/Views/Components/linkedin.php:82
+#: App/Pages/Settings/Views/Components/medium.php:68
+#: App/Pages/Settings/Views/Components/ok.php:70
+#: App/Pages/Settings/Views/Components/pinterest.php:68
+#: App/Pages/Settings/Views/Components/plurk.php:116
+#: App/Pages/Settings/Views/Components/reddit.php:81
+#: App/Pages/Settings/Views/Components/telegram.php:82
+#: App/Pages/Settings/Views/Components/tumblr.php:68
+#: App/Pages/Settings/Views/Components/twitter.php:82
+#: App/Pages/Settings/Views/Components/vk.php:101
+#: App/Pages/Settings/Views/Components/wordpress.php:112
+#: App/Pages/Settings/Views/Components/wordpress.php:197
+msgid "WooCommerce - product sale price"
+msgstr "WooCommerce - цена продажи товара"
+
+#: App/Pages/Schedules/Views/Modals/add.php:398
+#: App/Pages/Schedules/Views/Modals/add.php:467
+#: App/Pages/Settings/Views/Components/facebook.php:102
+#: App/Pages/Settings/Views/Components/google_b.php:119
+#: App/Pages/Settings/Views/Components/instagram.php:101
+#: App/Pages/Settings/Views/Components/instagram.php:212
+#: App/Pages/Settings/Views/Components/linkedin.php:90
+#: App/Pages/Settings/Views/Components/medium.php:76
+#: App/Pages/Settings/Views/Components/ok.php:78
+#: App/Pages/Settings/Views/Components/pinterest.php:76
+#: App/Pages/Settings/Views/Components/plurk.php:124
+#: App/Pages/Settings/Views/Components/reddit.php:89
+#: App/Pages/Settings/Views/Components/telegram.php:90
+#: App/Pages/Settings/Views/Components/tumblr.php:76
+#: App/Pages/Settings/Views/Components/twitter.php:90
+#: App/Pages/Settings/Views/Components/vk.php:109
+#: App/Pages/Settings/Views/Components/wordpress.php:120
+#: App/Pages/Settings/Views/Components/wordpress.php:201
+msgid "Post full content"
+msgstr "Полное содержание поста"
+
+#: App/Pages/Schedules/Views/Modals/add.php:402
+#: App/Pages/Schedules/Views/Modals/add.php:471
+#: App/Pages/Settings/Views/Components/facebook.php:106
+#: App/Pages/Settings/Views/Components/google_b.php:123
+#: App/Pages/Settings/Views/Components/instagram.php:105
+#: App/Pages/Settings/Views/Components/instagram.php:216
+#: App/Pages/Settings/Views/Components/linkedin.php:94
+#: App/Pages/Settings/Views/Components/medium.php:80
+#: App/Pages/Settings/Views/Components/ok.php:82
+#: App/Pages/Settings/Views/Components/plurk.php:128
+#: App/Pages/Settings/Views/Components/reddit.php:93
+#: App/Pages/Settings/Views/Components/telegram.php:94
+#: App/Pages/Settings/Views/Components/tumblr.php:80
+#: App/Pages/Settings/Views/Components/twitter.php:94
+#: App/Pages/Settings/Views/Components/vk.php:113
+#: App/Pages/Settings/Views/Components/wordpress.php:124
+#: App/Pages/Settings/Views/Components/wordpress.php:205
+msgid "Post short link"
+msgstr "Короткая ссылка поста"
+
+#: App/Pages/Schedules/Views/Modals/add.php:406
+#: App/Pages/Schedules/Views/Modals/add.php:475
+#: App/Pages/Settings/Views/Components/facebook.php:110
+#: App/Pages/Settings/Views/Components/google_b.php:127
+#: App/Pages/Settings/Views/Components/instagram.php:109
+#: App/Pages/Settings/Views/Components/instagram.php:220
+#: App/Pages/Settings/Views/Components/linkedin.php:98
+#: App/Pages/Settings/Views/Components/medium.php:84
+#: App/Pages/Settings/Views/Components/ok.php:86
+#: App/Pages/Settings/Views/Components/pinterest.php:80
+#: App/Pages/Settings/Views/Components/plurk.php:132
+#: App/Pages/Settings/Views/Components/reddit.php:97
+#: App/Pages/Settings/Views/Components/telegram.php:98
+#: App/Pages/Settings/Views/Components/tumblr.php:84
+#: App/Pages/Settings/Views/Components/twitter.php:98
+#: App/Pages/Settings/Views/Components/vk.php:117
+#: App/Pages/Settings/Views/Components/wordpress.php:71
+#: App/Pages/Settings/Views/Components/wordpress.php:128
+#: App/Pages/Settings/Views/Components/wordpress.php:209
+msgid "Post excerpt"
+msgstr "Отрывок поста"
+
+#: App/Pages/Schedules/Views/Modals/add.php:410
+#: App/Pages/Schedules/Views/Modals/add.php:479
+#: App/Pages/Settings/Views/Components/facebook.php:114
+#: App/Pages/Settings/Views/Components/google_b.php:131
+#: App/Pages/Settings/Views/Components/instagram.php:113
+#: App/Pages/Settings/Views/Components/instagram.php:224
+#: App/Pages/Settings/Views/Components/linkedin.php:102
+#: App/Pages/Settings/Views/Components/medium.php:88
+#: App/Pages/Settings/Views/Components/ok.php:90
+#: App/Pages/Settings/Views/Components/pinterest.php:84
+#: App/Pages/Settings/Views/Components/plurk.php:136
+#: App/Pages/Settings/Views/Components/reddit.php:101
+#: App/Pages/Settings/Views/Components/telegram.php:102
+#: App/Pages/Settings/Views/Components/tumblr.php:88
+#: App/Pages/Settings/Views/Components/twitter.php:102
+#: App/Pages/Settings/Views/Components/vk.php:121
+#: App/Pages/Settings/Views/Components/wordpress.php:132
+#: App/Pages/Settings/Views/Components/wordpress.php:213
+msgid "Post Categories"
+msgstr "Категории Поста"
+
+#: App/Pages/Schedules/Views/Modals/add.php:414
+#: App/Pages/Schedules/Views/Modals/add.php:483
+#: App/Pages/Settings/Views/Components/facebook.php:118
+#: App/Pages/Settings/Views/Components/google_b.php:135
+#: App/Pages/Settings/Views/Components/instagram.php:117
+#: App/Pages/Settings/Views/Components/instagram.php:228
+#: App/Pages/Settings/Views/Components/linkedin.php:106
+#: App/Pages/Settings/Views/Components/medium.php:92
+#: App/Pages/Settings/Views/Components/ok.php:94
+#: App/Pages/Settings/Views/Components/pinterest.php:88
+#: App/Pages/Settings/Views/Components/plurk.php:140
+#: App/Pages/Settings/Views/Components/reddit.php:105
+#: App/Pages/Settings/Views/Components/telegram.php:106
+#: App/Pages/Settings/Views/Components/tumblr.php:92
+#: App/Pages/Settings/Views/Components/twitter.php:106
+#: App/Pages/Settings/Views/Components/url.php:110
+#: App/Pages/Settings/Views/Components/url.php:182
+#: App/Pages/Settings/Views/Components/vk.php:125
+#: App/Pages/Settings/Views/Components/wordpress.php:136
+#: App/Pages/Settings/Views/Components/wordpress.php:217
+msgid "Unique ID"
+msgstr "Уникальный ID"
+
+#: App/Pages/Schedules/Views/Modals/add.php:418
+#: App/Pages/Schedules/Views/Modals/add.php:487
+#: App/Pages/Settings/Views/Components/facebook.php:122
+#: App/Pages/Settings/Views/Components/google_b.php:139
+#: App/Pages/Settings/Views/Components/instagram.php:121
+#: App/Pages/Settings/Views/Components/instagram.php:232
+#: App/Pages/Settings/Views/Components/linkedin.php:110
+#: App/Pages/Settings/Views/Components/medium.php:96
+#: App/Pages/Settings/Views/Components/ok.php:98
+#: App/Pages/Settings/Views/Components/pinterest.php:92
+#: App/Pages/Settings/Views/Components/plurk.php:144
+#: App/Pages/Settings/Views/Components/reddit.php:109
+#: App/Pages/Settings/Views/Components/telegram.php:110
+#: App/Pages/Settings/Views/Components/tumblr.php:96
+#: App/Pages/Settings/Views/Components/twitter.php:110
+#: App/Pages/Settings/Views/Components/url.php:186
+#: App/Pages/Settings/Views/Components/vk.php:129
+#: App/Pages/Settings/Views/Components/wordpress.php:140
+#: App/Pages/Settings/Views/Components/wordpress.php:221
+msgid "Custom fields. Replace KEY with the custom field name."
+msgstr "Произвольные поля. Замените KEY именем произвольного поля."
+
+#: App/Pages/Schedules/Views/Modals/add.php:424
+#: App/Pages/Schedules/Views/Modals/add.php:493
+#: App/Pages/Settings/Views/Components/facebook.php:128
+#: App/Pages/Settings/Views/Components/google_b.php:145
+#: App/Pages/Settings/Views/Components/instagram.php:127
+#: App/Pages/Settings/Views/Components/instagram.php:238
+#: App/Pages/Settings/Views/Components/linkedin.php:116
+#: App/Pages/Settings/Views/Components/medium.php:102
+#: App/Pages/Settings/Views/Components/ok.php:104
+#: App/Pages/Settings/Views/Components/pinterest.php:98
+#: App/Pages/Settings/Views/Components/plurk.php:150
+#: App/Pages/Settings/Views/Components/reddit.php:115
+#: App/Pages/Settings/Views/Components/telegram.php:116
+#: App/Pages/Settings/Views/Components/tumblr.php:102
+#: App/Pages/Settings/Views/Components/twitter.php:116
+#: App/Pages/Settings/Views/Components/url.php:112
+#: App/Pages/Settings/Views/Components/vk.php:135
+#: App/Pages/Settings/Views/Components/wordpress.php:146
+msgid "Click to clear the textbox"
+msgstr "Нажмите кнопку, чтобы очистить текстовое поле"
+
+#: App/Pages/Schedules/Views/Modals/add.php:509
+msgid "Posts matching your filters:"
+msgstr "Посты отвечающие вашим фильтрам:"
+
+#: App/Pages/Schedules/Views/calendar.php:13
+msgid "Calendar"
+msgstr "Календарь"
+
+#: App/Pages/Schedules/Views/calendar.php:18
+msgid "BACK TO SCHEDULES"
+msgstr "НАЗАД К РАСПИСАНИЮ"
+
+#: App/Pages/Schedules/Views/calendar.php:45
+msgid "SCHEDULED POSTS"
+msgstr "ЗАПЛАНИРОВАННЫЕ ПОСТЫ"
+
+#: App/Pages/Schedules/Views/list.php:26
+msgid "CALENDAR"
+msgstr "КАЛЕНДАРЬ"
+
+#: App/Pages/Schedules/Views/list.php:32
+msgid ""
+"If you want the Schedule module to work on time, please configure Cron Job "
+"on your website. Click the button to learn more."
+msgstr ""
+"Если вы хотите, чтобы модуль расписания работал вовремя, пожалуйста, "
+"настройте Cron задач на своем веб-сайте."
+
+#: App/Pages/Schedules/Views/list.php:34
+msgid "HAVE ISSUES?"
+msgstr "ЕСТЬ ПРОБЛЕМЫ?"
+
+#: App/Pages/Schedules/Views/list.php:89
+msgid "Post ID:"
+msgstr "ID Поста:"
+
+#: App/Pages/Schedules/Views/list.php:90
+msgid "Scheduled on DIRECT SHARE"
+msgstr "Запланирован в ПРЯМОЙ ПУБЛИКАЦИИ"
+
+#: App/Pages/Schedules/Views/list.php:94
+msgid "Post type:"
+msgstr "Тип поста:"
+
+#: App/Pages/Schedules/Views/list.php:96
+msgid "Interval:"
+msgstr "Интервал:"
+
+#: App/Pages/Schedules/Views/list.php:109
+msgid "Start date"
+msgstr "Hачальная дата"
+
+#: App/Pages/Schedules/Views/list.php:117
+msgid "Next post"
+msgstr "Следующий пост"
+
+#: App/Pages/Schedules/Views/list.php:130
+msgid "Pause shares"
+msgstr "Остановить публикации"
+
+#: App/Pages/Schedules/Views/list.php:134
+msgid "Resume shares"
+msgstr "Возобновить публикации"
+
+#: App/Pages/Schedules/Views/list.php:147
+msgid "Re-schedule"
+msgstr "Перепланировать"
+
+#: App/Pages/Schedules/Views/list.php:163
+msgid "There haven't been created any schedules yet."
+msgstr "Вы еще не создали ни одного расписания."
+
+#: App/Pages/Settings/Assets/js/fsp-settings-export_import.js:5
+msgid "EXPORT SETTINGS"
+msgstr "ЭКСПОРТИРОВАТЬ НАСТРОЙКИ"
+
+#: App/Pages/Settings/Assets/js/fsp-settings-export_import.js:15
+#: App/Pages/Settings/Assets/js/fsp-settings-export_import.js:40
+#: App/Pages/Settings/Assets/js/fsp-settings-export_import.js:47
+msgid "IMPORT SETTINGS"
+msgstr "ИМПОРТ НАСТРОЕК"
+
+#: App/Pages/Settings/Assets/js/fsp-settings-export_import.js:22
+msgid "UPLOADING..."
+msgstr "ЗАГРУЗКА ..."
+
+#: App/Pages/Settings/Assets/js/fsp-settings-export_import.js:30
+msgid "File can't be empty"
+msgstr "Файл не может быть пустым"
+
+#: App/Pages/Settings/Assets/js/fsp-settings-export_import.js:35
+msgid ""
+"The current data will be removed from the plugin and the data in the import "
+"file will be restored. Are you sure you want to continue?"
+msgstr ""
+"Текущие данные будут удалены из плагина, а данные в файле импорта будут "
+"восстановлены. Вы уверены что хотите продолжить?"
+
+#: App/Pages/Settings/Assets/js/fsp-settings-export_import.js:46
+msgid "YES, IMPORT"
+msgstr "ДА, ИМПОРТИРОВАТЬ"
+
+#: App/Pages/Settings/Assets/js/fsp-settings-general.js:43
+msgid "Are you sure you want to save changes?"
+msgstr "Вы уверены, что хотите сохранить изменения?"
+
+#: App/Pages/Settings/Assets/js/fsp-settings-general.js:58
+msgid "YES, SAVE CHANGES"
+msgstr "ДА, СОХРАНИТЬ ИЗМЕНЕНИЯ"
+
+#: App/Pages/Settings/Controllers/Ajax.php:31
+msgid ""
+"The feature is disabled on the demo to prevent disabling the license from "
+"here. It will be available on your website."
+msgstr ""
+"Эта функция отключена в демо-версии чтобы предотвратить отключение лицензии "
+"отсюда. Он будет доступен на вашем сайте."
+
+#: App/Pages/Settings/Controllers/Ajax.php:37
+msgid "manually disabled by user."
+msgstr "вручную отключен пользователем."
+
+#: App/Pages/Settings/Controllers/Ajax.php:236
+msgid "Plase type the hashtag"
+msgstr "Пожалуйста, введите хэштег"
+
+#: App/Pages/Settings/Controllers/Ajax.php:494
+msgid ""
+"The feature is disabled on the demo to prevent exporting accounts from here. "
+"It will be available on your website."
+msgstr ""
+"Эта функция отключена на демо-версии, чтобы предотвратить экспорт аккаунтов "
+"отсюда. Он будет доступен на вашем сайте."
+
+#: App/Pages/Settings/Controllers/Ajax.php:570
+msgid "Export is successful. The download process is starting..."
+msgstr "Экспорт успешно завершено.Начинается процесс загрузки..."
+
+#: App/Pages/Settings/Controllers/Ajax.php:580
+msgid "No valid import file is selected!"
+msgstr "Не выбран ни один допустимый файл импорта!"
+
+#: App/Pages/Settings/Controllers/Ajax.php:646
+msgid "Error occurred while importing!"
+msgstr "Произошла ошибка при импорте!"
+
+#: App/Pages/Settings/Controllers/Ajax.php:649
+msgid "Successfully restored!"
+msgstr "Успешно восстановлен!"
+
+#: App/Pages/Settings/Views/Components/export_import.php:14
+msgid "Export multisite"
+msgstr "Экспортировать мултисайта"
+
+#: App/Pages/Settings/Views/Components/export_import.php:15
+msgid ""
+"Enable to export the plugin settings for all websites on this network. "
+"Disable to export only the current website settings."
+msgstr ""
+"Включить экспортацию настроек плагина для всех веб-сайтов на этом сети. "
+"Выключить экспортацию актуальных настроек веб-сайта."
+
+#: App/Pages/Settings/Views/Components/export_import.php:26
+msgid "Export accounts & communities"
+msgstr "Экспортировать учетных записей и сообществ"
+
+#: App/Pages/Settings/Views/Components/export_import.php:27
+msgid ""
+"Enable to export all your accounts and communities like pages, groups, "
+"companies, etc."
+msgstr ""
+"Включить экспортацию всех ваших аккаунтов и сообществ, таких как страницы, "
+"группы, компании и т. д."
+
+#: App/Pages/Settings/Views/Components/export_import.php:38
+msgid "Export failed accounts"
+msgstr "Экспортировать провалившийся  учетных записей"
+
+#: App/Pages/Settings/Views/Components/export_import.php:39
+msgid ""
+"Enable to export the failed accounts. Disabling the option and adding the "
+"failed accounts to the plugin again is recommended."
+msgstr ""
+"Включить экспортацию неудачных аккаунтов. Выключения этого опцию и "
+"добавления неудачных аккаунтов в плагин рекомендуется."
+
+#: App/Pages/Settings/Views/Components/export_import.php:50
+msgid "Export status of accounts"
+msgstr "Статус экспорта аккаунтов"
+
+#: App/Pages/Settings/Views/Components/export_import.php:51
+msgid ""
+"Enable to export status of accounts, pages, groups, companies, etc. The "
+"status includes if it is activated or activated with conditions."
+msgstr ""
+"Включить экспортацию всех ваших аккаунтов и сообществ, таких как страницы, "
+"группы, компании и т. д."
+
+#: App/Pages/Settings/Views/Components/export_import.php:62
+msgid "Export apps"
+msgstr "Экспортировать приложения"
+
+#: App/Pages/Settings/Views/Components/export_import.php:63
+msgid "Enable to export all your personal Apps."
+msgstr "Включите экспорт всех ваших личных приложений."
+
+#: App/Pages/Settings/Views/Components/export_import.php:74
+msgid "Export logs"
+msgstr "Экспортировать логи"
+
+#: App/Pages/Settings/Views/Components/export_import.php:75
+msgid ""
+"If you are re-installing the plugin on the same website for any reason, we "
+"recommend exporting logs as well because your future schedules might share "
+"your posts that are already shared by schedules."
+msgstr ""
+"Если вы по какой-либо причине повторно устанавливаете плагин на тот же веб-"
+"сайт, мы рекомендуем также экспортировать логи, поскольку ваши будущие "
+"расписания может опубликовать ваши посты, которые уже опубликованы по "
+"расписаниям."
+
+#: App/Pages/Settings/Views/Components/export_import.php:86
+msgid "Export schedules"
+msgstr "Экспортировать расписания"
+
+#: App/Pages/Settings/Views/Components/export_import.php:87
+msgid ""
+"If you are re-installing the plugin on the same website for any reason, you "
+"can export all your current schedules. If you are importing schedules of a "
+"different website to a new website, the schedules won't work."
+msgstr ""
+"Если вы по какой-либо причине переустановите плагин на том же веб-сайте, вы "
+"можете экспортировать все свои актуальные расписания. Если вы импортируете "
+"расписания другого веб-сайта на новый веб-сайт, расписания не будут работать."
+
+#: App/Pages/Settings/Views/Components/export_import.php:98
+msgid "Export settings"
+msgstr "Экспортировать настройки"
+
+#: App/Pages/Settings/Views/Components/export_import.php:99
+msgid "Enable to export all your current settings and custom messages."
+msgstr ""
+"Включите экспорт всех ваших текущих настроек и пользовательских сообщений."
+
+#: App/Pages/Settings/Views/Components/facebook.php:15
+#: App/Pages/Settings/Views/Components/google_b.php:15
+#: App/Pages/Settings/Views/Components/linkedin.php:15
+#: App/Pages/Settings/Views/Components/ok.php:15
+#: App/Pages/Settings/Views/Components/plurk.php:15
+#: App/Pages/Settings/Views/Components/reddit.php:15
+#: App/Pages/Settings/Views/Components/twitter.php:15
+msgid "Posting type"
+msgstr "Тип публикации"
+
+#: App/Pages/Settings/Views/Components/facebook.php:16
+#, fuzzy
+#| msgid ""
+#| "Link card view – shares the post link and the custom message. Facebook "
+#| "fetches the post as a link card view;<br>Only custom message – shares the "
+#| "custom message without any image or link;<br>Only the featured image - "
+#| "Shares the featured image and the custom message;<br>All post images - "
+#| "Shares all post images as an album and the custom message."
+msgid ""
+"Link card view – shares the post link and the custom message. Facebook "
+"fetches the post as a link card view. <a href='https://www.fs-poster.com/"
+"documentation/commonly-encountered-issues#issue9' target='_blank'>Debug your "
+"website</a>;<br>Only custom message – shares the custom message without any "
+"image or link;<br>Only the featured image - Shares the featured image and "
+"the custom message;<br>All post images - Shares all post images as an album "
+"and the custom message."
+msgstr ""
+"Просмотр ссылка карти – публикует ссылку на публикацию и пользовательское "
+"сообщение. Facebook извлекает поста в виде карты ссылок;<br>Только "
+"пользовательское сообщение – публикует пользовательское сообщение без "
+"изображения или ссылки;<br>Только избранное изображение - Публикует "
+"показанное изображение и пользовательское сообщение;<br>Все поcтовые "
+"изображения - Публикует все поcтовые изображения в виде альбома и "
+"пользовательского сообщения."
+
+#: App/Pages/Settings/Views/Components/facebook.php:20
+#: App/Pages/Settings/Views/Components/google_b.php:20
+#: App/Pages/Settings/Views/Components/linkedin.php:20
+#: App/Pages/Settings/Views/Components/ok.php:20
+#: App/Pages/Settings/Views/Components/reddit.php:20
+#: App/Pages/Settings/Views/Components/twitter.php:20
+msgid "Link card view"
+msgstr "Просмотр ссылка карти"
+
+#: App/Pages/Settings/Views/Components/facebook.php:21
+#: App/Pages/Settings/Views/Components/google_b.php:21
+#: App/Pages/Settings/Views/Components/linkedin.php:21
+#: App/Pages/Settings/Views/Components/ok.php:21
+#: App/Pages/Settings/Views/Components/plurk.php:20
+#: App/Pages/Settings/Views/Components/twitter.php:21
+msgid "Only custom message"
+msgstr "Только пользовательское сообщение"
+
+#: App/Pages/Settings/Views/Components/facebook.php:22
+#: App/Pages/Settings/Views/Components/google_b.php:22
+#: App/Pages/Settings/Views/Components/linkedin.php:22
+#: App/Pages/Settings/Views/Components/ok.php:22
+#: App/Pages/Settings/Views/Components/twitter.php:22
+msgid "Only the featured image"
+msgstr "Только избранное изображение"
+
+#: App/Pages/Settings/Views/Components/facebook.php:23
+#: App/Pages/Settings/Views/Components/google_b.php:23
+#: App/Pages/Settings/Views/Components/linkedin.php:23
+#: App/Pages/Settings/Views/Components/ok.php:23
+#: App/Pages/Settings/Views/Components/twitter.php:23
+msgid "All post images"
+msgstr "Все изображения публикации"
+
+#: App/Pages/Settings/Views/Components/facebook.php:29
+msgid "Load my pages"
+msgstr "Загрузить мои страницы"
+
+#: App/Pages/Settings/Views/Components/facebook.php:30
+msgid ""
+"Enable to add all your pages to the plugin, pages that you are an admin."
+msgstr ""
+"Включите добавления все вашых страниц в плагин, страницы которые вы "
+"являетесь администратором."
+
+#: App/Pages/Settings/Views/Components/facebook.php:41
+msgid "Load groups"
+msgstr "Загрузить группы"
+
+#: App/Pages/Settings/Views/Components/facebook.php:42
+msgid "Enable to add all your groups to the plugin."
+msgstr "Включите функцию добавления всех ваших групп в плагин."
+
+#: App/Pages/Settings/Views/Components/facebook.php:53
+#: App/Pages/Settings/Views/Components/google_b.php:74
+#: App/Pages/Settings/Views/Components/linkedin.php:41
+#: App/Pages/Settings/Views/Components/ok.php:29
+#: App/Pages/Settings/Views/Components/pinterest.php:27
+#: App/Pages/Settings/Views/Components/plurk.php:75
+#: App/Pages/Settings/Views/Components/reddit.php:40
+#: App/Pages/Settings/Views/Components/telegram.php:41
+#: App/Pages/Settings/Views/Components/tumblr.php:27
+#: App/Pages/Settings/Views/Components/twitter.php:41
+#: App/Pages/Settings/Views/Components/vk.php:60
+msgid "Custom message"
+msgstr "Пользовательское сообщение"
+
+#: App/Pages/Settings/Views/Components/facebook.php:56
+#: App/Pages/Settings/Views/Components/google_b.php:77
+#: App/Pages/Settings/Views/Components/linkedin.php:44
+#: App/Pages/Settings/Views/Components/medium.php:30
+#: App/Pages/Settings/Views/Components/ok.php:32
+#: App/Pages/Settings/Views/Components/plurk.php:78
+#: App/Pages/Settings/Views/Components/reddit.php:43
+#: App/Pages/Settings/Views/Components/tumblr.php:30
+#: App/Pages/Settings/Views/Components/twitter.php:44
+#: App/Pages/Settings/Views/Components/vk.php:63
+#: App/Pages/Settings/Views/Components/wordpress.php:159
+msgid ""
+"You can customize the text of the shared post as you like by using the "
+"current keywords."
+msgstr ""
+"Вы можете настроить текст опубликованного поста так как вам нравится "
+"используя актуальные ключевые слова."
+
+#: App/Pages/Settings/Views/Components/facebook.php:60
+#: App/Pages/Settings/Views/Components/google_b.php:81
+#: App/Pages/Settings/Views/Components/instagram.php:59
+#: App/Pages/Settings/Views/Components/instagram.php:174
+#: App/Pages/Settings/Views/Components/linkedin.php:48
+#: App/Pages/Settings/Views/Components/medium.php:34
+#: App/Pages/Settings/Views/Components/ok.php:36
+#: App/Pages/Settings/Views/Components/pinterest.php:34
+#: App/Pages/Settings/Views/Components/plurk.php:82
+#: App/Pages/Settings/Views/Components/reddit.php:47
+#: App/Pages/Settings/Views/Components/telegram.php:48
+#: App/Pages/Settings/Views/Components/tumblr.php:34
+#: App/Pages/Settings/Views/Components/twitter.php:48
+#: App/Pages/Settings/Views/Components/vk.php:67
+#: App/Pages/Settings/Views/Components/wordpress.php:78
+#: App/Pages/Settings/Views/Components/wordpress.php:163
+msgid "Text"
+msgstr "Текст"
+
+#: App/Pages/Settings/Views/Components/facebook.php:98
+#: App/Pages/Settings/Views/Components/instagram.php:97
+#: App/Pages/Settings/Views/Components/linkedin.php:86
+#: App/Pages/Settings/Views/Components/medium.php:72
+#: App/Pages/Settings/Views/Components/ok.php:74
+#: App/Pages/Settings/Views/Components/pinterest.php:72
+#: App/Pages/Settings/Views/Components/plurk.php:120
+#: App/Pages/Settings/Views/Components/reddit.php:85
+#: App/Pages/Settings/Views/Components/telegram.php:86
+#: App/Pages/Settings/Views/Components/tumblr.php:72
+#: App/Pages/Settings/Views/Components/twitter.php:86
+#: App/Pages/Settings/Views/Components/vk.php:105
+#: App/Pages/Settings/Views/Components/wordpress.php:116
+#, fuzzy
+#| msgid "WooCommerce - product price"
+msgid "WooCommerce - the current price of product"
+msgstr "WooCommerce - цена товара"
+
+#: App/Pages/Settings/Views/Components/facebook.php:135
+#: App/Pages/Settings/Views/Components/google_b.php:152
+#: App/Pages/Settings/Views/Components/instagram.php:134
+#: App/Pages/Settings/Views/Components/linkedin.php:123
+#: App/Pages/Settings/Views/Components/medium.php:109
+#: App/Pages/Settings/Views/Components/ok.php:111
+#: App/Pages/Settings/Views/Components/pinterest.php:105
+#: App/Pages/Settings/Views/Components/plurk.php:157
+#: App/Pages/Settings/Views/Components/reddit.php:122
+#: App/Pages/Settings/Views/Components/telegram.php:123
+#: App/Pages/Settings/Views/Components/tumblr.php:109
+#: App/Pages/Settings/Views/Components/twitter.php:123
+#: App/Pages/Settings/Views/Components/vk.php:142
+msgid "Preview"
+msgstr "Предварительный просмотр"
+
+#: App/Pages/Settings/Views/Components/general.php:14
+msgid "Allowed post types"
+msgstr "Разрешенные типы пости"
+
+#: App/Pages/Settings/Views/Components/general.php:15
+msgid "Add post types that you want to share."
+msgstr "Добавьте типы пости, которыми хотите поделиться."
+
+#: App/Pages/Settings/Views/Components/general.php:31
+msgid "Hide FS Poster for"
+msgstr "Скрыть FS Poster для"
+
+#: App/Pages/Settings/Views/Components/general.php:32
+msgid "Select the user roles to hide the FS Poster plugin for some users."
+msgstr ""
+"Выберите роли пользователей, чтобы скрыть плагин FS Poster для некоторых "
+"пользователей."
+
+#: App/Pages/Settings/Views/Components/general.php:54
+msgid "Show FS Poster column on the posts table"
+msgstr "Показать колонку FS Poster в таблице постов"
+
+#: App/Pages/Settings/Views/Components/general.php:55
+#, php-format
+msgid ""
+"If you don't want to show FS Poster <i class=\"far fa-question-circle fsp-"
+"tooltip\"  data-title=\"Click to learn more\" data-open-img=\"%s\"></i> "
+"column on posts table, you can disable this option."
+msgstr ""
+"Если вы не хотите показывать колонку FS Poster <i class=\"far fa-question-"
+"circle fsp-tooltip\"  data-title=\"Кликните, чтобы узнать больше\" data-open-"
+"img=\"%s\"></i>в таблице постов, вы можете отключить эту опцию."
+
+#: App/Pages/Settings/Views/Components/general.php:66
+msgid "Hide notifications"
+msgstr "Скрыть уведомления"
+
+#: App/Pages/Settings/Views/Components/general.php:67
+msgid ""
+"Enable the option to hide notifications for failed posts and disconnected "
+"accounts."
+msgstr ""
+"Включите опцию скрытия уведомлений о неудачных публикациях и отключенных "
+"аккаунтах."
+
+#: App/Pages/Settings/Views/Components/general.php:78
+msgid "Check accounts"
+msgstr "Проверка аккаунтов"
+
+#: App/Pages/Settings/Views/Components/general.php:79
+msgid "Enable the option to check the status of all active accounts daily."
+msgstr "Включить опцию ежедневная проверки всех активных аккаунтов."
+
+#: App/Pages/Settings/Views/Components/general.php:90
+msgid "Disable failed accounts"
+msgstr "Отключить провалившую аккаунты"
+
+#: App/Pages/Settings/Views/Components/general.php:91
+msgid ""
+"Enable the option to deactivate failed accounts. If you have enabled the "
+"option to check the status of your accounts and if the connection to the "
+"account is unable, the plugin will not share posts on those failed accounts."
+msgstr ""
+"Включите опцию деактивации неудачных аккаунтов. Если вы включили опцию "
+"проверки состояния своих аккаунтов и если подключение к аккаунту "
+"недостижимо, плагин не будет публиковать посты на этих неудачных аккаунтах."
+
+#: App/Pages/Settings/Views/Components/general.php:102
+msgid "Auto-clean"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/general.php:103
+msgid "Clean deleted user's accounts weekly."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/general.php:114
+msgid "License status"
+msgstr "License status"
+
+#: App/Pages/Settings/Views/Components/general.php:115
+msgid ""
+"If you want to transfer the plugin to another website, you have to disable "
+"the license on this website. Disabling the license keeps all data, except "
+"the license. We recommend <a href=\"?page=fs-poster-"
+"settings&setting=export_import\" target=\"_blank\">backing up</a> the plugin "
+"before disabling the license."
+msgstr ""
+"Если вы хотите перенести плагин на другой сайт, вы должны отключить лицензию "
+"на этом сайте. При отключении лицензии сохраняются все данные, кроме самой "
+"лицензии. Мы рекомендуем <a href=\"?page=fs-poster-"
+"settings&setting=export_import\" target=\"_blank\">создать резервную копию</"
+"a> плагина перед отключением лицензии."
+
+#: App/Pages/Settings/Views/Components/general.php:126
+msgid "Collect FS Poster statistics"
+msgstr "Соберите статистику FS Poster"
+
+#: App/Pages/Settings/Views/Components/general.php:127
+msgid ""
+"The plugin appends a \"feed_id\" parameter to a post link to get statistics. "
+"Disabling the option prevents you from getting statistics in the Dashboard "
+"tab. And because the plugin does not collect statistics, you might also have "
+"duplicate posts on Social Networks even if you select the \"Randomly "
+"(without duplicates)\" option when you use the schedule module."
+msgstr ""
+"Плагин добавляет параметр \"feed_id\" к ссылке на пост, чтобы получить "
+"статистику.Отключение этой опции не позволяет получать статистику на вкладке "
+"консола. А поскольку плагин не собирает статистику, у вас также могут быть "
+"дубликаты постов в социальных сетях, даже если вы выберете опцию \"случайно "
+"(без дубликатов)\" при использовании модуля расписания."
+
+#: App/Pages/Settings/Views/Components/general.php:138
+msgid "Ignore the default Cron Job"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/general.php:139
+msgid ""
+"If you have configured a real Cron Job on your hosting/server, you need to "
+"ignore the default Cron Job for more accurate results."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/general.php:150
+#, fuzzy
+#| msgid ""
+#| "<a href=\"https://www.fs-poster.com/documentation/how-to-set-up-a-cron-"
+#| "job-on-wordpress-fs-poster-wp-plugin\" target=\"_blank\">The cron jobs</"
+#| "a> have to be configured on your website; otherwise, the auto-post and "
+#| "schedule features might not work punctually, and you might encounter "
+#| "delays."
+msgid ""
+"<a href=\"https://www.fs-poster.com/documentation/how-to-set-up-a-cron-job-"
+"on-wordpress-fs-poster-wp-plugin\" target=\"_blank\">The cron job</a> has to "
+"be configured on your website; otherwise, the auto-post and schedule "
+"features might not work punctually, and you might encounter delays."
+msgstr ""
+"<a href=\"https://www.fs-poster.com/documentation/how-to-set-up-a-cron-job-"
+"on-wordpress-fs-poster-wp-plugin\" target=\"_blank\">Планировщик задач Cron</"
+"a> должен быть настроен на вашем сайте;в противном случае функции "
+"автоматической публикации и расписания могут работать неправильно, и вы "
+"можете столкнуться с задержками."
+
+#: App/Pages/Settings/Views/Components/general.php:158
+msgid ""
+"Not runned! Your schedule posts and background share may be not work! Please "
+"follow this <a href=\"https://www.fs-poster.com/documentation/how-to-set-up-"
+"a-cron-job-on-wordpress-fs-poster-wp-plugin\" target=\"_blank"
+"\">documentation</a> and configure your WordPress Cron Jobs."
+msgstr ""
+"Неудачно! Ваши посты из расписание и фоновая публикация может не работать. "
+"Пожалуйста, следуйте этой <a href=\"https://www.fs-poster.com/documentation/"
+"how-to-set-up-a-cron-job-on-wordpress-fs-poster-wp-plugin\" target=\"_blank"
+"\">документации</a> и настройте свой WordPress Cron Jobs."
+
+#: App/Pages/Settings/Views/Components/general.php:167
+#, fuzzy
+#| msgid ""
+#| "It looks like your Cron job runs with delay. Therefore your Scheduled "
+#| "posts and background shares may post with delay!"
+msgid ""
+" - it looks like your Cron job runs with delay. Therefore your Scheduled "
+"posts and background shares may post with delay."
+msgstr ""
+"Похоже что ваша планировщик задач Cron выполняется с задержкой. Поэтому ваши "
+"запланированные посты и фоновые акции могут публиковаться с задержкой!"
+
+#: App/Pages/Settings/Views/Components/general.php:170
+#, php-format
+msgid "( %s minute%s ago%s )"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/general.php:181
+msgid "The Cron Job command for your website is:"
+msgstr "Команда планировщик задач Cron для вашего сайта:"
+
+#: App/Pages/Settings/Views/Components/google_b.php:15
+msgid "(only the app method)"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/google_b.php:16
+msgid ""
+"Link card view – shares the post link and the custom message;<br>Only custom "
+"message – shares the custom message without any image or link;<br>Only the "
+"featured image - Shares the featured image and the custom message;<br>All "
+"post images - Shares all post images as an album and the custom message."
+msgstr ""
+"Просмотр ссылка карти – публикует ссылку на публикацию и пользовательское "
+"сообщение;<br>Только пользовательское сообщение – публикует пользовательское "
+"сообщение без изображения или ссылки;<br>Только избранное изображение - "
+"Публикует показанное изображение и пользовательское сообщение;<br>Все "
+"поcтовые изображения - Публикует все поcтовые изображения в виде альбома и "
+"пользовательского сообщения."
+
+#: App/Pages/Settings/Views/Components/google_b.php:29
+msgid "Add a button"
+msgstr "Добавить кнопку"
+
+#: App/Pages/Settings/Views/Components/google_b.php:30
+msgid "Select a post link button."
+msgstr "Выберите кнопку опубликование ссылки."
+
+#: App/Pages/Settings/Views/Components/google_b.php:34
+msgid "BOOK"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/google_b.php:35
+msgid "ORDER ONLINE"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/google_b.php:36
+msgid "BUY"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/google_b.php:37
+msgid "LEARN MORE"
+msgstr "УЗНАТЬ ПОБОЛЬШЕ"
+
+#: App/Pages/Settings/Views/Components/google_b.php:38
+msgid "SIGN UP"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/google_b.php:39
+msgid "WATCH VIDEO"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/google_b.php:40
+msgid "RESERVE"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/google_b.php:41
+msgid "GET OFFER"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/google_b.php:42
+msgid "CALL NOW"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/google_b.php:49
+msgid "Share WooCommerce products as a product"
+msgstr "Публикация продуктов WooCommerce как продукта"
+
+#: App/Pages/Settings/Views/Components/google_b.php:49
+msgid "(only the cookie method)"
+msgstr "(только метод cookie)"
+
+#: App/Pages/Settings/Views/Components/google_b.php:50
+msgid "Disable to share WooCommerce products as a post."
+msgstr "Отключите публикации к продуктам WooCommerce в виде поста."
+
+#: App/Pages/Settings/Views/Components/google_b.php:62
+#: App/Pages/Settings/Views/Components/plurk.php:63
+#: App/Pages/Settings/Views/Components/twitter.php:29
+msgid "Limit the custom message characters count"
+msgstr "Ограничьте количество символов в сообщениях"
+
+#: App/Pages/Settings/Views/Components/google_b.php:63
+msgid ""
+"Google My Business limits a custom message length to a maximum of 1500 "
+"characters. By enabling the option, the first 1500 characters of your custom "
+"message will be shared; otherwise, the post won't be shared because of the "
+"limit."
+msgstr ""
+"Google My Business ограничивает длину содержимого сообщение до 1500 "
+"символов. При включении этого опции первые 1500 символов вашего "
+"пользовательского сообщения будет опубликовано; в противном случае "
+"публикация не будет опубликована из-за ограничения."
+
+#: App/Pages/Settings/Views/Components/instagram.php:15
+msgid "Share Instagram posts on"
+msgstr "Публикуйте посты в Instagram на"
+
+#: App/Pages/Settings/Views/Components/instagram.php:16
+msgid "Select where to share posts on Instagram."
+msgstr "Выберите, где делиться вашими постами на Instagram-ме."
+
+#: App/Pages/Settings/Views/Components/instagram.php:28
+msgid "Share the post link on Instagram story"
+msgstr "Публикуйте линк поста в Instagram story"
+
+#: App/Pages/Settings/Views/Components/instagram.php:29
+msgid ""
+"When you share a post on Instagram story, the post link will be shared "
+"automatically. For this, your account has to be a business account with more "
+"than 10k followers, and you have to add the account using the login & Pass "
+"method."
+msgstr ""
+"Когда вы публикуете пост в Instagram story, ссылка на пост будет "
+"опубликована автоматически. Для этого ваш аккаунт должен быть бизнес-"
+"аккаунтом с более чем 10 тысячами подписчиков, и вы должны добавить его с "
+"помощью метода login & Pass."
+
+#: App/Pages/Settings/Views/Components/instagram.php:40
+#: App/Pages/Settings/Views/Components/linkedin.php:29
+#: App/Pages/Settings/Views/Components/telegram.php:29
+msgid "Cut the exceeded part of the custom message"
+msgstr "Вырежьте превзойденный часть сообщение"
+
+#: App/Pages/Settings/Views/Components/instagram.php:41
+msgid ""
+"Instagram limits the post content length to a maximum of 2200 characters. By "
+"enabling the option, the first 2200 characters of your custom message will "
+"be shared; otherwise, the post won't be shared because of the limit."
+msgstr ""
+"Instagram ограничивает длину содержимого поста максимум до 2200 символов. "
+"Включив эту опцию первая 2200 символы вашего поста будет опубликован; в "
+"противном случае пост не будет опубликовано из-за ограничения."
+
+#: App/Pages/Settings/Views/Components/instagram.php:52
+msgid "Custom post message"
+msgstr "Пользовательское постовой сообщения"
+
+#: App/Pages/Settings/Views/Components/instagram.php:55
+#, fuzzy
+#| msgid ""
+#| "You can customize the text of the shared post as you like by using the "
+#| "current keywords. Please read the <a href=\"https://www.fs-poster.com/"
+#| "documentation/instagram-empty-caption\" target=\"_blank\">Instagram "
+#| "content rules</a> before setting your custom message."
+msgid ""
+"You can customize the text of the shared post as you like by using the "
+"current keywords. Please read the <a href=\"https://www.fs-poster.com/"
+"documentation/instagram-empty-caption\" target=\"_blank\">Instagram content "
+"rules</a> before setting your custom message. Instagram removes captions "
+"from the images when you exceed Instagram limits."
+msgstr ""
+"Вы можете настроить текст опубликованного поста так как вам нравится "
+"используя актуальные ключевые слова.Пожалуйста, ознакомьтесь <a href="
+"\"https://www.fs-poster.com/documentation/instagram-empty-caption\" target="
+"\"_blank\">с правилами контента Instagram</a> прежде чем устанавливать свое "
+"пользовательское сообщение."
+
+#: App/Pages/Settings/Views/Components/instagram.php:159
+msgid "Customize story"
+msgstr "Настроить стори"
+
+#: App/Pages/Settings/Views/Components/instagram.php:162
+msgid ""
+"You can customize the text of the story as you like by using the current "
+"keywords. You can also customize the appearance of the story using available "
+"options."
+msgstr ""
+"Вы можете настроить текст стории так как вам нравится используя актуальные "
+"ключевые слова. Вы также можете настроить внешний вид стории, используя "
+"доступные параметры."
+
+#: App/Pages/Settings/Views/Components/instagram.php:168
+#: App/Pages/Settings/Views/Components/instagram.php:247
+msgid "Customize message"
+msgstr "Настроить сообщение"
+
+#: App/Pages/Settings/Views/Components/instagram.php:171
+#: App/Pages/Settings/Views/Components/instagram.php:250
+msgid "Customize appearance"
+msgstr "Настройка внешнего вида"
+
+#: App/Pages/Settings/Views/Components/instagram.php:255
+msgid "Story background color:"
+msgstr "Цвет фона стории:"
+
+#: App/Pages/Settings/Views/Components/instagram.php:262
+msgid "Title background:"
+msgstr "Фон заголовка:"
+
+#: App/Pages/Settings/Views/Components/instagram.php:269
+msgid "Title background opacity:"
+msgstr "Прозрачность фона заголовка:"
+
+#: App/Pages/Settings/Views/Components/instagram.php:276
+msgid "Title color:"
+msgstr "Цвет заголовка:"
+
+#: App/Pages/Settings/Views/Components/instagram.php:283
+msgid "Title top offset:"
+msgstr "Смещение заголовка вверху:"
+
+#: App/Pages/Settings/Views/Components/instagram.php:290
+msgid "Title left offset:"
+msgstr "Смещение заголовка слева:"
+
+#: App/Pages/Settings/Views/Components/instagram.php:297
+msgid "Title width:"
+msgstr "Ширина заголовка:"
+
+#: App/Pages/Settings/Views/Components/instagram.php:304
+msgid "Title font size:"
+msgstr "Размер шрифта заголовка:"
+
+#: App/Pages/Settings/Views/Components/instagram.php:314
+msgid "RTL direction"
+msgstr "Направление RTL"
+
+#: App/Pages/Settings/Views/Components/linkedin.php:16
+#, fuzzy
+#| msgid ""
+#| "Link card view – shares the post link and the custom message. Linkedin "
+#| "fetches the post as a link card view;<br>Only custom message – shares the "
+#| "custom message without any image or link;<br>Only the featured image - "
+#| "Shares the featured image and the custom message;<br>All post images - "
+#| "Shares all post images as an album and the custom message."
+msgid ""
+"Link card view – shares the post link and the custom message. Linkedin "
+"fetches the post as a link card view. <a href='https://www.fs-poster.com/"
+"documentation/commonly-encountered-issues#issue9' target='_blank'>Debug your "
+"website</a>;<br>Only custom message – shares the custom message without any "
+"image or link;<br>Only the featured image - Shares the featured image and "
+"the custom message;<br>All post images - Shares all post images as an album "
+"and the custom message."
+msgstr ""
+"Просмотр ссылка карти – публикует ссылку на публикацию и пользовательское "
+"сообщение. Linkedin извлекает поста в виде карты ссылок;<br>Только "
+"пользовательское сообщение – публикует пользовательское сообщение без "
+"изображения или ссылки;<br>Только избранное изображение - Публикует "
+"показанное изображение и пользовательское сообщение;<br>Все поcтовые "
+"изображения - Публикует все поcтовые изображения в виде альбома и "
+"пользовательского сообщения."
+
+#: App/Pages/Settings/Views/Components/linkedin.php:30
+msgid ""
+"LinkedIn limits the post content length to a maximum of 1300 characters. By "
+"enabling the option, the first 1300 characters of your custom message will "
+"be shared; otherwise, the post won't be shared because of the limit."
+msgstr ""
+"LinkedIn ограничивает длину содержимого поста до 1300 символов. При "
+"включении этого опции первые 1300 символов вашего пользовательского поста "
+"будет опубликовано; в противном случае публикация не будет опубликована из-"
+"за ограничения."
+
+#: App/Pages/Settings/Views/Components/medium.php:15
+msgid "Share WordPress tags as Medium tags"
+msgstr "Публикуйте теги WordPress как теги Medium"
+
+#: App/Pages/Settings/Views/Components/medium.php:16
+msgid "Enable the option to add the WordPress tags to the Medium tag section."
+msgstr "Включить опцию добавление тегов WordPress в секцию тегов Medium."
+
+#: App/Pages/Settings/Views/Components/medium.php:27
+msgid "Custom message (HTML tags are supported)"
+msgstr "Пользовательское сообщение (поддерживаются HTML-теги)"
+
+#: App/Pages/Settings/Views/Components/ok.php:16
+msgid ""
+"Link card view – shares the post link and the custom message. Odnoklassniki "
+"fetches the post as a link card view;<br>Only custom message – shares the "
+"custom message without any image or link;<br>Only the featured image - "
+"Shares the featured image and the custom message;<br>All post images - "
+"Shares all post images as an album and the custom message."
+msgstr ""
+"Просмотр ссылка карти – публикует ссылку на публикацию и пользовательское "
+"сообщение. Odnoklassniki извлекает поста в виде карты ссылок;<br>Только "
+"пользовательское сообщение – публикует пользовательское сообщение без "
+"изображения или ссылки;<br>Только избранное изображение - Публикует "
+"показанное изображение и пользовательское сообщение;<br>Все поcтовые "
+"изображения - Публикует все поcтовые изображения в виде альбома и "
+"пользовательского сообщения."
+
+#: App/Pages/Settings/Views/Components/pinterest.php:15
+#: App/Pages/Settings/Views/Components/reddit.php:28
+msgid "Cut the exceeded part of the post title"
+msgstr "Вырежьте превзойденный часть заголовка поста"
+
+#: App/Pages/Settings/Views/Components/pinterest.php:16
+msgid ""
+"Pinterest limits the Pin title length to a maximum of 100 characters.  By "
+"enabling the option, the first 100 characters of your post title will be "
+"shared; otherwise, the pin won't be shared because of the limit."
+msgstr ""
+"Pinterest ограничивает длину содержимого пина до 100 символов. При включении "
+"этого опции первые 100 символов вашего загаловка поста будет опубликовано; в "
+"противном случае публикация не будет опубликована из-за ограничения."
+
+#: App/Pages/Settings/Views/Components/pinterest.php:30
+#, fuzzy
+#| msgid ""
+#| "You can customize the text of the shared post as you like by using the "
+#| "current keywords. The custom message will be shared as Pin description "
+#| "and the limit is 500 characters. Pinterest cuts the custom message if it "
+#| "exceeds the limit."
+msgid ""
+"You can customize the text of the shared post as you like by using the "
+"current keywords. The custom message will be shared as Pin description and "
+"the limit is 500 characters. Pinterest cuts the custom message if it exceeds "
+"the limit. Note that shortened links are not supported by Pinterest."
+msgstr ""
+"Вы можете настроить текст опубликованного поста так как вам нравится "
+"используя актуальные ключевые слова.Пользовательское сообщение будет "
+"опубликовано в виде характеристики Pin и ограничение составляет 500 символов."
+"Pinterest вырезает пользовательское сообщение, если оно превышает лимит."
+
+#: App/Pages/Settings/Views/Components/plurk.php:16
+#, fuzzy
+#| msgid ""
+#| "Link card view – shares the post link and the custom message;<br>Only "
+#| "custom message – shares the custom message without any image or link;"
+#| "<br>Only the featured image - Shares the featured image and the custom "
+#| "message;<br>All post images - Shares all post images as an album and the "
+#| "custom message."
+msgid ""
+"Only custom message – shares only the custom message;<br>Custom message and "
+"link – shares the custom message and the link;<br>Custom message and "
+"featured image - Shares the custom message and the featured image link. "
+"Plurk fetches the featured image from the link;<br>Custom message and all "
+"images - Shares the custom message and all post image links. Plurk fetches "
+"the post images from the links."
+msgstr ""
+"Просмотр ссылка карти – публикует ссылку на публикацию и пользовательское "
+"сообщение;<br>Только пользовательское сообщение – публикует пользовательское "
+"сообщение без изображения или ссылки;<br>Только избранное изображение - "
+"Публикует показанное изображение и пользовательское сообщение;<br>Все "
+"поcтовые изображения - Публикует все поcтовые изображения в виде альбома и "
+"пользовательского сообщения."
+
+#: App/Pages/Settings/Views/Components/plurk.php:21
+#, fuzzy
+#| msgid "Custom message for Linkedin"
+msgid "Custom message and link"
+msgstr "Текст для Linkedin"
+
+#: App/Pages/Settings/Views/Components/plurk.php:22
+#, fuzzy
+#| msgid "Custom message + image"
+msgid "Custom message and featured image"
+msgstr "Пользовательское сообщение + изображение"
+
+#: App/Pages/Settings/Views/Components/plurk.php:23
+#, fuzzy
+#| msgid "Custom message + image"
+msgid "Custom message and all images"
+msgstr "Пользовательское сообщение + изображение"
+
+#: App/Pages/Settings/Views/Components/plurk.php:29
+msgid "Plurk qualifiers"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:30
+msgid "The Qualifier comes before the post content."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:34
+msgid "none"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:35
+#, fuzzy
+#| msgid "Shares"
+msgid "shares"
+msgstr "Публикаций"
+
+#: App/Pages/Settings/Views/Components/plurk.php:36
+msgid "plays"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:37
+msgid "buys"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:38
+msgid "sells"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:39
+msgid "loves"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:40
+#, fuzzy
+#| msgid "Likes"
+msgid "likes"
+msgstr "Лайки"
+
+#: App/Pages/Settings/Views/Components/plurk.php:41
+msgid "hates"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:42
+msgid "wants"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:43
+msgid "wishes"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:44
+msgid "needs"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:45
+#, fuzzy
+#| msgid "chats"
+msgid "has"
+msgstr "чаты"
+
+#: App/Pages/Settings/Views/Components/plurk.php:46
+msgid "will"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:47
+msgid "hopes"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:48
+msgid "asks"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:49
+msgid "wonders"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:50
+msgid "feels"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:51
+msgid "thinks"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:52
+msgid "draws"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:53
+#, fuzzy
+#| msgid "Hits"
+msgid "is"
+msgstr "Хиты"
+
+#: App/Pages/Settings/Views/Components/plurk.php:54
+msgid "says"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:55
+msgid "eats"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:56
+#, fuzzy
+#| msgid "sites"
+msgid "writes"
+msgstr "сайты"
+
+#: App/Pages/Settings/Views/Components/plurk.php:57
+msgid "whispers"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/plurk.php:64
+#, fuzzy
+#| msgid ""
+#| "LinkedIn limits the post content length to a maximum of 1300 characters. "
+#| "By enabling the option, the first 1300 characters of your custom message "
+#| "will be shared; otherwise, the post won't be shared because of the limit."
+msgid ""
+"Plurk limits a post length to a maximum of 360 characters. By enabling the "
+"option, the first 360 characters of your custom message will be shared; "
+"otherwise, the post won't be shared because of the limit. Note that the "
+"image links are also counted."
+msgstr ""
+"LinkedIn ограничивает длину содержимого поста до 1300 символов. При "
+"включении этого опции первые 1300 символов вашего пользовательского поста "
+"будет опубликовано; в противном случае публикация не будет опубликована из-"
+"за ограничения."
+
+#: App/Pages/Settings/Views/Components/reddit.php:16
+msgid ""
+"Link card view – share the post link with preview and up to 300 characters "
+"custom message as title;<br>Title + text - share the post title and the "
+"custom message as the text of the Reddit post;<br>Custom message + featured "
+"image - share up to 300 characters custom message and the image."
+msgstr ""
+"Просмотр ссылка карти – опубликировает сслыка посты и пользовательское "
+"сообщению до 300 символов как заголовку с предпросмотром;<br>Текст + "
+"загаловка - Опубликовать заголовка посты и пользовательское сообщение в виде "
+"текста поста Reddit;<br>Пользовательское сообщение + избранное изображение - "
+"публикуйте до 300 символов пользовательского сообщения и изображения."
+
+#: App/Pages/Settings/Views/Components/reddit.php:21
+msgid "Title + text"
+msgstr "Заголовок + текст"
+
+#: App/Pages/Settings/Views/Components/reddit.php:22
+msgid "Custom message + image"
+msgstr "Пользовательское сообщение + изображение"
+
+#: App/Pages/Settings/Views/Components/reddit.php:29
+msgid ""
+"Reddit limits the post title length to a maximum of 300 characters.  By "
+"enabling the option, the first 300 characters of your post title will be "
+"shared; otherwise, the post won't be shared because of the limit."
+msgstr ""
+"Reddit ограничивает длину содержимого поста до 300 символов. При включении "
+"этого опции первые 300 символов вашего загаловка поста будет опубликовано; в "
+"противном случае публикация не будет опубликована из-за ограничения."
+
+#: App/Pages/Settings/Views/Components/share.php:12
+msgid "Share posts automatically"
+msgstr "Публиковать сообщения автоматически"
+
+#: App/Pages/Settings/Views/Components/share.php:13
+msgid ""
+"When you publish a new post, the plugin shares the post on all active social "
+"accounts automatically."
+msgstr ""
+"Когда вы публикуете новый пост, плагин автоматически публикует его во всех "
+"активных социальных аккаунтах."
+
+#: App/Pages/Settings/Views/Components/share.php:24
+#: App/Pages/Share/Views/Modals/share_saved_post.php:30
+msgid "Share in the background"
+msgstr "Публиковать в фоновом режиме"
+
+#: App/Pages/Settings/Views/Components/share.php:25
+msgid "Share posts in the background to continue your work on the website."
+msgstr ""
+"Публикуйте посты в фоновом режиме, чтобы продолжить свою работу на сайте."
+
+#: App/Pages/Settings/Views/Components/share.php:36
+msgid "When to share the post after it is published"
+msgstr "Когда делиться постом после его публикации"
+
+#: App/Pages/Settings/Views/Components/share.php:37
+msgid ""
+"Define some time with minutes to share the post after it is published. The "
+"default is 0 to share the post immediately."
+msgstr ""
+"Определите время для публикации поста (с минутами). Если вы хотите "
+"опубликовать пост немедленно введите 0 в текстбокс."
+
+#: App/Pages/Settings/Views/Components/share.php:45
+msgid "Keep the shared post log"
+msgstr "Сохранять логов опубликованной посты"
+
+#: App/Pages/Settings/Views/Components/share.php:46
+msgid ""
+"If you don't want to keep the shared post logs, you need to disable the "
+"option. Disabling the option prevents you view your insights."
+msgstr ""
+"Если вы не хотите хранить логи опубликованных постов, вы должны отключить "
+"эту опцию. Отключение этой опции предотвращает просмотр ваших инсайтов."
+
+#: App/Pages/Settings/Views/Components/share.php:57
+msgid "Post interval"
+msgstr "Интервал поста"
+
+#: App/Pages/Settings/Views/Components/share.php:58
+msgid ""
+"Define an interval between shares for each social account. Please note that "
+"this interval is between accounts for a post. The interval is not for "
+"between posts."
+msgstr ""
+"Определите интервал между публикации для каждого социального счета. Интервал "
+"предназначен для постов между аккаунтами. Оно не предазначен для публикации "
+"между постами."
+
+#: App/Pages/Settings/Views/Components/share.php:62
+msgid "Immediately"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:63
+msgid "5 seconds"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:64
+msgid "10 seconds"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:65
+msgid "20 seconds"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:66
+msgid "30 seconds"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:67
+msgid "45 seconds"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:68
+msgid "1 minute"
+msgstr "1 минута"
+
+#: App/Pages/Settings/Views/Components/share.php:69
+msgid "2 minutes"
+msgstr "2 минуты"
+
+#: App/Pages/Settings/Views/Components/share.php:70
+msgid "3 minutes"
+msgstr "3 минуты"
+
+#: App/Pages/Settings/Views/Components/share.php:71
+msgid "4 minutes"
+msgstr "4 минуты"
+
+#: App/Pages/Settings/Views/Components/share.php:72
+msgid "5 minutes"
+msgstr "5 минуты"
+
+#: App/Pages/Settings/Views/Components/share.php:73
+msgid "10 minutes"
+msgstr "10 минут"
+
+#: App/Pages/Settings/Views/Components/share.php:74
+msgid "15 minutes"
+msgstr "15 минут"
+
+#: App/Pages/Settings/Views/Components/share.php:75
+msgid "20 minutes"
+msgstr "20 минут"
+
+#: App/Pages/Settings/Views/Components/share.php:76
+msgid "25 minutes"
+msgstr "25 минут"
+
+#: App/Pages/Settings/Views/Components/share.php:77
+msgid "30 minutes"
+msgstr "30 минут"
+
+#: App/Pages/Settings/Views/Components/share.php:78
+msgid "40 minutes"
+msgstr "40 минут"
+
+#: App/Pages/Settings/Views/Components/share.php:79
+msgid "50 minutes"
+msgstr "50 минут"
+
+#: App/Pages/Settings/Views/Components/share.php:80
+msgid "1 hour"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:81
+msgid "2 hours"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:82
+msgid "3 hours"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:83
+msgid "5 hours"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:89
+msgid "Use the post interval option for only the same social networks"
+msgstr ""
+"Используйте опцию интервал публикации только для одних и тех же социальных "
+"сетей"
+
+#: App/Pages/Settings/Views/Components/share.php:90
+msgid ""
+"It prevents sharing a post on the same social network accounts at once to "
+"avoid spamming. "
+msgstr ""
+"Для предотвращение спама этот опция предотвращает публикации поста в те же "
+"аккаунты в социальных сетях. "
+
+#: App/Pages/Settings/Views/Components/share.php:101
+msgid "Replace the multiple blank lines with a single blank line"
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:102
+msgid ""
+"Enable the option to replace multiple blank lines inside posts with a single "
+"blank line while sharing on social networks."
+msgstr ""
+
+#: App/Pages/Settings/Views/Components/share.php:113
+#, fuzzy
+#| msgid "Replace the spaces and the & character in the tags with underscores"
+msgid "Replace \"-\", \"&\" characters and spaces in the tags with underscores"
+msgstr "Замените пробелы (white space) в тегах подчеркиванием"
+
+#: App/Pages/Settings/Views/Components/share.php:114
+#, fuzzy
+#| msgid ""
+#| "Enable the option to replace the whitespaces with underscores in keyword "
+#| "of {tags} and {categories} ( e.g., \"Sport News\" will be transformed to "
+#| "\"#sport_news\" ). Disable the option to remove the whitespaces in "
+#| "keyword of {tags} and {categories} ( e.g., \"Sport News\" will be "
+#| "transformed to \"#sportnews\" )."
+msgid ""
+"Enable the option to replace \"-\", \"&\" characters and spaces with "
+"underscores in keyword of {tags} and {categories} ( e.g., \"Sport & Tech News"
+"\" will be transformed to \"#sport_tech_news\" ). Otherwise they will be "
+"removed. ( e.g., \"Sport & Tech News\" will be transformed to "
+"\"#sporttechnews\" )"
+msgstr ""
+"Включите опцию замены пробелов(whitespaces) подчеркиванием в ключевых словах "
+"{tags} и {categories} ( например, \"спортивные новости\" будут преобразованы "
+"в \"#sport_news\" ). Отключите опцию удаления пробелов (whitespaces) в "
+"ключевых словах {tags} и {categories} ( например, \"спортивные новости\" "
+"будут преобразованы в \"#sportnews\" )."
+
+#: App/Pages/Settings/Views/Components/share.php:125
+msgid "WordPress shortcodes"
+msgstr "Шорткоды WordPress"
+
+#: App/Pages/Settings/Views/Components/share.php:126
+msgid "Configure how you want to share WordPress shortcodes."
+msgstr "Настройте как вы хотите делиться шорткодами WordPress."
+
+#: App/Pages/Settings/Views/Components/share.php:130
+msgid "Keep shortcodes as it is"
+msgstr "Оставьте короткие коды такими, так как и они были"
+
+#: App/Pages/Settings/Views/Components/share.php:131
+msgid "Replace shortcodes to their values"
+msgstr "Замените шорткоды на их ценность"
+
+#: App/Pages/Settings/Views/Components/share.php:132
+msgid "Remove shortcodes from the post"
+msgstr "Удалить шорткоды из поста"
+
+#: App/Pages/Settings/Views/Components/telegram.php:15
+msgid "Select what to share on Telegram"
+msgstr "Выберите что публиковать в Telegram"
+
+#: App/Pages/Settings/Views/Components/telegram.php:16
+msgid "Define what you need to share on Telegram as a message."
+msgstr "Определите что вы хотите опубликовать в Telegram-е как сообщение."
+
+#: App/Pages/Settings/Views/Components/telegram.php:30
+#, fuzzy
+#| msgid ""
+#| "Telegram limits the message length to a maximum of 4096 characters. By "
+#| "enabling the option, the first 4096 characters of your custom message "
+#| "will be shared; otherwise, the post won't be shared because of the limit."
+msgid ""
+"Telegram limits the message length to a maximum of 4096 characters (1024 "
+"characters when a media is attached to the message). By enabling the option, "
+"the first 4096 (1024) characters of your custom message will be shared; "
+"otherwise, the post won't be shared because of the limit."
+msgstr ""
+"Telegram ограничивает длину содержимого поста до 4096 символов. При "
+"включении этого опции первые 4096 символов вашего пользовательского "
+"сообщения будет опубликовано; в противном случае публикация не будет "
+"опубликована из-за ограничения."
+
+#: App/Pages/Settings/Views/Components/telegram.php:44
+#, fuzzy
+#| msgid ""
+#| "You can customize the text of the shared post as you like by using the "
+#| "current keywords.<br>&lt;b&gt;<b>bold</b>&lt;/b&gt;, &lt;u&gt;"
+#| "<u>underlined</u>&lt;/u&gt;, &lt;i&gt;<i>italic</i>&lt;/i&gt; tags are "
+#| "supported."
+msgid ""
+"You can customize the text of the shared post as you like by using the "
+"current keywords.<br>&lt;b&gt;<b>bold</b>&lt;/b&gt;, &lt;u&gt;<u>underlined</"
+"u>&lt;/u&gt;, &lt;i&gt;<i>italic</i>&lt;/i&gt;, &lt;a href=&quot;link&quot;"
+"&gt;link text&lt;/a&gt; tags are supported."
+msgstr ""
+"Вы можете настроить текст опубликованного поста так как вам нравится "
+"используя актуальные ключевые слова.<br>&lt;b&gt;<b>жирный</b>&lt;/b&gt;, "
+"&lt;u&gt;<u>подчеркнутый</u>&lt;/u&gt;, &lt;i&gt;<i>курсивный</i>&lt;/i&gt; "
+"теги поддерживаются."
+
+#: App/Pages/Settings/Views/Components/tumblr.php:15
+msgid "Share WordPress tags as Tumblr tags"
+msgstr "Публикуйте теги WordPress как теги Tumblr"
+
+#: App/Pages/Settings/Views/Components/tumblr.php:16
+msgid "Enable the option to add the WordPress tags to the Tumblr tag section."
+msgstr "Включить опцию добавление тегов WordPress в секцию тегов Tumblr."
+
+#: App/Pages/Settings/Views/Components/twitter.php:16
+#, fuzzy
+#| msgid ""
+#| "Link card view – shares the post link and the custom message. Twitter "
+#| "fetches the post as a link card view;<br>Only custom message – shares the "
+#| "custom message without any image or link;<br>Only the featured image - "
+#| "Shares the featured image and the custom message;<br>All post images - "
+#| "Shares all post images as an album and the custom message."
+msgid ""
+"Link card view – shares the post link and the custom message. Twitter "
+"fetches the post as a link card view. <a href='https://www.fs-poster.com/"
+"documentation/commonly-encountered-issues#issue9' target='_blank'>Debug your "
+"website</a>;<br>Only custom message – shares the custom message without any "
+"image or link;<br>Only the featured image - Shares the featured image and "
+"the custom message;<br>All post images - Shares all post images as an album "
+"and the custom message."
+msgstr ""
+"Просмотр ссылка карти – публикует ссылку на публикацию и пользовательское "
+"сообщение. Twitter извлекает поста в виде карты ссылок;<br>Только "
+"пользовательское сообщение – публикует пользовательское сообщение без "
+"изображения или ссылки;<br>Только избранное изображение - Публикует "
+"показанное изображение и пользовательское сообщение;<br>Все поcтовые "
+"изображения - Публикует все поcтовые изображения в виде альбома и "
+"пользовательского сообщения."
+
+#: App/Pages/Settings/Views/Components/twitter.php:30
+msgid ""
+"Twitter limits a Tweet length to a maximum of 280 characters.  By enabling "
+"the option, the first 280 characters of your custom message will be shared; "
+"otherwise, the tweet won't be shared because of the limit."
+msgstr ""
+"Twitter ограничивает длину содержимого твита до 280 символов. При включении "
+"этого опции первые 280 символов вашего твита будет опубликовано; в противном "
+"случае твит не будет опубликована из-за ограничения."
+
+#: App/Pages/Settings/Views/Components/url.php:12
+msgid "Unique post link"
+msgstr "Уникальная ссылка поста"
+
+#: App/Pages/Settings/Views/Components/url.php:13
+msgid ""
+"Sharing the same post on numerous communities might be accepted as a "
+"duplicated post by social networks; consequently, the post might be blocked. "
+"By enabling the option, the ending of each link gets random URL characters "
+"to become unique."
+msgstr ""
+"Публикация одного и того же поста в многочисленных сообществах может быть "
+"воспринята как дублированный пост в социальных сетях; следовательно, пост "
+"может быть заблокирован. При включении этой опции окончание каждой ссылки "
+"получает случайные символы URL, чтобы стать уникальным."
+
+#: App/Pages/Settings/Views/Components/url.php:24
+msgid "URL shortener"
+msgstr "Сокращение URL"
+
+#: App/Pages/Settings/Views/Components/url.php:25
+msgid "Enable to shorten your post URLs automatically."
+msgstr "Включите автоматическое сокращение URL-адресов ваших постов."
+
+#: App/Pages/Settings/Views/Components/url.php:37
+msgid "URL shortener service"
+msgstr "Служба сокращения URL-адресов"
+
+#: App/Pages/Settings/Views/Components/url.php:38
+msgid "Select a URL shortener service to shorten your post URLs."
+msgstr ""
+"Выберите службу сокращения URL - адресов чтобы сократить URL-адреса ваших "
+"сообщений."
+
+#: App/Pages/Settings/Views/Components/url.php:49
+msgid "Bitly access token"
+msgstr "Токен доступа Bitly"
+
+#: App/Pages/Settings/Views/Components/url.php:50
+msgid ""
+"<a href=\"https://bitly.com/a/sign_up\" target=\"_blank\">Register</a> on "
+"the Bitly service and <a href=\"https://bitly.is/accesstoken\" target="
+"\"_blank\">get a new access token.</a>"
+msgstr ""
+"<a href=\"https://bitly.com/a/sign_up\" target=\"_blank\">Зарегистрируйтесь</"
+"a> на сервисе Bitly и <a href=\"https://bitly.is/accesstoken\" target="
+"\"_blank\">получите новый токен доступа.</a>"
+
+#: App/Pages/Settings/Views/Components/url.php:59
+msgid "Share a custom URL instead of the WordPress post URL"
+msgstr ""
+"Поделитесь пользовательским URL - адресом вместо URL-адреса сообщения "
+"WordPress"
+
+#: App/Pages/Settings/Views/Components/url.php:60
+msgid "Enable to define and type your custom post URL using specific keywords."
+msgstr ""
+"Выключить определение и введение свой собственный URL-адрес публикации, "
+"используя определенные ключевые слова."
+
+#: App/Pages/Settings/Views/Components/url.php:71
+msgid "Additional URL parameters"
+msgstr "Дополнительные параметры URL"
+
+#: App/Pages/Settings/Views/Components/url.php:74
+msgid "You can customize the URL as you like by using the current keywords."
+msgstr ""
+"Вы можете настроить URL-адрес по своему желанию, используя текущее ключевое "
+"слово."
+
+#: App/Pages/Settings/Views/Components/url.php:82
+msgid "Use Google Analytics template"
+msgstr "Использовать шаблон Google Analytics"
+
+#: App/Pages/Settings/Views/Components/url.php:90
+#: App/Pages/Settings/Views/Components/url.php:142
+msgid "Social network name"
+msgstr "Имя социальной сети"
+
+#: App/Pages/Settings/Views/Components/url.php:94
+#: App/Pages/Settings/Views/Components/url.php:146
+msgid "Social network code"
+msgstr "Код социальной сети"
+
+#: App/Pages/Settings/Views/Components/url.php:98
+#: App/Pages/Settings/Views/Components/url.php:150
+msgid "Account name"
+msgstr "Имя аккаунта"
+
+#: App/Pages/Settings/Views/Components/url.php:106
+#: App/Pages/Settings/Views/Components/url.php:162
+msgid "Site name"
+msgstr "Название сайта"
+
+#: App/Pages/Settings/Views/Components/url.php:122
+msgid "Custom URL"
+msgstr "Пользовательский URL"
+
+#: App/Pages/Settings/Views/Components/url.php:125
+msgid ""
+"You can customize the URL as you like by using the current keywords. If you "
+"want to share the post URL as it is, don't enable the option."
+msgstr ""
+"Вы можете настроить URL-адрес по своему желанию, используя текущее ключевое "
+"слово. Если вы хотите поделиться URL-адресом поста как есть, не включайте "
+"эту опцию."
+
+#: App/Pages/Settings/Views/Components/url.php:138
+msgid "Feed ID"
+msgstr "ID публикации"
+
+#: App/Pages/Settings/Views/Components/url.php:158
+msgid "Post name"
+msgstr "Имя поста"
+
+#: App/Pages/Settings/Views/Components/url.php:166
+msgid "Site URL"
+msgstr "Адрес сайта"
+
+#: App/Pages/Settings/Views/Components/url.php:170
+msgid "Site URL encoded"
+msgstr "URL сайта закодирован"
+
+#: App/Pages/Settings/Views/Components/url.php:174
+msgid "Post URL"
+msgstr "URL поста"
+
+#: App/Pages/Settings/Views/Components/url.php:178
+msgid "Post URL encoded"
+msgstr "Закодированное URL поста"
+
+#: App/Pages/Settings/Views/Components/vk.php:15
+msgid "Load own communities"
+msgstr "Загружайте собственные сообщества"
+
+#: App/Pages/Settings/Views/Components/vk.php:16
+msgid ""
+"Enable to add all your communities (page, group, event) to the plugin, "
+"communities that you are an admin."
+msgstr ""
+"Включить добавление всех ваших сообществ (страница, группа, событие) в "
+"плагин.(это возможно только в том случае, если вы являетесь администратором "
+"этих сообществ)"
+
+#: App/Pages/Settings/Views/Components/vk.php:27
+msgid "Load communities"
+msgstr "Загрузить сообщества"
+
+#: App/Pages/Settings/Views/Components/vk.php:28
+msgid ""
+"Enable to add all the communities to the plugin, communities that you are a "
+"member."
+msgstr ""
+"Включите возможность добавления в плагин всех сообществ, членами которых вы "
+"являетесь."
+
+#: App/Pages/Settings/Views/Components/vk.php:39
+msgid "Maximum communities to add to the plugin"
+msgstr "Максимальное количество сообществ для добавления в плагин"
+
+#: App/Pages/Settings/Views/Components/vk.php:40
+msgid ""
+"Define how many communities you want to add to the plugin. You can add a "
+"maximum of 1000 communities."
+msgstr ""
+"Определите сколько сообществ вы хотите добавить в плагин. Вы можете добавить "
+"максимум 1000 сообществ."
+
+#: App/Pages/Settings/Views/Components/vk.php:48
+msgid "Upload the featured image to VKontakte"
+msgstr "Загрузите выбранное изображение в ВКонтакте"
+
+#: App/Pages/Settings/Views/Components/vk.php:49
+msgid ""
+"Enable to upload the featured image to VK, not attached image from the link; "
+"otherwise, your posts on VK will be shared as link card view."
+msgstr ""
+"Включить загрузку избранного изображения в Вконтакте, (не прикрепленное "
+"изображение из ссылки); в противном случае ваши посты в ВКонтакте будут "
+"доступны в виде просмотра карты ссылок."
+
+#: App/Pages/Settings/Views/Components/wordpress.php:12
+msgid "Post status"
+msgstr "Статус поста"
+
+#: App/Pages/Settings/Views/Components/wordpress.php:13
+msgid "Define the post status on the remote website."
+msgstr "Определите статус поста в дистанционный веб сайте."
+
+#: App/Pages/Settings/Views/Components/wordpress.php:17
+msgid "Publish"
+msgstr "Публиковать"
+
+#: App/Pages/Settings/Views/Components/wordpress.php:18
+msgid "Private"
+msgstr "Приват"
+
+#: App/Pages/Settings/Views/Components/wordpress.php:19
+msgid "Draft"
+msgstr "Набросок"
+
+#: App/Pages/Settings/Views/Components/wordpress.php:20
+msgid "Pending"
+msgstr "В ожидании"
+
+#: App/Pages/Settings/Views/Components/wordpress.php:26
+msgid "The post type availability"
+msgstr "Доступность типа поста"
+
+#: App/Pages/Settings/Views/Components/wordpress.php:27
+msgid ""
+"The post type will be shared as it is on the remote website. In the case, "
+"the post type is not available on the remote website, if the option is "
+"enabled, the post type will be \"Post\". If the option is disabled, the post "
+"will fail."
+msgstr ""
+"Пост будет опубликировань так как оно и ест в дистанционный веб сайте.Если "
+"тип поста не доступен в дистанционный веб сайте и если ета опция выключена ,"
+"тип поста будет просто \"Пост\".Если эта опция отключена, в таком случае "
+"пост будет неудачен."
+
+#: App/Pages/Settings/Views/Components/wordpress.php:38
+msgid "Post with categories"
+msgstr "Посты с категориями"
+
+#: App/Pages/Settings/Views/Components/wordpress.php:39
+msgid "Enable to include the categories to the target blog post."
+msgstr "Включите включение категорий в целевую запись блога."
+
+#: App/Pages/Settings/Views/Components/wordpress.php:50
+msgid "Post with tags"
+msgstr "Посты с тегоми"
+
+#: App/Pages/Settings/Views/Components/wordpress.php:51
+msgid "Enable to include the tags to the target blog post."
+msgstr "Включите включение тегов в целевую запись блога."
+
+#: App/Pages/Settings/Views/Components/wordpress.php:63
+msgid ""
+"You can customize the title of the post as you like by using the keywords."
+msgstr ""
+"Вы можете настроить загаловка поста по своему желанию, используя текущее "
+"ключевое слово."
+
+#: App/Pages/Settings/Views/Components/wordpress.php:74
+msgid ""
+"You can customize the excerpt of the shared post as you like by using the "
+"current keywords."
+msgstr ""
+"Вы можете настроить выдержку из общего поста так, как вам нравится, "
+"используя актуальные ключевые слова."
+
+#: App/Pages/Settings/Views/Components/wordpress.php:156
+msgid "Post content"
+msgstr "Контент поста"
+
+#: App/Pages/Settings/Views/index.php:28
+msgid "General settings"
+msgstr "Общие настройки"
+
+#: App/Pages/Settings/Views/index.php:35
+msgid "Publish settings"
+msgstr "Настройки публикации"
+
+#: App/Pages/Settings/Views/index.php:42
+msgid "URL settings"
+msgstr "Настройки URL"
+
+#: App/Pages/Settings/Views/index.php:49
+msgid "Export & Import settings"
+msgstr "Настройки экспорта и импорта"
+
+#: App/Pages/Settings/Views/index.php:56
+msgid "Facebook settings"
+msgstr "Настройки Facebook"
+
+#: App/Pages/Settings/Views/index.php:63
+msgid "Instagram settings"
+msgstr "Настройки Instagram"
+
+#: App/Pages/Settings/Views/index.php:70
+msgid "Twitter settings"
+msgstr "Настройки Twitter"
+
+#: App/Pages/Settings/Views/index.php:77
+msgid "LinkedIn settings"
+msgstr "Настройки LinkedIn"
+
+#: App/Pages/Settings/Views/index.php:84
+msgid "VKontakte settings"
+msgstr "Настройки ВКонтакте"
+
+#: App/Pages/Settings/Views/index.php:91
+msgid "Pinterest settings"
+msgstr "Настройки Pinterest"
+
+#: App/Pages/Settings/Views/index.php:98
+msgid "Tumblr settings"
+msgstr "Настройки Tumblr"
+
+#: App/Pages/Settings/Views/index.php:105
+msgid "Reddit settings"
+msgstr "Настройки Reddit"
+
+#: App/Pages/Settings/Views/index.php:112
+msgid "Odnoklassniki settings"
+msgstr "Настройки Odnoklassniki"
+
+#: App/Pages/Settings/Views/index.php:119
+#, fuzzy
+#| msgid "Tumblr settings"
+msgid "Plurk settings"
+msgstr "Настройки Tumblr"
+
+#: App/Pages/Settings/Views/index.php:126
+msgid "Google My Business settings"
+msgstr "Настройки Google My Business"
+
+#: App/Pages/Settings/Views/index.php:133
+msgid "Telegram settings"
+msgstr "Настройки Telegram"
+
+#: App/Pages/Settings/Views/index.php:140
+msgid "Medium settings"
+msgstr "Настройки Medium"
+
+#: App/Pages/Settings/Views/index.php:147
+msgid "WordPress website settings"
+msgstr "Настройки сайта WordPress"
+
+#: App/Pages/Share/Assets/js/fsp-share-popup.js:15
+#: App/Pages/Share/Assets/js/fsp-share.js:103
+msgid "No selected account!"
+msgstr "Аккаунт не выбран!"
+
+#: App/Pages/Share/Assets/js/fsp-share.js:8
+msgid "Select or upload image"
+msgstr "Выберите или загрузите изображение"
+
+#: App/Pages/Share/Assets/js/fsp-share.js:9
+msgid "Use this media"
+msgstr "Используйте эту медиу"
+
+#: App/Pages/Share/Assets/js/fsp-share.js:138
+msgid "Are you sure you want to clear saved posts?"
+msgstr "Вы уверены, что хотите удалить сохраненные пости?"
+
+#: App/Pages/Share/Assets/js/fsp-sharing-popup.js:40
+msgid "sharing..."
+msgstr "публикация..."
+
+#: App/Pages/Share/Assets/js/fsp-sharing-popup.js:46
+msgid "shared"
+msgstr "опубликован"
+
+#: App/Pages/Share/Assets/js/fsp-sharing-popup.js:62
+#: App/Pages/Share/Assets/js/fsp-sharing-popup.js:80
+msgid "Posting finished."
+msgstr "Публикация закончена."
+
+#: App/Pages/Share/Controllers/Ajax.php:43
+msgid "There isn't any active account or community to share the post!"
+msgstr ""
+"У вас нет ни одного активного аккаунта или сообщества, чтобы поделиться этим "
+"постом!"
+
+#: App/Pages/Share/Controllers/Ajax.php:146
+msgid "Post not found!"
+msgstr "Пост не найден!"
+
+#: App/Pages/Share/Controllers/Ajax.php:193
+msgid "Posts will be shared on background!"
+msgstr "Посты будут опубликованы на фоновом режиме!"
+
+#: App/Pages/Share/Views/Modals/share_feeds.php:22
+msgid "Posting feeds:"
+msgstr "Опубликировать публикации:"
+
+#: App/Pages/Share/Views/index.php:32
+msgid "Link"
+msgstr "Ссылка"
+
+#: App/Pages/Share/Views/index.php:33
+msgid "Example: https://example.com"
+msgstr "Пример: https://example.ru"
+
+#: App/Pages/Share/Views/index.php:38
+msgid "Default custom message<br>for all social networks"
+msgstr ""
+
+#: App/Pages/Share/Views/index.php:65
+msgid "Custom message for OdnoKlassniki"
+msgstr "Текст для Odnoklassniki"
+
+#: App/Pages/Share/Views/index.php:89
+msgid " chars."
+msgstr " символы"
+
+#: App/Pages/Share/Views/index.php:91
+msgid "Enter the custom post message"
+msgstr "Введите сообщение поста"
+
+#: App/Pages/Share/Views/index.php:100
+msgid "SHARE NOW"
+msgstr "ОПУБЛИКОВАТЬ СЕЙЧАС"
+
+#: App/Pages/Share/Views/index.php:102
+msgid "SAVE THE POST"
+msgstr "СОХРАНИТЬ ПОСТА"
+
+#: App/Pages/Share/Views/index.php:113
+msgid "Saved posts"
+msgstr "Сохраненные посты"
+
+#: App/Pages/Share/Views/index.php:119
+msgid "CLEAR ALL"
+msgstr "ОЧИЩАТЬ ВСЕ"
+
+#: App/Pages/Share/Views/index.php:147
+msgid "Delete the post"
+msgstr "Удалить публикацию"
+
+#: App/Providers/AccountService.php:124
+msgid ""
+"In order to solve the failed account issue, please remove and re-add the "
+"account."
+msgstr ""
+"Чтобы решить проблему с неудачными аккаунтами пожалуйста, удалите и повторно "
+"добавьте их."
+
+#: App/Providers/Ajax.php:58 App/Providers/Ajax.php:129
+msgid "Please type purchase key!"
+msgstr "Пожалуйста, введите ключ покупки!"
+
+#: App/Providers/Ajax.php:63
+msgid "Please select how did You find us!"
+msgstr "Как вы нашли нас!"
+
+#: App/Providers/Ajax.php:68
+msgid "Your plugin is already installed!"
+msgstr "Ваш плагин уже установлен!"
+
+#: App/Providers/Ajax.php:81 App/Providers/Ajax.php:170
+#: App/Providers/Ajax.php:205
+#, php-format
+msgid ""
+"Your server can not access our license server via CURL! Our license server "
+"is \"%s\". Please contact your hosting provider/server administrator and ask "
+"them to solve the problem. If you are sure that problem is not your server/"
+"hosting side then contact FS Poster administrators."
+msgstr ""
+"Ваш сервер не может получить доступ к нашему серверу лицензий через CURL! "
+"Наш сервер лицензий - \"%s\". Пожалуйста, свяжитесь с вашим хостинг-"
+"провайдером/администратором сервера и попросите их решить эту проблему. Если "
+"вы уверены, что проблема не связана с вашим сервером/хостингом, обратитесь к "
+"администраторам FS Poster."
+
+#: App/Providers/Ajax.php:84 App/Providers/Ajax.php:211
+#, php-format
+msgid "Installation error! Response error! Response: %s"
+msgstr "Ошибка установки! Ошибка ответа! Ответ: %s"
+
+#: App/Providers/Ajax.php:102
+msgid "Error! Please contact the plugin administration! (info@fs-code.com)"
+msgstr ""
+"Ошибка! Пожалуйста свяжитесь с администратором плагина! (info@fs-code.com)"
+
+#: App/Providers/Ajax.php:120
+msgid "Plugin installed!"
+msgstr "Плагин установлен!"
+
+#: App/Providers/Ajax.php:134
+msgid "Your plugin is already updated!"
+msgstr "Ваш плагин уже обновлен!"
+
+#: App/Providers/Ajax.php:141
+msgid "Plugin updated!"
+msgstr "Плагин обновлен!"
+
+#: App/Providers/Ajax.php:155
+msgid "Please enter the purchase code!"
+msgstr "Пожалуйста, введите код покупки!"
+
+#: App/Providers/Ajax.php:160
+msgid "Your plugin is already activated!"
+msgstr "Ваш плагин уже активирован!"
+
+#: App/Providers/Ajax.php:177
+#, php-format
+msgid "Reactivation failed! Response: %s"
+msgstr "Реактивация не удалась! Ответ: %s"
+
+#: App/Providers/Ajax.php:185
+msgid "Plugin reactivated!"
+msgstr "Плагин повторно активирован!"
+
+#: App/Providers/BackEnd.php:150
+msgid "Schedule"
+msgstr "Расписание"
+
+#: App/Providers/BackEnd.php:154
+msgid "Only published posts can be shared or scheduled."
+msgstr ""
+
+#: App/Providers/BackEnd.php:194
+msgid "FS Poster: Schedule"
+msgstr "FS Poster: Расписание"
+
+#: App/Providers/BackEnd.php:273
+#, php-format
+msgid "There %s <b>%s</b> failed account(s)."
+msgstr "Есть %s <b>%s</b> неудачные аккаунты."
+
+#: App/Providers/BackEnd.php:276
+msgid "REVIEW ACCOUNTS"
+msgstr "ПРОСМОТР УЧЕТНЫХ ЗАПИСЕЙ"
+
+#: App/Providers/BackEnd.php:276 App/Providers/BackEnd.php:290
+msgid "HIDE"
+msgstr "СКРЫВАТЬ"
+
+#: App/Providers/BackEnd.php:287
+#, php-format
+msgid "There %s <b>%s</b> failed post(s)."
+msgstr "Есть %s <b>%s</b> неудачные посты."
+
+#: App/Providers/BackEnd.php:290
+msgid "GO TO THE LOGS"
+msgstr "ПЕРЕЙТИ В ЛОГИ"
+
+#: App/Providers/BackEnd.php:302
+msgid "There"
+msgstr "Там"
+
+#: App/Providers/BackEnd.php:302
+msgid "feed(s) that require action."
+msgstr "публикации которые требует действий."
+
+#: App/Providers/BackEnd.php:302
+msgid ""
+"If you didn't select to share posts in the background when sharing posts, "
+"for various reasons like refreshing the page might interrupt the sharing "
+"process. That will cause some posts to remain unshared. You can share them "
+"in the background or with pop-up."
+msgstr ""
+"Если вы не выбрали публикацию поста в фоновом режиме при публикации поста, "
+"по разным причинам,таким как обновление страницы, это может прервать процесс "
+"публикации. Это приведет к тому, что некоторые посты останутся "
+"неопубликованными.Вы можете публиковать их в фоновом режиме или с помощью "
+"всплывающих окон."
+
+#: App/Providers/BackEnd.php:302
+msgid "SHARE WITH POP-UP"
+msgstr "ПОДЕЛИТЬСЯ С ПОМОЩЬЮ ВСПЛЫВАЮЩИМ ОКНОМ"
+
+#: App/Providers/BackEnd.php:302
+msgid "SHARE IN THE BACKGROUND"
+msgstr "ПУБЛИКОВАТЬ В ФОНОВОМ РЕЖИМЕ"
+
+#: App/Providers/BackEnd.php:302
+msgid "DON'T SHARE"
+msgstr "НЕ ДЕЛИТЬСЯ"
+
+#: App/Providers/Bootstrap.php:59
+msgid "Support"
+msgstr "Поддержка"
+
+#: App/Providers/Bootstrap.php:60
+msgid "Documentation"
+msgstr "Документация"
+
+#: App/Providers/Bootstrap.php:79 App/Providers/Bootstrap.php:88
+msgid "FS Posts"
+msgstr "FS Post-и"
+
+#: App/Providers/Bootstrap.php:80 App/Providers/Bootstrap.php:89
+msgid "FS Post"
+msgstr "FS Post"
+
+#: App/Providers/ShareService.php:965
+msgid ""
+"Error! An image or video is required to share a post on Instagram. Please "
+"add media to the post."
+msgstr ""
+"Ошибка! Чтобы опубликовать пост в Instagram, необходимо изображение или "
+"видео. Пожалуйста, добавьте медиа в пост."
+
+#: App/Providers/ShareService.php:1277
+#, fuzzy
+#| msgid "Google My Business doesn't support video type!"
+msgid "Google My Business doesn't support sharing videos by the cookie method!"
+msgstr "Google Мой бизнес не поддерживает тип видео!"
+
+#: App/Providers/ShareService.php:1319
+msgid "Product"
+msgstr "Продукт"
+
+#: App/Providers/ShareService.php:1396
+#, php-format
+msgid "Driver error! Driver type: %s"
+msgstr "Ошибка драйвера!Тип драйвера: %s"
+
+#: App/Providers/SocialNetwork.php:13
+msgid ""
+"An error occurred while processing your request! Please close the window and "
+"try again!"
+msgstr ""
+"Произошла ошибка при обработке вашего запроса! Закройте окно и попробуйте "
+"еще раз!"
+
+#: App/Providers/SocialNetwork.php:33
+msgid "Loading..."
+msgstr "Загрузка..."
+
+#~ msgid ""
+#~ "The account is disconnected from the plugin. Please add your account to "
+#~ "the plugin again by getting the cookie on the browser <a href='https://"
+#~ "www.fs-poster.com/documentation/facebook-cookie-method-fs-poster-"
+#~ "wordpress-plugin' target='_blank'>Incognito mode</a>. And close the "
+#~ "browser without logging out from the account."
+#~ msgstr ""
+#~ "Аккаунт отключен от плагина. Пожалуйста добавьте свою аккаунт в плагин "
+#~ "еще раз, после получение файл cookie в вашем браузере <a href='https://"
+#~ "www.fs-poster.com/documentation/facebook-cookie-method-fs-poster-"
+#~ "wordpress-plugin' target='_blank'>Режим инкогнито</a>. И закройте "
+#~ "браузер, не выходя из вашего аккаунта."
+
+#~ msgid ""
+#~ "The account is disconnected from the plugin. Please add your account to "
+#~ "the plugin again by getting the cookie on the browser <a href='https://"
+#~ "www.fs-poster.com/documentation/fs-poster-auto-publish-wordpress-posts-to-"
+#~ "google-my-business' target='_blank'>Incognito mode</a>. And close the "
+#~ "browser without logging out from the account."
+#~ msgstr ""
+#~ "Аккаунт отключен от плагина. Пожалуйста добавьте свою аккаунт в плагин "
+#~ "еще раз, после получение файл cookie в вашем браузере <a href='https://"
+#~ "www.fs-poster.com/documentation/fs-poster-auto-publish-wordpress-posts-to-"
+#~ "google-my-business' target='_blank'>Режим инкогнито</a>. И закройте "
+#~ "браузер, не выходя из вашего аккаунта."
+
+#~ msgid "The post hasn't been shared on any account!"
+#~ msgstr "Пост не был опубликован ни в одном аккаунте!"
+
+#~ msgid "Previous week"
+#~ msgstr "Предыдущая неделя"
+
+#~ msgid "Previous month"
+#~ msgstr "Предыдущий месяц"
+
+#~ msgid "Cron Job settings"
+#~ msgstr "Настройки планировщика Cron"
+
+#~ msgid "Prevent caching images"
+#~ msgstr "Предотвращать кэширование изображений"
+
+#~ msgid ""
+#~ "Telegram caches images. If you share different images with the same name, "
+#~ "you need to enable this option."
+#~ msgstr ""
+#~ "Telegram кэширует изображения. Если вы хотите публиковать различные "
+#~ "изображении с тем же именем,вы должны включить эту опцию."
+
+#~ msgid "Characters count:"
+#~ msgstr "Количество символов:"
+
+#, php-format
+#~ msgid "Error! Response: %s"
+#~ msgstr "Ошибка! Ответ: %s"
+
+#, php-format
+#~ msgid "Error: %s"
+#~ msgstr "Ошибка: %s"
+
+#~ msgid "ADD A WEBSITE"
+#~ msgstr "ДОБАВИТЬ САЙТ"
+
+#~ msgid "Post Title"
+#~ msgstr "Заголовок Поста"
+
+#~ msgid "FS Poster"
+#~ msgstr "FS Poster"
