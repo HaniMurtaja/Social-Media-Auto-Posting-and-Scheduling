@@ -1,0 +1,14 @@
+{
+    "require": {
+        "tumblr/tumblr": "^0.4.0",
+        "a5hleyrich/wp-background-processing": "^1.0",
+        "google/apiclient": "2.5.0",
+        "abraham/twitteroauth": "1.1.0",
+        "guzzlehttp/guzzle": "6.5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "FSPoster\\": ""
+        }
+    }
+}
