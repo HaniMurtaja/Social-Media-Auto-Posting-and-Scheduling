@@ -1,0 +1,126 @@
+.fsp-header {
+    padding-bottom: 92px
+}
+
+.fsp-body {
+    margin-top: -90px
+}
+
+.fsp-dashboard-graphs {
+    padding-bottom: 20px
+}
+
+.fsp-dashboard-stats {
+    border-radius: 4px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.04);
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.04);
+    padding: 28px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 28px
+}
+
+.fsp-dashboard-stats-col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: left;
+    -ms-flex-pack: left;
+    justify-content: left;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-bottom: 20px
+}
+
+.fsp-dashboard-stats-col:last-child {
+    padding-bottom: 0
+}
+
+.fsp-dashboard-stats-icon {
+    width: 56px;
+    height: 56px;
+    margin-right: 20px
+}
+
+.fsp-dashboard-stats-text {
+    color: #292D32;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 28px;
+    display: block
+}
+
+.fsp-dashboard-stats-subtext {
+    font-weight: 500;
+    color: #828F9A;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+    display: block
+}
+
+@media (min-width: 750px) {
+    .fsp-dashboard-graphs:nth-child(even) {
+        padding-right: 20px
+    }
+}
+
+@media (min-width: 1000px) {
+    .fsp-dashboard-stats {
+        padding: 28px 77px
+    }
+
+    .fsp-dashboard-stats-col {
+        padding-bottom: 0;
+        padding-right: 20px;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+
+    .fsp-dashboard-stats-col:last-child {
+        padding-right: 0;
+        border-right: 0
+    }
+}
+
+.select2-dropdown, .select2-container {
+    z-index: 1 !important;
+}
+
+/*rlt*/
+
+[dir="rtl"] .fsp-dashboard-stats-col {
+    -webkit-box-pack: right;
+    -ms-flex-pack: right;
+    justify-content: right;
+}
+
+[dir="rtl"] .fsp-dashboard-stats-icon {
+    margin-left: 20px
+}
+
+@media (min-width: 750px) {
+    [dir="rtl"] .fsp-dashboard-graphs:nth-child(even) {
+        padding-left: 20px
+    }
+}
+
+@media (min-width: 1000px) {
+    [dir="rtl"] .fsp-dashboard-stats-col {
+        padding-left: 20px;
+    }
+
+    [dir="rtl"] .fsp-dashboard-stats-col:last-child {
+        padding-left: 0;
+        border-left: 0
+    }
+}
+
