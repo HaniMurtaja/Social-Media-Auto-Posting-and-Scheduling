@@ -1,0 +1,172 @@
+.fsp-settings.fsp-card {
+    padding: 32px 28px
+}
+
+.fsp-settings-jump-to-top {
+    position: fixed;
+    bottom: 27px;
+    right: 27px;
+    z-index: 1000
+}
+
+.fsp-settings-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-bottom: 27px;
+    border-bottom: 1px solid rgba(227, 234, 243, 0.6);
+    margin-bottom: 20px
+}
+
+.fsp-settings-row.fsp-is-collapser {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.fsp-settings-row:last-child {
+    border-bottom: 0;
+    margin-bottom: 0
+}
+
+.fsp-settings-col {
+    max-width: 100%;
+    margin-bottom: 24px;
+    margin-right: 0
+}
+
+.fsp-settings-col-title {
+    color: #292D32;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-bottom: 8px
+}
+
+.fsp-settings-label-text {
+    color: #292D32;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px
+}
+
+.fsp-settings-label-text > i {
+    color: #ED5458;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-left: 12px
+}
+
+.fsp-settings-label-subtext {
+    color: #828F9A;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 20px
+}
+
+.fsp-settings-collapser {
+    cursor: pointer;
+    width: 100%
+}
+
+.fsp-settings-collapse {
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    display: none;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 24px;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.fsp-settings-collapse > .fsp-settings-col:first-child {
+    margin-right: 32px
+}
+
+.fsp-settings-collapse-state {
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s
+}
+
+.fsp-settings-collapse-state.fsp-is-rotated {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.fsp-settings-collapse[style*='display: block'] {
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important
+}
+
+.fsp-settings-row.fsp-is-collapser.fsp-is-open > .fsp-settings-collapser {
+    cursor: default
+}
+
+.fsp-settings-row.fsp-is-collapser.fsp-is-open > .fsp-settings-collapse {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex
+}
+
+@media (min-width: 750px) {
+    .fsp-settings-col {
+        max-width: 70%;
+        margin-bottom: 0;
+        margin-right: 32px
+    }
+
+    .fsp-settings-collapse {
+        -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap
+    }
+}
+
+.select2-dropdown, .select2-container {
+    z-index: 1 !important;
+}
+
+/*rtl*/
+
+[dir="rtl"] .fsp-settings-jump-to-top {
+    left: 27px;
+}
+
+[dir="rtl"] .fsp-settings-col {
+    margin-left: 0
+}
+
+[dir="rtl"] .fsp-settings-label-text > i {
+    margin-right: 12px
+}
+
+[dir="rtl"] .fsp-settings-collapse > .fsp-settings-col:first-child {
+    margin-left: 32px
+}
+
+@media (min-width: 750px) {
+    [dir="rtl"] .fsp-settings-col {
+        margin-left: 32px
+    }
+}

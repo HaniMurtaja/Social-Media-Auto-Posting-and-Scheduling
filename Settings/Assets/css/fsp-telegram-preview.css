@@ -1,0 +1,132 @@
+.fsp-settings-preview {
+    width: 320px;
+}
+
+.fsp-settings-preview-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: left;
+    -ms-flex-pack: left;
+    justify-content: left;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 12px 16px 11px;
+    background: #497799
+}
+
+.fsp-settings-preview-header > img {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 12px
+}
+
+.fsp-settings-preview-header-title {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 24px
+}
+
+.fsp-settings-preview-header > i {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 16px
+}
+
+.fsp-settings-preview-body {
+    background: #f0f6fa;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    padding: 12px
+}
+
+.fsp-settings-preview-body > image {
+    width: 240px;
+    height: 240px;
+    margin-bottom: 8px
+}
+
+.fsp-settings-preview-body > image > img {
+    width: 100%;
+    display: block;
+    border-radius: 5px
+}
+
+.fsp-settings-preview-body-msg {
+    background: #fff;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 1px 2px -1px #000000;
+    box-shadow: 1px 1px 2px -1px #000000
+}
+
+.fsp-settings-preview-body-text {
+    color: #292D32;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 24px
+}
+
+.fsp-settings-preview-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background: #f2f2f2;
+    color: #4e4e4e;
+    padding: 12px 16px
+}
+
+.fsp-settings-preview-footer-icon {
+    font-size: 20px;
+    margin-right: 16px;
+    color: #9E9E9E
+}
+
+.fsp-settings-preview-footer-icon:last-child {
+    margin-right: 0
+}
+
+.fsp-settings-preview-footer-msg {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+/*rtl*/
+
+[dir="rtl"] .fsp-settings-preview-header {
+    -webkit-box-pack: right;
+    -ms-flex-pack: right;
+    justify-content: right;
+}
+
+[dir="rtl"] .fsp-settings-preview-header > img {
+    margin-left: 12px
+}
+
+[dir="rtl"] .fsp-settings-preview-body {
+    border-right: 1px solid #f2f2f2;
+    border-left: 1px solid #f2f2f2;
+}
+
+[dir="rtl"] .fsp-settings-preview-footer-icon:last-child {
+    margin-left: 0
+}

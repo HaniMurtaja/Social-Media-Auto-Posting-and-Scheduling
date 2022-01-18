@@ -1,0 +1,178 @@
+.fsp-settings-preview {
+    width: 320px;
+}
+
+.fsp-settings-preview-header {
+    background: #ffffff;
+}
+
+.fsp-settings-preview-body {
+    background: #fff;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    padding: 12px
+}
+
+.fsp-settings-preview-body > image {
+    width: 240px;
+    height: 240px;
+    margin-bottom: 8px
+}
+
+.fsp-settings-preview-body > image > img {
+    width: 100%;
+    display: block;
+    border-radius: 5px
+}
+
+.fsp-settings-preview-body-msg {
+    background: #fff;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 1px 2px -1px #000000;
+    box-shadow: 1px 1px 2px -1px #000000
+}
+
+.fsp-settings-preview-body-text {
+    color: #292D32;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 24px
+}
+
+.fsp-settings-preview-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #f2f2f2;
+    color: #4e4e4e;
+    padding: 12px 16px
+}
+
+.fsp-settings-preview-footer-icon {
+    font-size: 20px;
+    margin-right: 16px;
+    color: #9E9E9E
+}
+
+.fsp-settings-preview-footer-msg {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+/*rtl*/
+
+[dir="rtl"] .fsp-settings-preview-header {
+    -webkit-box-pack: right;
+    -ms-flex-pack: right;
+    justify-content: right;
+}
+
+[dir="rtl"] .fsp-settings-preview-header > img {
+    margin-left: 12px
+}
+
+[dir="rtl"] .fsp-settings-preview-body {
+    border-right: 1px solid #f2f2f2;
+    border-left: 1px solid #f2f2f2;
+}
+
+[dir="rtl"] .fsp-settings-preview-footer-icon:last-child {
+    margin-left: 0
+}
+
+.fsp-settings-fbstory {
+    border-radius: 2px;
+    background: #ed5458;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 720px;
+    height: 1280px;
+    -webkit-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform: scale(0.4);
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left
+}
+
+.fsp-settings-fbstory-container {
+    width: 282px;
+    height: 512px
+}
+
+.fsp-settings-fbstory-title {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 280px;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 12px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 48px;
+    text-align: center
+}
+
+.fsp-settings-fbstory-image {
+    width: 720px;
+    background-image: url(../img/story.svg);
+    height: 400px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat
+}
+
+.fsp-settings-fbstory-tab {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #E3EAF3;
+    -webkit-box-flex: .5;
+    -ms-flex-positive: .5;
+    flex-grow: .5;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: #828F9A;
+    cursor: pointer
+}
+
+.fsp-settings-fbstory-tab.fsp-is-active {
+    border-bottom: 3px solid #ff595e;
+    position: relative;
+    bottom: -1px;
+    color: #292D32
+}
+
+.fsp-settings-fbstory-tabs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 24px
+}
+
+/*rtl*/
+
+[dir="rtl"] .fsp-settings-fbstory {
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left
+}
+
+[dir="rtl"] .fsp-settings-fbstory-title {
+    right: 20px;
+}

@@ -1,0 +1,604 @@
+.fsp-schedule {
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.04);
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.04);
+    margin-bottom: 8px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    padding: 8px 24px
+}
+
+.fsp-schedule-checkbox-container {
+    margin-right: 16px
+}
+
+.fsp-schedule-icon > i {
+    height: 32px;
+    width: 32px;
+    border: 1px solid #E3EAF3;
+    background-color: #F7F8FB;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #FF595E;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-right: 16px
+}
+
+.fsp-schedule-title {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.fsp-schedule-title-text {
+    color: #292D32;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px
+}
+
+.fsp-schedule-title-subtext {
+    color: #828F9A;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 20px
+}
+
+.fsp-schedule-dates {
+    margin-right: 48px
+}
+
+.fsp-schedule-dates-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: left;
+    -webkit-justify-content: left;
+    -ms-flex-pack: left;
+    justify-content: left
+}
+
+.fsp-schedule-dates-label {
+    width: 60px;
+    color: #828F9A;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-right: 8px
+}
+
+.fsp-schedule-dates-date {
+    color: #292D32;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 20px
+}
+
+.fsp-schedule-dates-date > i {
+    color: #A9B8C5;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-right: 8px
+}
+
+.fsp-schedule-interval {
+    -webkit-box-flex: .5;
+    -webkit-flex-grow: .5;
+    -ms-flex-positive: .5;
+    flex-grow: .5;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #292D32;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 20px
+}
+
+.fsp-schedule-interval > i {
+    color: #A9B8C5;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-right: 8px
+}
+
+.fsp-schedule-control {
+    color: #A9B8C5;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-right: 24px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    cursor: pointer
+}
+
+.fsp-schedule-controls {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.fsp-schedule-controls > .fsp-button {
+    padding: 4px 10px 4px 10px;
+    line-height: 16px;
+    margin-left: -12px;
+    min-height: unset;
+    border: 0;
+    margin-right: 24px
+}
+
+.fsp-schedule-controls > .fsp-status {
+    margin-right: 24px;
+}
+
+.fsp-schedule-controls > .fsp-button > i {
+    margin-right: 0
+}
+
+.fsp-schedule-control-text {
+    color: #292D32;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    letter-spacing: 0;
+    margin-left: 8px
+}
+
+.fsp-schedule-control:hover {
+    color: #e84c51;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s
+}
+
+.fsp-calendar-left {
+    padding-bottom: 10px
+}
+
+.fsp-calendar-card .fsp-card-body {
+    position: relative;
+    text-align: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 32px 24px 52px 24px
+}
+
+.fsp-calendar-arrow {
+    position: absolute;
+    top: 40px;
+    color: #FF9094;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0;
+    border: 2px solid #FF9094;
+    border-radius: 2px;
+    width: 32px;
+    height: 32px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    cursor: pointer
+}
+
+.fsp-calendar-arrow:first-child {
+    left: 20px
+}
+
+.fsp-calendar-arrow:last-child {
+    right: 20px
+}
+
+.fsp-calendar-area .yearMonthHead > th {
+    color: #292D32;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 44px;
+    padding-bottom: 32px
+}
+
+.fsp-calendar-area .dayNames > td {
+    width: 40px;
+    color: #828F9A;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding-bottom: 32px
+}
+
+.fsp-calendar-area .days {
+    color: #828f9a;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+    width: 45px;
+    height: 45px;
+    position: relative
+}
+
+.fsp-calendar-area .days > span {
+    position: relative
+}
+
+.fsp-calendar-area .days[data-count] {
+    cursor: pointer
+}
+
+.fsp-calendar-area .days[data-count]:after {
+    content: attr(data-count);
+    position: absolute;
+    border-radius: 10px;
+    top: -2.5px;
+    right: -2.5px;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #e84c51;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 24px
+}
+
+.fsp-calendar-area .days.dayNow > span {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px
+}
+
+.fsp-calendar-area .days.dayNow:before {
+    content: '';
+    background-image: url(../img/red-big-badge.svg);
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    top: 2.5px;
+    left: 2.5px
+}
+
+.fsp-calendar-area .days.dayNow[data-count]:after {
+    -webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.3)
+}
+
+.fsp-calendar-post {
+    border: 1px solid #E3EAF3;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.04);
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.04);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 8px 16px 8px 20px;
+    margin-bottom: 8px
+}
+
+.fsp-calendar-posts {
+    max-height: 500px;
+    overflow-y: auto
+}
+
+.fsp-calendar-post:last-child {
+    margin-bottom: 0
+}
+
+.fsp-calendar-post-text {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    color: #292D32;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px
+}
+
+.fsp-calendar-post-text > span {
+    margin: 0 7px
+}
+
+.fsp-calendar-post-text i {
+    color: #A9B8C5;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 20px
+}
+
+.fsp-calendar-post-subtext {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    color: #828F9A;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 20px
+}
+
+.fsp-calendar-post-subtext > span {
+    margin-right: 12px
+}
+
+.fsp-calendar-post-subtext > span > i {
+    color: #A9B8C5;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-right: 6px
+}
+
+.fsp-calendar-post-controls > i {
+    color: #A9B8C5;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 16px
+}
+
+.fsp-calendar-emptiness {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 28px 68px
+}
+
+.fsp-calendar-emptiness > img {
+    display: block;
+    width: 100%
+}
+
+@media (min-width: 750px) {
+    .fsp-calendar-left {
+        padding-right: 20px;
+        padding-bottom: 0
+    }
+}
+
+@media (min-width: 1000px) {
+    .fsp-calendar-card .fsp-card-body {
+        padding: 32px 40px 52px
+    }
+
+    .fsp-calendar-arrow:first-child {
+        left: 40px
+    }
+
+    .fsp-calendar-arrow:last-child {
+        right: 40px
+    }
+}
+
+/*rtl*/
+
+[dir="rtl"] .fsp-schedule {
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+[dir="rtl"] .fsp-schedule-checkbox-container {
+    margin-left: 16px
+}
+
+[dir="rtl"] .fsp-schedule-icon > i {
+    margin-left: 16px
+}
+
+[dir="rtl"] .fsp-schedule-dates {
+    margin-left: 48px
+}
+
+[dir="rtl"] .fsp-schedule-dates-row {
+    -webkit-box-pack: right;
+    -webkit-justify-content: right;
+    -ms-flex-pack: right;
+    justify-content: right;
+}
+
+[dir="rtl"] .fsp-schedule-dates-label {
+    margin-left: 8px
+}
+
+[dir="rtl"] .fsp-schedule-dates-date > i {
+    margin-left: 8px
+}
+
+[dir="rtl"] .fsp-schedule-interval > i {
+    margin-left: 8px
+}
+
+[dir="rtl"] .fsp-schedule-control {
+    margin-left: 24px;
+}
+
+[dir="rtl"] .fsp-schedule-controls > .fsp-button {
+    margin-right: -12px;
+    margin-left: 24px
+}
+
+[dir="rtl"] .fsp-schedule-controls > .fsp-status {
+    margin-left: 24px;
+}
+
+[dir="rtl"] .fsp-schedule-controls > .fsp-button > i {
+    margin-left: 0;
+}
+
+[dir="rtl"] .fsp-schedule-control-text {
+    margin-right: 8px;
+}
+
+[dir="rtl"] .fsp-calendar-arrow:first-child {
+    left: 20px;
+    right: unset;
+}
+
+[dir="rtl"] .fsp-calendar-arrow:last-child {
+    right: 20px;
+    left:unset;
+}
+
+[dir="rtl"] .fsp-calendar-area .days[data-count]:after {
+    left: -2.5px;
+}
+
+[dir="rtl"] .fsp-calendar-area .days.dayNow:before {
+    right: 2.5px
+}
+
+[dir="rtl"] .fsp-calendar-post {
+    padding: 8px 20px 8px 16px;
+}
+
+[dir="rtl"] .fsp-calendar-post-subtext > span {
+    margin-left: 12px
+}
+
+[dir="rtl"] .fsp-calendar-post-subtext > span > i {
+    margin-left: 6px
+}
+
+@media (min-width: 750px) {
+    [dir="rtl"] .fsp-calendar-left {
+        padding-left: 20px;
+    }
+}
+
+@media (min-width: 1000px) {
+    [dir="rtl"] .fsp-calendar-arrow:first-child {
+        left: 40px;
+        right: unset;
+    }
+
+    [dir="rtl"] .fsp-calendar-arrow:last-child {
+        right: 40px;
+        left:unset;
+    }
+}

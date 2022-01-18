@@ -1,0 +1,175 @@
+.fsp-modal-body {
+    position: relative
+}
+
+.fsp-modal-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px 20px
+}
+
+.fsp-sharing-bar {
+    height: 8px;
+    border-radius: 4px;
+    background-color: #E2E9F2;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.04);
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.04);
+    margin-top: 32px;
+    margin-bottom: 32px;
+    position: relative
+}
+
+.fsp-sharing-bar > div {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    border-radius: 4px;
+    background-color: #53D56C;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.04);
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.04);
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    max-width: 100%
+}
+
+.fsp-sharing-image {
+    text-align: center;
+    margin-bottom: 32px
+}
+
+.fsp-sharing-image > img {
+    width: 65%;
+    display: inline-block
+}
+
+.fsp-sharing-text {
+    color: #292d32;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 32px;
+    text-align: center
+}
+
+.fsp-sharing-account {
+    border: 1px solid #E3EAF3;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.04);
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.04);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    padding: 8px 20px
+}
+
+.fsp-sharing-account-image > img {
+    width: 32px;
+    height: 32px;
+    display: block;
+    border-radius: 16px;
+    margin-right: 16px
+}
+
+.fsp-sharing-account-info {
+    overflow-x: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.fsp-sharing-account-info-text {
+    color: #292D32;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px
+}
+
+.fsp-sharing-account-info-subtext {
+    color: #828F9A;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 20px
+}
+
+.fsp-sharing-account-status {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.fsp-sharing-account-status > a {
+    margin-right: 14px
+}
+
+.fsp-sharing-account-status > .fsp-status {
+    height: 24px;
+    white-space: nowrap
+}
+
+.fsp-sharing-account-status > .fsp-status > i {
+    margin-right: 0
+}
+
+.fsp-sharing-account-link {
+    margin-right: 32px
+}
+
+.fsp-sharing-account-link > a {
+    color: #FF595E;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+    text-decoration: none
+}
+
+.fsp-sharing-accounts {
+    max-height: 200px;
+    overflow-y: auto
+}
+
+/*rtl*/
+
+[dir="rtl"] .fsp-modal-close {
+    left: 0;
+}
+
+[dir="rtl"] .fsp-sharing-bar > div {
+    right: 0;
+}
+
+[dir="rtl"] .fsp-sharing-account-status > a {
+    margin-left: 14px
+}
+
+[dir="rtl"] .fsp-sharing-account-status > .fsp-status > i {
+    margin-left: 0
+}
+
+[dir="rtl"] .fsp-sharing-account-link {
+    margin-left: 32px
+}
