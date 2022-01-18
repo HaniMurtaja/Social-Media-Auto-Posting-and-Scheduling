@@ -1,0 +1,533 @@
+.fsp-account {
+    padding-bottom: 8px
+}
+
+.fsp-account-nodes {
+    padding-left: 36px;
+    position: relative
+}
+
+.fsp-account-nodes::before {
+    width: 1px;
+    content: '';
+    position: absolute;
+    left: 10px;
+    background: #D1D8E0;
+    bottom: 27px;
+    top: 0
+}
+
+.fsp-account-nodes .fsp-account-item {
+    margin-top: 4px
+}
+
+.fsp-account-nodes .fsp-account-item::before {
+    width: 22px;
+    background: #D1D8E0;
+    position: absolute;
+    left: -25px;
+    height: 1px;
+    content: ''
+}
+
+.fsp-account-nodes-container {
+    max-height: 200px;
+    overflow-y: auto !important
+}
+
+.fsp-account-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 12px 24px;
+    position: relative
+}
+
+.fsp-account-inline {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.fsp-account-inline > .fsp-button {
+    padding: 2px 10px
+}
+
+.fsp-account-inline.fsp-is-select-container {
+    display: none
+}
+
+.fsp-account-caret {
+    color: #E84C51;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-right: 20px;
+    cursor: pointer;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s
+}
+
+.fsp-account-caret.fsp-is-rotated {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.fsp-account-image {
+    height: 32px;
+    width: 32px;
+    margin-right: 16px
+}
+
+.fsp-account-image img {
+    border-radius: 16px;
+    width: 32px;
+    height: 32px;
+    display: block
+}
+
+.fsp-account-name {
+    color: #292D32;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 12px;
+    margin-right: 12px
+}
+
+.fsp-account-name > span {
+    display: block;
+    color: #A9B8C5 !important;
+    line-height: 10px;
+    font-size: 12px;
+    margin-top: 7px
+}
+
+.fsp-account-is-public {
+    color: #FFBD72;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-right: 15px
+}
+
+.fsp-account-divider::before {
+    color: #BAC4D0;
+    font-size: 15px;
+    letter-spacing: 0;
+    content: '|'
+}
+
+.fsp-account-proxy {
+    color: #85CEF9;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-right: 30px
+}
+
+.fsp-account-nodes-count {
+    color: #555E66;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-left: 12px;
+    margin-right: 12px
+}
+
+.fsp-account-nodes-count > i {
+    color: #A9B8C5;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-right: 8px
+}
+
+.fsp-account-failed {
+    color: #FF595E;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-right: 25px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: help
+}
+
+.fsp-account-checkbox {
+    color: #A9B8C5;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-right: 25px;
+    margin-left: 0;
+    cursor: pointer
+}
+
+.fsp-account-checkbox .fsp-is-checked {
+    color: #55D56E
+}
+
+.fsp-account-checkbox .fsp-is-checked-conditionally {
+    color: #FFBD72
+}
+
+.fsp-account-link {
+    color: #A9B8C5 !important;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-right: 25px;
+    margin-left: 0
+}
+
+.fsp-account-more {
+    color: #A9B8C5;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 16px;
+    cursor: pointer
+}
+
+.fsp-group-more {
+    color: #A9B8C5;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 16px;
+    cursor: pointer
+}
+
+.fsp-title-button button,
+.fsp-title-button input {
+    height: 48px;
+}
+
+.fsp-accounts-toolbar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.fsp-accounts-toolbar > div,
+.fsp-accounts-filter {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: space-between;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: distribute;
+    justify-content: space-between;
+}
+
+.fsp-accounts-toolbar > .fsp-layout-left {
+    padding-right: 10px;
+}
+
+.fsp-accounts-toolbar > .fsp-layout-left > .fsp-account-group-btns {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    border-top: 3px solid #E3EAF3;
+    border-bottom: 3px solid #E3EAF3;
+    background: #fff;
+    border-radius: 4px 4px 0 0;
+    margin-bottom: -10px;
+    z-index: 1000;
+    -webkit-box-shadow: 0 -10px 30px 0 rgba(0, 0, 0, .04);
+    box-shadow: 0 -10px 30px 0 rgba(0, 0, 0, .04);
+}
+
+.fsp-accounts-toolbar > .fsp-layout-left > .fsp-account-group-btns > a {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #A9B8C5;
+    padding: 12px 14px;
+    margin-top: -3px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s ease-out;
+}
+
+.fsp-accounts-toolbar > .fsp-layout-left > .fsp-account-group-btns > a:first-child {
+    border-radius: 4px 0 0 0;
+}
+
+.fsp-accounts-toolbar > .fsp-layout-left > .fsp-account-group-btns > a:last-child {
+    border-radius: 0 4px 0 0;
+}
+
+.fsp-accounts-toolbar > .fsp-layout-left > .fsp-account-group-btns > a.active {
+    color: #292D32;
+    border-top: 3px solid #F8666A;
+}
+
+.fsp-accounts-toolbar > .fsp-layout-left > .fsp-account-group-btns > button:hover {
+    color: #292D32;
+}
+
+.fsp-accounts-toolbar > .fsp-layout-right {
+    margin-bottom: 0;
+}
+
+.fsp-accounts-toolbar > .fsp-layout-right > div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.fsp-accounts-toolbar > .fsp-layout-right > .fsp-accounts-actions {
+    -webkit-box-pack: flex-end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding-right: 24px;
+}
+
+.fsp-accounts-toolbar > .fsp-layout-right > .fsp-accounts-actions > .fsp-title-selector {
+    margin-right: 24px;
+    margin-left: 5px
+}
+
+.fsp-accounts-toolbar > .fsp-layout-right > .fsp-accounts-actions > .fsp-title-selector > select {
+    margin-left: 0 !important;
+    width: -webkit-min-content !important;
+    width: -moz-min-content !important;
+    width: min-content !important
+}
+
+.fsp-accounts-filter .fsp-account-collapse {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 32px;
+}
+
+.fsp-accounts-filter .fsp-account-collapse > i {
+    width: 20px;
+    height: 20px;
+}
+
+.fsp-accounts-filter .fsp-account-collapse > i > img {
+    width: 100%;
+    height: 100%;
+}
+
+.fsp-accounts-filter-mobile {
+    margin: 16px 0;
+}
+
+.fsp-tab .fsp-account-group-actions {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.fsp-tab .fsp-account-group-actions .fsp-account-more {
+    margin-left: 12px;
+}
+
+.fsp-tab .fsp-account-group-actions .fsp-group-more {
+    margin-left: 12px;
+}
+
+.fsp-tab .fsp-account-group-badge {
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+}
+
+.fsp-node-search{
+    color: #A9B8C5 !important;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-right: 16px;
+    border-radius: 3px;
+    height: 48px;
+}
+
+/* Responsive */
+@media (max-width: 750px) {
+    .fsp-accounts-toolbar {
+        flex-direction: column-reverse;
+    }
+
+    .fsp-accounts-toolbar > .fsp-layout-right {
+        margin-bottom: 16px;
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+
+    }
+
+    .fsp-accounts-toolbar > .fsp-layout-left {
+        margin-bottom: 0;
+        padding-right: 0;
+    }
+}
+
+/*rtl*/
+
+[dir="rtl"] .fsp-account-nodes {
+    padding-right: 36px;
+    padding-left: 0;
+}
+
+[dir="rtl"] .fsp-account-nodes::before {
+    right: 10px;
+    left:0;
+}
+
+[dir="rtl"] .fsp-account-nodes .fsp-account-item::before {
+    right: -25px;
+    left:0;
+}
+
+[dir="rtl"] .fsp-account-caret {
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+[dir="rtl"] .fsp-account-image {
+    margin-left: 16px;
+    margin-right: 0;
+}
+
+[dir="rtl"] .fsp-account-name{
+    margin-left: 12px;
+    margin-right:0;
+}
+
+[dir="rtl"] .fsp-account-is-public {
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+[dir="rtl"] .fsp-account-proxy {
+    margin-left: 30px;
+    margin-right: 0;
+}
+
+[dir="rtl"] .fsp-account-nodes-count {
+    margin-right: 12px;
+    margin-left: 12px
+}
+
+[dir="rtl"] .fsp-account-nodes-count > i {
+    margin-left: 8px;
+    margin-right: 0;
+}
+
+[dir="rtl"] .fsp-account-checkbox {
+    margin-left: 25px;
+    margin-right: 0;
+}
+
+[dir="rtl"] .fsp-account-link {
+    margin-left: 25px;
+    margin-right: 0
+}
+
+[dir="rtl"] .fsp-accounts-toolbar > div {
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+[dir="rtl"] .fsp-accounts-toolbar > div > .fsp-button {
+    margin-left: 2px;
+    margin-right:0px;
+}
+
+[dir="rtl"] .fsp-accounts-toolbar > div > .fsp-title-selector {
+    margin-left: 5px;
+    margin-right: 5px
+}
+
+[dir="rtl"] .fsp-accounts-toolbar > div > .fsp-title-selector > select {
+    padding: 0px 10px 0 40px !important;
+    margin-right: 0 !important;
+}
+
+[dir="rtl"] .fsp-accounts-toolbar > div:last-child {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+
+[dir="rtl"] .fsp-node-search {
+    margin-left: 16px;
+    margin-right: 0;
+}
+
+[dir="rtl"] .fsp-node-search{
+    margin-left: 16px;
+    margin-right: 0;
+}

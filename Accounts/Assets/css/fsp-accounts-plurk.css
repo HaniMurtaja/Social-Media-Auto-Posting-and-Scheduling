@@ -1,0 +1,87 @@
+.fsp-plurk-steps {
+    padding-left: 76px;
+    position: relative
+}
+
+.fsp-plurk-step {
+    position: relative;
+    font-family: 'Poppins', sans-serif
+}
+
+.fsp-plurk-step::after {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    border-radius: 12px;
+    background-color: #FF574D;
+    content: attr(data-step);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    left: -40px;
+    color: #fff;
+    top: calc(50% - 12px)
+}
+
+.fsp-plurk-step::before {
+    content: '';
+    width: 1px;
+    position: absolute;
+    border-left: 1px dashed #FF574D;
+    opacity: .7;
+    left: -28.5px;
+    top: 0;
+    bottom: 0
+}
+
+.fsp-plurk-step:first-child::after {
+    top: 10px
+}
+
+.fsp-plurk-step:first-child::before {
+    top: 20px;
+    bottom: 0
+}
+
+.fsp-plurk-step:last-child::after {
+    top: 10px
+}
+
+.fsp-plurk-step:last-child::before {
+    bottom: unset;
+    height: 20px
+}
+
+.fsp-plurk-button {
+    background-color: #FF574D;
+    padding: 5px 13px;
+    border-color: #FF574D
+}
+
+.fsp-plurk-button:hover {
+    background-color:#FF574D;
+    border-color: #FF574D
+}
+
+/*rtl*/
+[dir="rtl"] .fsp-plurk-steps {
+    padding-right: 76px;
+    padding-left: 0;
+}
+
+[dir="rtl"] .fsp-plurk-step::after {
+    right: -40px;
+    left: 0;
+    color: #fff;
+}
+
+[dir="rtl"] .fsp-plurk-step::before {
+    right: -28.5px;
+    left: 0;
+}
